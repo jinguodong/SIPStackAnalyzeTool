@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/qos_cb.c
+  :function_list: ! '["destroy_qos_callbacks", "destroy_qos_callbacks_list", "init_qos_callbacks",
+    "register_qoscb", "run_create_cbs", "run_qos_callbacks"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "qos_ctx_helpers.h",
+    "qos_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/

@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/tls_server.c
+  :function_list: ! '["tls_blocking_write", "tls_update_fd", "tls_accept", "tls_dump_cert_info",
+    "tls_dump_verification_failure", "tls_print_errstack", "tls_connect", "tls_write",
+    "tls_close", "tls_shutdown", "tls_fix_read_conn", "tls_read", "tls_tcpconn_clean",
+    "tls_tcpconn_init"]'
+  :file_headers: ! '["../dprint.h", "tls_server.h", "tls_config.h", "tls_init.h",
+    "tls_domain.h", "../ip_addr.h", "../mem/shm_mem.h", "../timer.h", "../usr_avp.h",
+    "../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/

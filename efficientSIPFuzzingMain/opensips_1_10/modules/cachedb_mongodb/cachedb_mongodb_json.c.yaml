@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_mongodb/cachedb_mongodb_json.c
+  :function_list: ! '["json_object_get_object", "json_object_object_iterator", "json_to_bson",
+    "json_to_bson_append", "json_to_bson_append_element", "json_to_bson_append_array",
+    "mongo_cursor_to_json"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "cachedb_mongodb_json.h", "cachedb_mongodb_dbase.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_mongodb/

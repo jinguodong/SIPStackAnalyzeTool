@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/asynch.c
+  :function_list: ! '["begin_timelimit", "change_mode", "done_timelimit", "remap_status",
+    "set_reconnect", "set_tv", "is_zero_tm", "set_timeout", "wait_timelimit"]'
+  :file_headers: ! '["../../dprint.h", "../../sr_module.h", "ora_con.h", "asynch.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/

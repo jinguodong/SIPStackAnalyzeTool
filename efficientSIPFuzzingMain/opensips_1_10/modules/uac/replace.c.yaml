@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac/replace.c
+  :function_list: ! '["decode_uri", "encode_uri", "text3B64_len", "get_display_anchor",
+    "init_from_replacer", "move_bavp_callback", "move_bavp_dlg", "replace_callback",
+    "replace_uri", "restore_uri", "restore_uri_reply", "restore_uris_reply", "rr_checker"]'
+  :file_headers: ! '["../../parser/parse_from.h", "../../mem/mem.h", "../../data_lump.h",
+    "../tm/h_table.h", "../tm/tm_load.h", "../rr/api.h", "../dialog/dlg_load.h", "../../usr_avp.h",
+    "replace.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac/

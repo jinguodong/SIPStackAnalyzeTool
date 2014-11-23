@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPRegUserTable.c
+  :function_list: ! '["createRegUserRow", "deleteRegUserRow", "init_openserSIPRegUserTable",
+    "initialize_table_openserSIPRegUserTable", "openserSIPRegUserTable_get_by_idx",
+    "openserSIPRegUserTable_get_value", "registerForUSRLOCCallbacks", "updateUser"]'
+  :file_headers: ! '["hashTable.h", "interprocess_buffer.h", "utilities.h", "openserSIPRegUserTable.h",
+    "snmpstats_globals.h", "../../sr_module.h", "../../locking.h", "../usrloc/usrloc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/cpl_db.c
+  :function_list: ! '["cpl_db_bind", "cpl_db_init", "cpl_db_close", "get_user_script",
+    "rmv_from_db", "write_to_db"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../db/db.h", "../../dprint.h", "../../str.h",
+    "cpl_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

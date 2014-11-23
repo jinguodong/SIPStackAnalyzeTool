@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/route.c
+  :function_list: ! '["add_actions", "fix_actions", "fix_expr", "push", "check_actions",
+    "check_rls", "check_self_op", "comp_ip", "comp_str", "comp_n2n", "comp_no", "comp_s2s",
+    "comp_scriptvar", "comp_strval", "eval_elem", "eval_expr", "fix_rls", "get_script_route_ID_by_name",
+    "get_script_route_idx", "init_route_lists", "is_script_func_used", "print_rl",
+    "run_startup_route"]'
+  :file_headers: ! '["route.h", "forward.h", "dprint.h", "proxy.h", "action.h", "sr_module.h",
+    "ip_addr.h", "resolve.h", "socket_info.h", "blacklists.h", "parser/parse_uri.h",
+    "parser/parse_from.h", "parser/parse_to.h", "mem/mem.h", "xlog.h", "evi/evi_modules.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

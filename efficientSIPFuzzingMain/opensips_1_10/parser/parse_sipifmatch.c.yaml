@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_sipifmatch.c
+  :function_list: ! '["etag_parser", "skip_token", "free_sipifmatch", "parse_sipifmatch"]'
+  :file_headers: ! '["parse_sipifmatch.h", "../dprint.h", "parse_def.h", "../mem/mem.h",
+    "../trim.h", "../errinfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

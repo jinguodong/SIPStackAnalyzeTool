@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domainpolicy/domainpolicy.c
+  :function_list: ! '["domainpolicy_db_bind", "domainpolicy_db_close", "domainpolicy_db_init",
+    "domainpolicy_db_ver", "dp_apply_policy", "dp_can_connect", "dp_can_connect_str",
+    "stack_reset", "stack_push", "check_rule", "stack_to_avp", "naptr_sort", "naptr_greater",
+    "stack_succeeded", "parse_naptr_regexp"]'
+  :file_headers: ! '["domainpolicy_mod.h", "domainpolicy.h", "../../db/db.h", "../../parser/parse_uri.h",
+    "../../parser/parse_from.h", "../../ut.h", "../../dset.h", "../../route.h", "../../ip_addr.h",
+    "../../socket_info.h", "../../resolve.h", "../../regexp.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domainpolicy/

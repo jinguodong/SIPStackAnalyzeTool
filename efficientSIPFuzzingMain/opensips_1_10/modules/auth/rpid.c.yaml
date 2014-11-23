@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/rpid.c
+  :function_list: ! '["RPID_HF_NAME_LEN", "append_rpid_helper", "append_rpid_hf",
+    "append_rpid_hf_p", "get_rpid_avp", "init_rpid_avp", "is_e164", "is_rpid_user_e164"]'
+  :file_headers: ! '["../../str.h", "../../data_lump.h", "../../dprint.h", "../../mem/mem.h",
+    "../../parser/parse_nameaddr.h", "../../parser/parse_uri.h", "../../parser/parser_f.h",
+    "../../ut.h", "../../pvar.h", "auth_mod.h", "api.h", "rpid.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

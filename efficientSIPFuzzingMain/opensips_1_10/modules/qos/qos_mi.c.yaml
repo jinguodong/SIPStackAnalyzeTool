@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/qos_mi.c
+  :function_list: ! '["add_mi_sdp_nodes", "add_mi_session_nodes", "add_mi_stream_nodes",
+    "add_mi_sdp_payload_nodes", "qos_dialog_mi_context_CB"]'
+  :file_headers: ! '["../../ut.h", "../../dprint.h", "../../mi/mi.h", "qos_handlers.h",
+    "qos_ctx_helpers.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/

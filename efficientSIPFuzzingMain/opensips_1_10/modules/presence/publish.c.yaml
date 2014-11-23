@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/publish.c
+  :function_list: ! '["build_extra_hdrs", "handle_publish", "msg_presentity_clean"]'
+  :file_headers: ! '["../../ut.h", "../../str.h", "../../parser/parse_to.h", "../../parser/parse_uri.h",
+    "../../parser/parse_expires.h", "../../parser/parse_event.h", "../../parser/parse_content.h",
+    "../../lock_ops.h", "../../hash_func.h", "../../db/db.h", "presence.h", "notify.h",
+    "utils_func.h", "publish.h", "presentity.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

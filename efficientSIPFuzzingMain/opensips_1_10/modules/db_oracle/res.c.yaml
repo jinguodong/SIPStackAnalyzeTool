@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/res.c
+  :function_list: ! '["db_oracle_store_result", "get_columns", "get_rows", "convert_row"]'
+  :file_headers: ! '["../../db/db_res.h", "../../db/db_row.h", "../../mem/mem.h",
+    "../../dprint.h", "ora_con.h", "dbase.h", "asynch.h", "res.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/

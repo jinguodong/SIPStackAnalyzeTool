@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/route_func.c
+  :function_list: ! '["cr_do_route", "mp2carrier_id", "mp2domain_id", "rewrite_uri_recursor",
+    "rewrite_on_rule", "get_rule_by_hash", "actually_rewrite", "cr_load_next_domain",
+    "set_next_domain_recursor", "set_next_domain_on_rule", "reply_code_matcher", "cr_load_user_carrier",
+    "cr_prime_route", "cr_route"]'
+  :file_headers: ! '["route_func.h", "route_tree.h", "route_db.h", "../../sr_module.h",
+    "../../action.h", "../../parser/parse_uri.h", "../../parser/parse_from.h", "../../ut.h",
+    "../../parser/digest/digest.h", "../../parser/hf.h", "../../mem/mem.h", "../../qvalue.h",
+    "../../dset.h", "../../prime_hash.h", "carrierroute.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

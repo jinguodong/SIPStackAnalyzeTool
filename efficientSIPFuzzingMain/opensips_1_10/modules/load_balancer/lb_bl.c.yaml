@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/load_balancer/lb_bl.c
+  :function_list: ! '["destroy_lb_bls", "init_lb_bls", "populate_lb_bls", "set_lb_bl"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "../../ut.h",
+    "../../trim.h", "../../ip_addr.h", "lb_bl.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/load_balancer/

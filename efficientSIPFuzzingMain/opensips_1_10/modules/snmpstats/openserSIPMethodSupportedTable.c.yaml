@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPMethodSupportedTable.c
+  :function_list: ! '["createRow", "init_openserSIPMethodSupportedTable", "initialize_table_openserSIPMethodSupportedTable",
+    "openserSIPMethodSupportedTable_get_by_idx", "openserSIPMethodSupportedTable_get_value"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "openserSIPMethodSupportedTable.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

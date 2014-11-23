@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/challenge.c
+  :function_list: ! '["DIGEST_MD5_LEN", "DIGEST_NONCE_LEN", "DIGEST_REALM_LEN", "QOP_PARAM_LEN",
+    "STALE_PARAM_LEN", "build_auth_hf", "challenge", "consume_credentials", "proxy_challenge",
+    "www_challenge"]'
+  :file_headers: ! '["../../data_lump.h", "../../mem/mem.h", "../../parser/digest/digest.h",
+    "../../pvar.h", "../../str.h", "../../ut.h", "../../mod_fix.h", "auth_mod.h",
+    "common.h", "challenge.h", "nonce.h", "index.h", "api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

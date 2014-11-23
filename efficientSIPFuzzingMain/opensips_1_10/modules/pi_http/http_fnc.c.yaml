@@ -1,0 +1,17 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pi_http/http_fnc.c
+  :function_list: ! '["PI_HTTP_BUILD_REPLY", "PI_HTTP_COPY", "ph_build_reply", "PI_HTTP_COPY_2",
+    "PI_HTTP_COPY_4", "PI_HTTP_COPY_6", "PI_HTTP_COPY_9", "ph_build_reply_footer",
+    "PI_HTTP_COPY_3", "PI_HTTP_COMPLETE_REPLY", "PI_HTTP_COPY_10", "PI_HTTP_COPY_11",
+    "PI_HTTP_COPY_5", "PI_HTTP_COPY_8", "PI_HTTP_ESC_COPY", "getVal", "ph_build_content",
+    "ph_build_form_imput", "ph_build_header", "ph_freeDbTables", "ph_freeDbUrlNodes",
+    "ph_freeMods", "ph_getCmds", "ph_getCols", "ph_getColVals", "ph_xmlNodeGetAttrContentByName",
+    "ph_xmlNodeGetAttrByName", "ph_xmlNodeGetNodeContentByName", "ph_xmlNodeGetNodeByName",
+    "ph_getDbTableCols", "ph_getDbTables", "ph_getDbUrlNodes", "ph_getMods", "ph_init_cmds",
+    "ph_parse_url", "ph_run_pi_cmd"]'
+  :file_headers: ! '["../../str.h", "../../ut.h", "../../db/db_ut.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "../../config.h", "../../globals.h", "../../socket_info.h",
+    "../../resolve.h", "../../parser/parse_uri.h", "../httpd/httpd_load.h", "http_fnc.h",
+    "http_db_handler.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pi_http/

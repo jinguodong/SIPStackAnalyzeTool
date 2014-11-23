@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/perl/perl.c
+  :function_list: ! '["child_init", "destroy", "unload_perl", "mod_init", "parser_init",
+    "perl_mi_reload", "perl_reload", "xs_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "../../mi/mi.h", "../rr/api.h",
+    "../sl/sl_api.h", "perlfunc.h", "perl.h", "perlxsi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/perl/

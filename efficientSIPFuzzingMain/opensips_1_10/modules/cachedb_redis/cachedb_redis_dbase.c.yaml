@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_redis/cachedb_redis_dbase.c
+  :function_list: ! '["redis_add", "redis_run_command", "redis_reconnect_node", "redis_connect_node",
+    "redis_connect", "redis_destroy", "redis_free_connection", "redis_get", "redis_get_counter",
+    "redis_init", "redis_new_connection", "redis_remove", "redis_set", "redis_sub"]'
+  :file_headers: ! '["../../dprint.h", "cachedb_redis_dbase.h", "cachedb_redis_utils.h",
+    "../../mem/mem.h", "../../ut.h", "../../cachedb/cachedb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_redis/

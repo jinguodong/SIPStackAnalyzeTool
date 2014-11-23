@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db_res.c
+  :function_list: ! '["db_allocate_columns", "db_allocate_rows", "db_free_columns",
+    "db_free_result", "db_free_rows", "db_new_result"]'
+  :file_headers: ! '["db_res.h", "db_row.h", "../dprint.h", "../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/network.c
+  :function_list: ! '["net_connect", "net_listen", "net_printf", "net_send", "net_read_static"]'
+  :file_headers: ! '["../../sr_module.h", "../../resolve.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

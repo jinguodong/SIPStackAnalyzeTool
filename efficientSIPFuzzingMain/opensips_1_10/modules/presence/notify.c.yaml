@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/notify.c
+  :function_list: ! '["add_waiting_watchers", "watcher_found_in_list", "add_watcher_list",
+    "build_dlg_t", "free_tm_dlg", "build_empty_bla_body", "build_str_hdr", "get_status_str",
+    "create_winfo_xml", "free_cbparam", "free_watcher_list", "get_p_notify_body",
+    "get_presence_from_dialog", "pres_search_db", "get_subs_db", "printf_subs", "get_subs_dialog",
+    "get_wi_notify_body", "get_wi_subs_db", "notify", "send_notify_request", "shm_dup_cbparam",
+    "p_tm_callback", "pkg_free_w", "publ_notify", "query_db_notify", "update_in_list"]'
+  :file_headers: ! '["../../trim.h", "../../ut.h", "../../globals.h", "../../str.h",
+    "../../db/db.h", "../../db/db_val.h", "../../socket_info.h", "../tm/tm_load.h",
+    "../pua/hash.h", "presentity.h", "presence.h", "notify.h", "utils_func.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

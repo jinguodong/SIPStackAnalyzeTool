@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/userblacklist/userblacklist.c
+  :function_list: ! '["add_source", "check_blacklist", "check_blacklist_fixup", "table2dt",
+    "check_user_blacklist", "check_user_blacklist_fixup", "child_init", "reload_sources",
+    "destroy_shmlock", "destroy_source_list", "init_shmlock", "init_source_list",
+    "mi_reload_blacklist", "mod_destroy", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../parser/parse_uri.h", "../../mem/shm_mem.h",
+    "../../mi/mi.h", "../../mem/mem.h", "../../usr_avp.h", "../../locking.h", "../../error.h",
+    "../../ut.h", "../../mod_fix.h", "../../db/db.h", "dt.h", "db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/userblacklist/

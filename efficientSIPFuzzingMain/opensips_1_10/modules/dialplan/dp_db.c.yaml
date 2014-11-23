@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/dp_db.c
+  :function_list: ! '["GET_STR_VALUE", "add_rule2hash", "select_dpid", "build_rule",
+    "destroy_rule", "str_to_shm", "destroy_data", "destroy_hash", "dp_add_table",
+    "dp_get_table", "init_db_data", "dp_connect_db", "dp_disconnect_db", "dp_load_db",
+    "list_hash", "list_rule", "dp_get_default_table", "dp_load_all_db", "init_data"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../db/db.h", "dp_db.h", "dialplan.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/

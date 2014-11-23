@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/add_events.c
+  :function_list: ! '["dlginfo_add_events"]'
+  :file_headers: ! '["../../parser/parse_content.h", "../presence/event_list.h", "../presence/presentity.h",
+    "presence_dialoginfo.h", "notify_body.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/

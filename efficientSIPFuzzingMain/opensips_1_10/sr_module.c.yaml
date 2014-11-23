@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/sr_module.c
+  :function_list: ! '["count_module_procs", "destroy_modules", "find_cmd_export_t",
+    "find_export", "find_mod_export", "find_param_export", "init_child", "init_mod_child",
+    "init_mod", "init_modules", "module_loaded", "register_builtin_modules", "register_module",
+    "sr_load_module", "version_control", "start_module_procs"]'
+  :file_headers: ! '["sr_module.h", "dprint.h", "error.h", "mem/mem.h", "pt.h", "daemonize.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dispatcher/dispatcher.c
+  :function_list: ! '["MI_ERR_RELOAD_LEN", "MI_NOT_SUPPORTED_LEN", "check_options_rplcode",
+    "destroy", "ds_count_fixup", "ds_mi_list", "ds_mi_reload", "ds_mi_set", "in_list_fixup",
+    "mi_child_init", "mod_init", "w_ds_count", "w_ds_is_in_list2", "w_ds_is_in_list3",
+    "w_ds_is_in_list4", "w_ds_mark_dst0", "w_ds_mark_dst1", "w_ds_next_domain", "w_ds_next_dst",
+    "w_ds_select_domain", "w_ds_select_domain_limited", "w_ds_select_dst", "w_ds_select_dst_limited"]'
+  :file_headers: ! '["../../sr_module.h", "../../mi/mi.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../route.h", "../../mem/mem.h", "../../mod_fix.h", "../../db/db.h",
+    "dispatch.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dispatcher/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/script_cb.c
+  :function_list: ! '["add_callback", "destroy_cb_list", "destroy_script_cb", "exec_parse_err_cb",
+    "exec_post_cb", "exec_post_req_cb", "exec_post_rpl_cb", "exec_pre_cb", "exec_pre_req_cb",
+    "exec_pre_rpl_cb", "register_script_cb"]'
+  :file_headers: ! '["script_cb.h", "dprint.h", "error.h", "mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

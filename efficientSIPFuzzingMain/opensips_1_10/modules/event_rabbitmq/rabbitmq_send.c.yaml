@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_rabbitmq/rabbitmq_send.c
+  :function_list: ! '["IS_ERR", "RMQ_SIZE", "rmq_create_pipe", "rmq_destroy", "rmq_destroy_param",
+    "rmq_error", "rmq_free_param", "rmq_destroy_pipe", "rmq_init_reader", "rmq_init_writer",
+    "rmq_process", "rmq_receive", "rmq_reconnect", "rmq_sendmsg", "rmq_send"]'
+  :file_headers: ! '["../../evi/evi_transport.h", "../../mem/shm_mem.h", "rabbitmq_send.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_rabbitmq/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mangler/ip_helper.c
+  :function_list: ! '["ip2str", "is_positive_number", "make_mask", "net_address",
+    "parse_ip_address", "parse_ip_netmask", "same_net"]'
+  :file_headers: ! '["ip_helper.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mangler/

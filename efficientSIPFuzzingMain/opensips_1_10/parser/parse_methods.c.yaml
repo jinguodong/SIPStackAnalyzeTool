@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_methods.c
+  :function_list: ! '["method_char", "parse_method", "parse_methods"]'
+  :file_headers: ! '["../dprint.h", "../trim.h", "../core_stats.h", "parse_methods.h",
+    "msg_parser.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/xr_server.c
+  :function_list: ! '["XMLRPC_ASYNC_EXPIRED", "XMLRPC_ASYNC_FAILED", "build_async_handler",
+    "default_method", "free_async_handler", "wait_async_reply", "destroy_async_lock",
+    "init_async_lock", "set_default_method", "xmlrpc_close_async"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../sr_module.h", "../../mi/mi.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../locking.h", "../../ut.h", "xr_writer.h",
+    "xr_parser.h", "mi_xmlrpc.h", "xr_server.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

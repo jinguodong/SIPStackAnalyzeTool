@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xmpp_component.c
+  :function_list: ! '["do_send_bulk_message_component", "do_send_message_component",
+    "xode_send", "stream_node_callback", "xmpp_component_child_process", "xmpp_component_net_send"]'
+  :file_headers: ! '["../../sr_module.h", "xmpp.h", "xmpp_api.h", "network.h", "xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

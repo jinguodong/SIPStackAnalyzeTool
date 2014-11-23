@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_fifo.c
+  :function_list: ! '["SUN_LEN", "TWRITE_VERSION_LEN", "add2buf", "append2buf", "append_chr",
+    "append_str", "assemble_msg", "copy_route", "eol_line", "defined", "fixup_t_write",
+    "search_tw_append", "strlen", "init_twrite_lines", "init_twrite_sock", "parse_tw_append",
+    "t_write_req", "write_to_fifo", "t_write_unix", "write_to_unixsock"]'
+  :file_headers: ! '["../../str.h", "../../ut.h", "../../dprint.h", "../../pvar.h",
+    "../../mem/mem.h", "../../parser/parser_f.h", "../../parser/parse_from.h", "../../parser/parse_rr.h",
+    "../../parser/contact/parse_contact.h", "../../tsend.h", "t_lookup.h", "t_fwd.h",
+    "t_fifo.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/closeddial/cdlookup.c
+  :function_list: ! '["cd_lookup"]'
+  :file_headers: ! '["../../dprint.h", "../../action.h", "../../config.h", "../../ut.h",
+    "../../mod_fix.h", "../../parser/parse_uri.h", "../../parser/parse_from.h", "../../db/db.h",
+    "closeddial.h", "cdlookup.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/closeddial/

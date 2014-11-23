@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/ucontact.c
+  :function_list: ! '["db_delete_ucontact", "db_insert_ucontact", "db_update_ucontact",
+    "free_ucontact", "mem_update_ucontact", "new_ucontact", "print_ucontact", "st_delete_ucontact",
+    "st_expired_ucontact", "st_flush_ucontact", "st_update_ucontact", "unlink_contact",
+    "update_contact_pos", "update_ucontact"]'
+  :file_headers: ! '["ucontact.h", "../../mem/shm_mem.h", "../../ut.h", "../../ip_addr.h",
+    "../../socket_info.h", "../../dprint.h", "../../db/db.h", "../../db/db_insertq.h",
+    "ul_mod.h", "ul_callback.h", "urecord.h", "ucontact.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

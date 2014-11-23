@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/env_var.c
+  :function_list: ! '["destroy_env_list", "pv_get_env", "pv_parse_env_name"]'
+  :file_headers: ! '["../../mem/mem.h", "../../pvar.h", "../../ut.h", "env_var.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/

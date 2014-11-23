@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/abyss_http.c
+  :function_list: ! '["HTTPKeepalive", "HTTPRead", "HTTPReasonByStatus", "HTTPWriteBodyChunk",
+    "HTTPWriteEndChunk", "RangeDecode", "RequestAuth", "RequestHeaderValue", "RequestFree",
+    "freeRequestInfo", "RequestInit", "RequestRead", "getFieldNameToken", "strtolower",
+    "initRequestInfo", "parseRequestLine", "parseRequestUri", "parseHostPort", "unescapeUri",
+    "processHeader", "readRequestLine", "RequestValidURI", "RequestValidURIPath"]'
+  :file_headers: ! '["abyss_mallocvar.h", "abyss_xmlrpc_int.h", "abyss_server.h",
+    "abyss_session.h", "abyss_conn.h", "abyss_token.h", "abyss_date.h", "abyss_data.h",
+    "abyss_info.h", "abyss_http.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

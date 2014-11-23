@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/abyss_conf.c
+  :function_list: ! '["ConfGetToken", "ConfNextToken", "ConfReadBool", "ConfReadInt",
+    "ConfReadLine", "ConfReadServerFile", "chdirx", "defined", "parsePidfile", "parseUser",
+    "readMIMETypesFile"]'
+  :file_headers: ! '["abyss_xmlrpc_int.h", "abyss_trace.h", "abyss_server.h", "abyss_http.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

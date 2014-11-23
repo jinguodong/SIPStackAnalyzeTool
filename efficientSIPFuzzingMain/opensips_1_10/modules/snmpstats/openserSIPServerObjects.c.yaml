@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPServerObjects.c
+  :function_list: ! '["handle_openserSIPNumProxyRequireFailures", "handle_openserSIPProxyAuthMethod",
+    "handle_openserSIPProxyRecordRoute", "handle_openserSIPProxyStatefulness", "handle_openserSIPRegAcceptedRegistrations",
+    "handle_openserSIPRegCurrentUsers", "handle_openserSIPRegDfltRegActiveInterval",
+    "handle_openserSIPRegMaxContactExpiryDuration", "handle_openserSIPRegMaxUsers",
+    "handle_openserSIPRegRejectedRegistrations", "handle_openserSIPRegUserLookupCounter",
+    "init_openserSIPServerObjects"]'
+  :file_headers: ! '["../../statistics.h", "../../sr_module.h", "../../config.h",
+    "../usrloc/usrloc.h", "openserSIPServerObjects.h", "snmpstats_globals.h", "utilities.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

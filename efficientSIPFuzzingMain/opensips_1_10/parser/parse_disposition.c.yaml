@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_disposition.c
+  :function_list: ! '["free_disposition", "parse_content_disposition", "parse_disposition",
+    "print_disposition"]'
+  :file_headers: ! '["../mem/mem.h", "../dprint.h", "../ut.h", "../errinfo.h", "parse_disposition.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/statistics.c
+  :function_list: ! '["action_stat", "assignIndex", "as_relay_stat", "destroy_seas_stats_table",
+    "event_stat", "init_seas_stats_table", "print_stats_info", "serve_stats", "sig_handler",
+    "start_stats_server", "stats_reply", "stop_stats_server"]'
+  :file_headers: ! '["statistics.h", "seas.h", "../../mem/shm_mem.h", "../../resolve.h",
+    "../../ut.h", "../../dprint.h", "../../locking.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

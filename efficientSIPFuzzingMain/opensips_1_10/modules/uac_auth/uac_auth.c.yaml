@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_auth/uac_auth.c
+  :function_list: ! '["mod_destroy", "mod_init", "parse_auth_avp", "uac_auth_bind"]'
+  :file_headers: ! '["../../sr_module.h", "uac_auth.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_auth/

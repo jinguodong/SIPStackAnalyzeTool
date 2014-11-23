@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/ha.c
+  :function_list: ! '["create_ping_event", "destroy_pingtable", "init_pingtable",
+    "parse_ping", "prepare_ha", "print_pingtable", "send_ping", "spawn_pinger"]'
+  :file_headers: ! '["ha.h", "seas.h", "../../mem/mem.h", "../../mem/shm_mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

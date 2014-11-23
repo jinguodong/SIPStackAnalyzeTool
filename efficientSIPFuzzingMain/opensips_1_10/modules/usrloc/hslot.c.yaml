@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/hslot.c
+  :function_list: ! '["deinit_slot", "free_value_urecord", "init_slot", "slot_add",
+    "slot_rem", "ul_destroy_locks", "ul_init_locks", "ul_lock_idx", "ul_release_idx",
+    "ul_unlock_locks"]'
+  :file_headers: ! '["hslot.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

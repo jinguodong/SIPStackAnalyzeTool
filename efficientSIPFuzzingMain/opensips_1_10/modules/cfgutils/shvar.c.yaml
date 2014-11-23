@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/shvar.c
+  :function_list: ! '["add_local_shvar", "add_shvar", "destroy_shvars", "get_shvar_by_name",
+    "init_shvars", "set_shvar_value", "shvar_init_locks", "lock_shvar", "mi_shvar_get",
+    "unlock_shvar", "mi_shvar_set", "param_set_shvar", "param_set_xvar", "param_set_var",
+    "pv_get_shvar", "pv_get_time", "pv_parse_shvar_name", "pv_parse_time_name", "pv_set_shvar",
+    "reset_shvars", "shvar_destroy_locks", "shvar_lock_idx", "shvar_release_idx",
+    "shvar_unlock_locks"]'
+  :file_headers: ! '["../../dprint.h", "../../mem/mem.h", "../../ut.h", "../../pvar.h",
+    "shvar.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/

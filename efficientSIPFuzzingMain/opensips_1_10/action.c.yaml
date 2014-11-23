@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/action.c
+  :function_list: ! '["do_action", "do_assign", "script_trace", "run_action_list",
+    "run_error_route", "run_actions", "update_longest_action", "run_top_route"]'
+  :file_headers: ! '["action.h", "config.h", "error.h", "dprint.h", "proxy.h", "forward.h",
+    "udp_server.h", "route.h", "parser/msg_parser.h", "parser/parse_uri.h", "ut.h",
+    "sr_module.h", "mem/mem.h", "globals.h", "dset.h", "flags.h", "errinfo.h", "serialize.h",
+    "blacklists.h", "cachedb/cachedb.h", "msg_translator.h", "mod_fix.h", "tcp_server.h",
+    "script_var.h", "xlog.h", "evi/evi_modules.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_cseq.c
+  :function_list: ! '["encode_cseq", "print_encoded_cseq"]'
+  :file_headers: ! '["../../mem/mem.h", "../../parser/parse_cseq.h", "../../dprint.h",
+    "../../ut.h", "xaddress.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

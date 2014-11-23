@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/auth_mod.c
+  :function_list: ! '["auth_get_ha1", "destroy", "generate_random_secret", "mod_init",
+    "pv_authorize", "pv_proxy_authorize", "pv_www_authorize"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../mem/mem.h", "../../error.h",
+    "../../pvar.h", "../../ut.h", "../../mod_fix.h", "../../lock_alloc.h", "../signaling/signaling.h",
+    "auth_mod.h", "challenge.h", "rpid.h", "api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

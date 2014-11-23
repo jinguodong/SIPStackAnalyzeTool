@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap/uri.c
+  :function_list: ! '["normalize_sip_uri", "parse_xcap_uri"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "uri.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap/

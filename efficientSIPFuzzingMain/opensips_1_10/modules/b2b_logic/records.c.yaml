@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/records.c
+  :function_list: ! '["b2b_extra_headers", "b2bl_add_client", "b2bl_print_tuple",
+    "b2bl_add_server", "b2bl_delete", "b2bl_delete_entity", "b2bl_drop_entity", "b2bl_generate_key",
+    "b2bl_insert_new", "b2bl_parse_key", "b2bl_remove_single_entity", "unchain_ent",
+    "b2bl_search_tuple_safe", "destroy_b2bl_htable", "init_b2bl_htable"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../ut.h", "../presence/hash.h", "../presence/utils_func.h",
+    "records.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/

@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/seas.c
+  :function_list: ! '["create_as_event_sl", "create_as_event_t", "is_e2e_ack", "fixup_as_relay",
+    "get_processor_id", "seas_child_init", "seas_exit", "seas_init", "seas_init_tags",
+    "seas_sighandler", "w_as_relay_sl", "w_as_relay_t"]'
+  :file_headers: ! '["../../sr_module.h", "../../ip_addr.h", "../../tags.h", "../../socket_info.h",
+    "../../resolve.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h",
+    "../../error.h", "../tm/tm_load.h", "../tm/h_table.h", "../tm/t_lookup.h", "encode_msg.h",
+    "seas.h", "seas_action.h", "event_dispatcher.h", "statistics.h", "ha.h", "cluster.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

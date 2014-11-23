@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipstate.c
+  :function_list: ! '["sipstate_call", "sipstate_load", "sipstate_close", "sipstate_open",
+    "siplua_lua_Alloc", "siplua_lua_Alloc2", "siplua_register_state_cclosures"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "siplua.h",
+    "sipluafunc.h", "sipapi.h", "sipmysql.h", "sipmemcache.h", "sipwatch.h", "sipdatetime.h",
+    "sipstate.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

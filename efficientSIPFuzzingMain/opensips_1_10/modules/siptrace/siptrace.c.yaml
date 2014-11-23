@@ -1,0 +1,16 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/siptrace/siptrace.c
+  :function_list: ! '["child_init", "destroy", "fixup_trace_dialog", "flag_trace_is_set",
+    "generate_val_name", "insert_siptrace_avp", "insert_siptrace_flag", "mod_init",
+    "pipport2su", "save_siptrace", "siptrace_get_table", "trace_send_duplicate", "trace_send_hep_duplicate",
+    "set_sock_column", "sip_trace", "sip_trace_mi", "sip_trace_w", "trace_is_off",
+    "siptrace_copy_proto", "trace_dialog", "trace_msg_out", "trace_msg_out_w", "trace_onreply_in",
+    "trace_onreply_out", "trace_onreq_in", "trace_onreq_out", "trace_sl_ack_in", "trace_sl_onreply_out",
+    "trace_to_database_mi", "trace_transaction"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../ut.h", "../../ip_addr.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../mi/mi.h", "../../db/db.h", "../../db/db_insertq.h",
+    "../../parser/parse_content.h", "../../parser/parse_from.h", "../../pvar.h", "../tm/tm_load.h",
+    "../dialog/dlg_load.h", "../sl/sl_cb.h", "../../str.h", "../sipcapture/sipcapture.h",
+    "../../statistics.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/siptrace/

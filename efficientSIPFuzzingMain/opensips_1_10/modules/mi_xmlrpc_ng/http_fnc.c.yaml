@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc_ng/http_fnc.c
+  :function_list: ! '["MI_XMLRPC_HTTP_COPY", "MI_XMLRPC_HTTP_COPY_10", "MI_XMLRPC_HTTP_COPY_11",
+    "MI_XMLRPC_HTTP_COPY_12", "MI_XMLRPC_HTTP_COPY_2", "MI_XMLRPC_HTTP_COPY_3", "MI_XMLRPC_HTTP_COPY_4",
+    "MI_XMLRPC_HTTP_COPY_5", "MI_XMLRPC_HTTP_COPY_6", "MI_XMLRPC_HTTP_COPY_7", "MI_XMLRPC_HTTP_ESC_COPY",
+    "mi_xmlNodeGetNodeByName", "mi_xmlrpc_http_build_async_handler", "mi_xmlrpc_http_build_content",
+    "mi_xmlrpc_http_build_header", "mi_xmlrpc_http_recur_flush_tree", "mi_xmlrpc_http_write_node",
+    "mi_xmlrpc_http_recur_write_tree", "mi_xmlrpc_http_build_page", "mi_xmlrpc_http_close_async",
+    "mi_xmlrpc_http_destroy_async_lock", "mi_xmlrpc_http_flush_content", "mi_xmlrpc_http_flush_tree",
+    "mi_xmlrpc_http_init_async_lock", "mi_xmlrpc_http_run_mi_cmd"]'
+  :file_headers: ! '["../../str.h", "../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../mi/mi.h", "../../config.h", "../../globals.h", "../../locking.h", "http_fnc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc_ng/

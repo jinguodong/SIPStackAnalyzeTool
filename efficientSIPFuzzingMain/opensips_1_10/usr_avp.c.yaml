@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/usr_avp.c
+  :function_list: ! '["__get_avp_name", "p2int", "__search_avp_map", "add_avp", "new_avp",
+    "add_avp_last", "destroy_avp", "destroy_avp_list", "destroy_avp_list_unsafe",
+    "destroy_avps", "search_first_avp", "get_avp_val", "internal_search_ID_avp", "destroy_index_avp",
+    "search_index_avp", "get_avp_id", "parse_avp_spec", "lookup_avp_alias_str", "new_avp_alias",
+    "int2p", "new_avp_extra_alias", "get_avp_list", "get_avp_name", "get_avp_name_id",
+    "init_extra_avps", "init_global_avps", "replace_avp", "reset_avps", "search_next_avp",
+    "set_avp_list"]'
+  :file_headers: ! '["sr_module.h", "dprint.h", "str.h", "ut.h", "mem/shm_mem.h",
+    "mem/mem.h", "usr_avp.h", "locking.h", "map.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/carrierroute.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../sr_module.h", "../../str.h", "../../dset.h", "../../dprint.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../ut.h", "../../error.h", "../../prime_hash.h",
+    "../../db/db.h", "carrierroute.h", "load_data.h", "route_fifo.h", "carrier_tree.h",
+    "route_func.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

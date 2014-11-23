@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_db_handler.c
+  :function_list: ! '["GET_STR_VALUE", "SET_BIGINT_VALUE", "SET_INT_VALUE", "SET_STR_VALUE",
+    "create_socket_info", "destroy_dlg_db", "dialog_update_db", "dlg_timer_flush_del",
+    "dlg_timer_remove_from_db", "set_final_update_cols", "write_dialog_profiles",
+    "write_pair", "write_dialog_vars", "use_dialog_table", "dlg_connect_db", "init_dlg_db",
+    "load_dialog_info_from_db", "read_dialog_profiles", "read_pair", "strip_esc",
+    "read_dialog_vars", "remove_ended_dlgs_from_db", "select_entire_dialog_table",
+    "remove_all_dialogs_from_db", "mi_restore_dlg_db", "restore_dlg_db", "mi_sync_db_dlg",
+    "sync_dlg_db_mem", "remove_dialog_from_db", "update_dialog_dbinfo"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../timer.h", "../../db/db.h",
+    "../../db/db_insertq.h", "../../str.h", "../../socket_info.h", "dlg_hash.h", "dlg_db_handler.h",
+    "dlg_cb.h", "dlg_profile.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

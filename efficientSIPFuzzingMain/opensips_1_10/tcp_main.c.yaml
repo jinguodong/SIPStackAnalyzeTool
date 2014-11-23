@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tcp_main.c
+  :function_list: ! '["ASYNC_TCP_CONN", "ASYNC_TCP_CONN_ERR", "_tcpconn_find", "_tcpconn_rm",
+    "add_write_chunk", "async_connect_or_pass", "get_su_info", "tcpconn_new", "async_tsend_stream",
+    "destroy_tcp", "tcpconn_timeout", "force_tcp_conn_lifetime", "handle_io", "handle_new_connect",
+    "init_sock_opt", "init_sock_keepalive", "send2child", "tcpconn_add", "handle_ser_child",
+    "set_tcp_timeout", "tcpconn_destroy", "handle_tcp_child", "tcpconn_put", "handle_tcpconn_ev",
+    "tcpconn_ref", "init_tcp", "mi_list_tcp_conns", "tcp_blocking_connect", "tcp_blocking_write",
+    "tcp_init", "tcp_init_children", "tcp_main_loop", "tcp_send", "tcpconn_async_connect",
+    "tcpconn_connect", "tcpconn_get", "tcpconn_add_alias", "tcpconn_rm"]'
+  :file_headers: ! '["ip_addr.h", "pass_fd.h", "tcp_conn.h", "globals.h", "pt.h",
+    "locking.h", "mem/mem.h", "mem/shm_mem.h", "timer.h", "sr_module.h", "tcp_server.h",
+    "tcp_init.h", "tsend.h", "ut.h", "daemonize.h", "tls/tls_server.h", "io_wait.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/save.c
+  :function_list: ! '["add_contacts", "insert_contacts", "pack_ci", "get_sock_hdr",
+    "update_contacts", "is_cflag_set", "is_other_contact_f", "no_contacts", "save",
+    "save_aux", "star"]'
+  :file_headers: ! '["../../str.h", "../../socket_info.h", "../../parser/parse_allow.h",
+    "../../parser/parse_methods.h", "../../parser/msg_parser.h", "../../parser/parse_uri.h",
+    "../../parser/parse_expires.h", "../../parser/parse_supported.h", "../../dprint.h",
+    "../../trim.h", "../../ut.h", "../../qvalue.h", "../../dset.h", "../../mod_fix.h",
+    "../../data_lump.h", "../../tcp_server.h", "../usrloc/usrloc.h", "common.h", "sip_msg.h",
+    "rerrno.h", "reply.h", "reg_mod.h", "regtime.h", "path.h", "save.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/

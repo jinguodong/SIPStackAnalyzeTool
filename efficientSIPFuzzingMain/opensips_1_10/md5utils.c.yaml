@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/md5utils.c
+  :function_list: ! '["MD5File", "MD5StringArray"]'
+  :file_headers: ! '["md5global.h", "md5.h", "md5utils.h", "dprint.h", "ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

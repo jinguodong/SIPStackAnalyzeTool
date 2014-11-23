@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/pt.c
+  :function_list: ! '["count_init_children", "init_multi_proc_support", "set_proc_attrs",
+    "internal_fork"]'
+  :file_headers: ! '["mem/shm_mem.h", "socket_info.h", "sr_module.h", "dprint.h",
+    "timer.h", "pt.h", "bin_interface.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

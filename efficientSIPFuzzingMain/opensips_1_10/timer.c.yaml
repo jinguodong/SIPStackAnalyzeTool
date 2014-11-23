@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/timer.c
+  :function_list: ! '["append_timer_to_process", "new_sr_timer", "append_utimer_to_process",
+    "count_timer_procs", "destroy_timer", "get_ticks", "get_uticks", "init_timer",
+    "new_timer_process_list", "register_route_timers", "register_timer", "register_timer_process",
+    "register_utimer", "route_timer_f", "run_timer_process", "timer_ticker", "utimer_ticker",
+    "run_timer_process_jif", "start_timer_processes"]'
+  :file_headers: ! '["action.h", "timer.h", "dprint.h", "error.h", "pt.h", "config.h",
+    "sr_module.h", "daemonize.h", "mem/mem.h", "mem/shm_mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

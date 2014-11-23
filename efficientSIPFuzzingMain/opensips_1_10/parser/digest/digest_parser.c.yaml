@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/digest/digest_parser.c
+  :function_list: ! '["init_dig_cred", "parse_algorithm", "parse_digest_cred", "parse_digest_params",
+    "parse_digest_param", "parse_quoted", "parse_token", "parse_qop", "parse_username"]'
+  :file_headers: ! '["digest_parser.h", "../../trim.h", "param_parser.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/digest/

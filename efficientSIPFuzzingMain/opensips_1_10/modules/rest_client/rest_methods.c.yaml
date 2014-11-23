@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rest_client/rest_methods.c
+  :function_list: ! '["rest_get_method", "rest_post_method"]'
+  :file_headers: ! '["rest_methods.h", "rest_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rest_client/

@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/json/json.c
+  :function_list: ! '["expand_tag_list", "fixup_json_bind", "get_object", "print_tag_list",
+    "get_pv_json", "get_value", "init_matrix", "json_bind", "pv_add_json", "pv_get_json",
+    "pv_parse_json_name", "pv_set_json", "json_parse"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../pvar.h", "../../mod_fix.h", "../../script_cb.h", "../../script_var.h",
+    "../../mem/mem.h", "../../mi/mi.h", "../tm/tm_load.h", "../rr/api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/json/

@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/call_control/call_control.c
+  :function_list: ! '["CHECK_ALLOC", "CHECK_COND", "CallControl", "call_control_initialize",
+    "get_call_info", "get_call_limit", "get_call_token", "get_canonical_request_uri",
+    "get_diverter", "get_signaling_ip", "make_custom_request", "make_default_request",
+    "send_command", "callcontrol_connect", "callcontrol_disconnect", "send", "call_control_stop",
+    "has_to_tag", "__dialog_ended", "__dialog_loaded", "__dialog_replies", "call_control_start",
+    "child_init", "defined", "destroy", "destroy_list", "error", "mod_init", "parse_param",
+    "parse_param_init", "parse_param_start", "parse_param_stop"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "../../dprint.h", "../../str.h",
+    "../../pvar.h", "../../ut.h", "../../trim.h", "../../script_cb.h", "../../parser/digest/digest.h",
+    "../../parser/parse_from.h", "../dialog/dlg_load.h", "../dialog/dlg_hash.h", "../tm/tm_load.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/call_control/

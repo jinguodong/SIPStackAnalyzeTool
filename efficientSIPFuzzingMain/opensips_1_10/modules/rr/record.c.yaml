@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rr/record.c
+  :function_list: ! '["add_rr_param", "get_rr_param_lump", "insert_rr_param_lump",
+    "record_route", "get_username", "build_rr", "record_route_preset"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../parser/parse_uri.h",
+    "../../parser/parse_from.h", "../../str.h", "../../data_lump.h", "record.h", "rr_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rr/

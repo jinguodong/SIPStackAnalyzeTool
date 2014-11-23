@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parser_f.c
+  :function_list: ! '["eat_line"]'
+  :file_headers: ! '["../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

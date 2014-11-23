@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/sha.c
+  :function_list: ! '["f1", "f2", "f3", "rol1", "rol30", "rol5", "sha_hash", "switch_endianness",
+    "sha_init", "shahash", "strprintsha"]'
+  :file_headers: ! '[]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

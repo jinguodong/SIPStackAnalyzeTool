@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_virtual/dbase.c
+  :function_list: ! '["db_virtual_close", "db_virtual_delete", "db_virtual_fetch_result",
+    "db_virtual_free_result", "db_virtual_init", "set_update_flags", "db_virtual_insert",
+    "db_virtual_insert_update", "db_virtual_last_inserted_id", "db_virtual_query",
+    "db_virtual_raw_query", "db_virtual_replace", "db_virtual_update", "db_virtual_use_table",
+    "get_update_flags", "try_reconnect"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../db/db_query.h", "../../db/db_ut.h",
+    "db_virtual.h", "dbase.h", "../../timer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_virtual/

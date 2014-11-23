@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/exec/exec_hf.c
+  :function_list: ! '["replace_env", "set_env", "build_hf_struct", "insert_hf", "release_hf_struct",
+    "append_fixed_vars", "append_var", "create_vars", "print_var", "print_hf_var",
+    "compacthdr_type2str", "canonize_headername", "print_av_var", "release_vars",
+    "unset_env"]'
+  :file_headers: ! '["../../parser/msg_parser.h", "../../parser/parse_to.h", "../../parser/parse_via.h",
+    "../../parser/parse_uri.h", "../../mem/mem.h", "../../dprint.h", "../../md5utils.h",
+    "exec_hf.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/exec/

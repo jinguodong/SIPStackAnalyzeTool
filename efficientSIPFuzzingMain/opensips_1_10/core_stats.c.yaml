@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/core_stats.c
+  :function_list: ! '["get_pkg_fragments", "signal_pkg_status", "get_pkg_free_size",
+    "get_pkg_max_used_size", "get_pkg_real_used_size", "get_pkg_status_holder", "get_pkg_total_size",
+    "get_pkg_used_size", "init_pkg_stats", "net_get_wb_tcp", "net_get_wb_tls", "net_get_wb_udp"]'
+  :file_headers: ! '["statistics.h", "globals.h", "pt.h", "socket_info.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

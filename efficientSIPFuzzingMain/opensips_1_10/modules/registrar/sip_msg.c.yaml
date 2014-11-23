@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/sip_msg.c
+  :function_list: ! '["calc_contact_expires", "get_expires_hf", "calc_contact_q",
+    "check_contacts", "get_first_contact", "get_next_contact", "parse_message", "reset_first_contact"]'
+  :file_headers: ! '["../../parser/hf.h", "../../dprint.h", "../../parser/parse_expires.h",
+    "../../ut.h", "../../qvalue.h", "reg_mod.h", "regtime.h", "rerrno.h", "sip_msg.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/

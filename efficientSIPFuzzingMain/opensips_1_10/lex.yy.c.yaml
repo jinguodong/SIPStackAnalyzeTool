@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/lex.yy.c
+  :function_list: ! '[]'
+  :file_headers: ! '["cfg.tab.h", "dprint.h", "globals.h", "mem/mem.h", "ip_addr.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

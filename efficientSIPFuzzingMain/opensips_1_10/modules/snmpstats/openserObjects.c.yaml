@@ -1,0 +1,17 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserObjects.c
+  :function_list: ! '["get_dialog_major_threshold", "get_dialog_minor_threshold",
+    "get_msg_queue_major_threshold", "get_msg_queue_minor_threshold", "handle_openserCurNumDialogs",
+    "handle_openserCurNumDialogsInProgress", "handle_openserCurNumDialogsInSetup",
+    "handle_openserDialogLimitAlarmStatus", "handle_openserDialogLimitMajorAlarm",
+    "handle_openserDialogLimitMajorThreshold", "handle_openserDialogLimitMinorAlarm",
+    "handle_openserDialogLimitMinorThreshold", "handle_openserDialogUsageState", "handle_openserMsgQueueDepth",
+    "handle_openserMsgQueueDepthAlarmStatus", "handle_openserMsgQueueDepthMajorAlarm",
+    "handle_openserMsgQueueDepthMinorAlarm", "handle_openserMsgQueueMajorThreshold",
+    "handle_openserMsgQueueMinorThreshold", "handle_openserTotalNumFailedDialogSetups",
+    "init_openserObjects", "set_dlg_major_threshold", "set_if_valid_threshold", "set_dlg_minor_threshold",
+    "set_queue_major_threshold", "set_queue_minor_threshold"]'
+  :file_headers: ! '["openserObjects.h", "../../dprint.h", "../../statistics.h", "../../config.h",
+    "../../socket_info.h", "snmpstats_globals.h", "utilities.h", "alarm_checks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/prefix_tree.c
+  :function_list: ! '["add_prefix", "check_rt", "internal_check_rt", "check_time",
+    "del_rt_list", "free_rt_info", "del_tree", "get_carrier_by_id", "get_gw_by_id",
+    "get_gw_by_internal_id", "get_prefix"]'
+  :file_headers: ! '["../../str.h", "../../mem/shm_mem.h", "../../time_rec.h", "prefix_tree.h",
+    "routing.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/

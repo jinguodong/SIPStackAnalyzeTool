@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_profile.c
+  :function_list: ! '["DLG_COPY", "add_profile_definitions", "new_dlg_profile", "get_a_lock_set",
+    "search_dlg_profile", "add_val_to_rpl", "calc_hash_profile", "destroy_all_locks",
+    "destroy_cachedb", "destroy_dlg_profile", "destroy_dlg_profiles", "destroy_linkers",
+    "dlg_fill_name", "dlg_prof_realloc", "dlg_fill_size", "dlg_fill_value", "get_profile_size",
+    "init_cachedb", "init_cachedb_utils", "is_dlg_in_profile", "link_dlg_profile",
+    "mi_get_profile", "mi_get_profile_values", "mi_list_all_profiles", "mi_profile_list",
+    "set_dlg_profile", "unset_dlg_profile"]'
+  :file_headers: ! '["../../cachedb/cachedb.h", "../../cachedb/cachedb_cap.h", "../../mem/shm_mem.h",
+    "../../hash_func.h", "../../dprint.h", "../../ut.h", "dlg_hash.h", "dlg_profile.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

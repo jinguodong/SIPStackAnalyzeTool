@@ -1,0 +1,18 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dialog.c
+  :function_list: ! '["add_replication_dest", "child_init", "create_dialog_wrapper",
+    "fixup_create_dlg2", "fixup_dlg_flag", "fixup_dlg_fval", "fixup_dlg_sval", "fixup_get_info",
+    "fixup_get_profile2", "fixup_profile", "fixup_get_profile3", "load_dlg", "mod_destroy",
+    "mod_init", "pv_get_dlg_count", "pv_get_dlg_did", "pv_get_dlg_dir", "pv_get_dlg_end_reason",
+    "pv_get_dlg_flags", "pv_get_dlg_lifetime", "pv_get_dlg_status", "pv_set_dlg_flags",
+    "w_create_dialog", "w_create_dialog2", "w_fetch_dlg_value", "w_fix_route_dialog",
+    "w_get_dlg_info", "w_get_profile_size", "w_is_dlg_flag_set", "w_is_in_profile",
+    "w_match_dialog", "w_reset_dlg_flag", "w_set_dlg_flag", "w_set_dlg_profile", "w_store_dlg_value",
+    "w_tsl_dlg_flag", "w_unset_dlg_profile", "w_validate_dialog"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../pvar.h", "../../mod_fix.h", "../../script_cb.h", "../../script_var.h",
+    "../../mem/mem.h", "../../mi/mi.h", "../tm/tm_load.h", "../rr/api.h", "../../bin_interface.h",
+    "dlg_hash.h", "dlg_timer.h", "dlg_handlers.h", "dlg_load.h", "dlg_cb.h", "dlg_db_handler.h",
+    "dlg_req_within.h", "dlg_profile.h", "dlg_vals.h", "dlg_tophiding.h", "dlg_replication.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

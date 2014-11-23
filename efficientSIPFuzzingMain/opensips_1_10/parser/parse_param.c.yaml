@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_param.c
+  :function_list: ! '["do_duplicate_params", "do_free_params", "duplicate_params",
+    "free_params", "parse_contact_class", "parse_param_body", "parse_quoted_param",
+    "parse_token_param", "parse_param_name", "parse_uri_class", "parse_params", "print_param",
+    "print_params", "shm_duplicate_params", "shm_free_params"]'
+  :file_headers: ! '["../str.h", "../ut.h", "../dprint.h", "../trim.h", "../mem/mem.h",
+    "../mem/shm_mem.h", "parse_param.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

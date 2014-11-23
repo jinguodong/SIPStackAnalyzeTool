@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/mi.c
+  :function_list: ! '["get_mi_cmds", "get_mi_id", "init_mi_child", "lookup_mi_cmd",
+    "lookup_mi_cmd_id", "mi_help", "register_mi_cmd", "register_mi_mod"]'
+  :file_headers: ! '["../dprint.h", "../mem/mem.h", "mi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/

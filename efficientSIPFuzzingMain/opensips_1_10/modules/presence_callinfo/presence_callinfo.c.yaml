@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_callinfo/presence_callinfo.c
+  :function_list: ! '["sca_set_called_line", "sca_set_calling_line"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../str.h", "../../mod_fix.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "../../mem/mem.h", "../presence/bind_presence.h",
+    "add_events.h", "sca_hash.h", "sca_dialog.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_callinfo/

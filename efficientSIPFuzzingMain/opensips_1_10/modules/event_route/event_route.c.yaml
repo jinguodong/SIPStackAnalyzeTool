@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_route/event_route.c
+  :function_list: ! '["SR_SOCK_ROUTE", "child_init", "fixup_scriptroute_fetch", "mod_init",
+    "scriptroute_add_param", "scriptroute_fetch", "scriptroute_match", "scriptroute_parse",
+    "scriptroute_print", "scriptroute_raise"]'
+  :file_headers: ! '["../../sr_module.h", "../../evi/evi_transport.h", "../../evi/evi_modules.h",
+    "../../ut.h", "event_route.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_route/

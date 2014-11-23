@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_timer.c
+  :function_list: ! '["FAKE_DIALOG_TL", "debug_detached_timer_list", "tl_get_dlg",
+    "debug_main_timer_list", "destroy_dlg_timer", "destroy_ping_timer", "detach_node_unsafe",
+    "dlg_ping_routine", "get_timeout_dlgs", "dlg_timer_routine", "get_expired_dlgs",
+    "init_dlg_ping_timer", "init_dlg_timer", "insert_dlg_timer", "insert_dlg_timer_unsafe",
+    "insert_ping_timer", "remove_dlg_timer", "remove_dlg_timer_unsafe", "remove_ping_timer",
+    "reply_from_callee", "reply_from_caller", "unref_dlg_cb", "update_dlg_timer"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../timer.h", "dlg_timer.h", "dlg_hash.h",
+    "dlg_req_within.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

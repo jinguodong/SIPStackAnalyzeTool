@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_lib.c
+  :function_list: ! '["dbt_cache_check_db", "dbt_cache_destroy", "dbt_cache_get_db",
+    "dbt_cache_print", "dbt_db_del_table", "dbt_db_get_table", "dbt_init_cache", "dbt_is_neq_type",
+    "dbt_release_table"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../mem/mem.h", "../../dprint.h", "dbt_util.h",
+    "dbt_lib.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

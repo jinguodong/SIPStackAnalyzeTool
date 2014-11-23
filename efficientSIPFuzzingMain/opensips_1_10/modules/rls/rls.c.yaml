@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/rls.c
+  :function_list: ! '["add_rls_event", "child_init", "destroy", "rlsubs_table_update",
+    "handle_expired_record", "mi_update_subscriptions", "update_subs", "mod_init",
+    "parse_xcap_root", "rls_restore_db_subs"]'
+  :file_headers: ! '["../../sr_module.h", "../../pt.h", "../../db/db.h", "../../dprint.h",
+    "../../error.h", "../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../mi/mi.h",
+    "../tm/tm_load.h", "../signaling/signaling.h", "../presence/bind_presence.h",
+    "../presence/hash.h", "../pua/pua_bind.h", "../pua/pidf.h", "../xcap/api.h", "rls.h",
+    "subscribe.h", "notify.h", "resource_notify.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/

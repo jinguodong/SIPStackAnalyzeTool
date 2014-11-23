@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/avpops_parse.c
+  :function_list: ! '["parse_avp_attr", "parse_avp_db", "parse_avp_db_scheme"]'
+  :file_headers: ! '["../../ut.h", "../../dprint.h", "../../usr_avp.h", "../../mem/mem.h",
+    "avpops_parse.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/

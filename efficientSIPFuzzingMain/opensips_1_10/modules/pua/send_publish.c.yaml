@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/send_publish.c
+  :function_list: ! '["PUA_PARSE_PRES_ID", "build_pending_publ", "construct_pending_publ",
+    "publ_build_hdr", "publ_cback_func", "send_publish_int", "send_publish"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../parser/parse_expires.h",
+    "../../dprint.h", "../../mem/shm_mem.h", "../../parser/msg_parser.h", "../../str.h",
+    "../tm/tm_load.h", "../presence/hash.h", "pua.h", "hash.h", "send_publish.h",
+    "pua_callback.h", "event_list.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/

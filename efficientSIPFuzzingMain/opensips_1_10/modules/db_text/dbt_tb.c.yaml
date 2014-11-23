@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_tb.c
+  :function_list: ! '["dbt_column_free", "dbt_column_new", "dbt_row_free", "dbt_row_new",
+    "dbt_row_set_val", "dbt_row_update_val", "dbt_table_add_row", "dbt_table_check_row",
+    "dbt_table_update_flags", "dbt_table_free", "dbt_table_free_rows", "dbt_table_new"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../mem/mem.h", "../../dprint.h", "../../locking.h",
+    "dbt_util.h", "dbt_lib.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

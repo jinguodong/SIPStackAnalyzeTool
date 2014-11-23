@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/load_data.c
+  :function_list: ! '["bind_data_loader", "data_child_init", "data_destroy", "data_main_finalize"]'
+  :file_headers: ! '["../../globals.h", "load_data.h", "route_db.h", "route_config.h",
+    "carrierroute.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

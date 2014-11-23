@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/msilo/ms_msg_list.c
+  :function_list: ! '["msg_list_check", "msg_list_check_msg", "msg_list_el_new", "msg_list_el_free",
+    "msg_list_el_free_all", "msg_list_free", "msg_list_init", "msg_list_reset", "msg_list_set_flag"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "ms_msg_list.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/msilo/

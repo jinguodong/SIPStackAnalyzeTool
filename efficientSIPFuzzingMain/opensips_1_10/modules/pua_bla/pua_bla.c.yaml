@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_bla/pua_bla.c
+  :function_list: ! '["bla_set_flag", "child_init", "destroy", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../usrloc/usrloc.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "pua_bla.h", "registrar_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_bla/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap_client/xcap_functions.c
+  :function_list: ! '["bind_xcap_client", "xcapGetElem", "get_xcap_path", "get_node_selector",
+    "send_http_get", "write_function", "get_xcap_etag", "xcapInitNodeSel", "xcapNodeSelAddStep",
+    "xcapNodeSelAddTerminal", "xcapFreeNodeSel", "xcapGetNewDoc"]'
+  :file_headers: ! '["../../mem/mem.h", "../../db/db.h", "xcap_functions.h", "xcap_client.h",
+    "../presence/hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap_client/

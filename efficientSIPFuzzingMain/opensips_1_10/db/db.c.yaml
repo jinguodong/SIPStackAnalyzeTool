@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db.c
+  :function_list: ! '["db_bind_mod", "db_check_api", "db_check_table_version", "db_table_version",
+    "db_do_close", "db_do_init", "db_use_table", "estimate_available_rows"]'
+  :file_headers: ! '["../dprint.h", "../sr_module.h", "../mem/mem.h", "../mem/meminfo.h",
+    "../ut.h", "db_cap.h", "db_id.h", "db_pool.h", "db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

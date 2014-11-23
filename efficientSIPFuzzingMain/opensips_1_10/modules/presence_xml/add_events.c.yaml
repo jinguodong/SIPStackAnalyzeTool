@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/add_events.c
+  :function_list: ! '["bla_set_version", "xml_add_events", "xml_publ_handl"]'
+  :file_headers: ! '["../../parser/parse_content.h", "../../data_lump_rpl.h", "../../ut.h",
+    "xcap_auth.h", "notify_body.h", "add_events.h", "presence_xml.h", "pidf.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/

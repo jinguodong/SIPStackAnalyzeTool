@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/avpops_impl.c
+  :function_list: ! '["init_store_avps", "ops_check_avp", "avpops_get_aname", "ops_copy_avp",
+    "ops_dbdelete_avps", "ops_dbload_avps", "dbrow2avp", "ops_dbquery_avps", "ops_dbstore_avps",
+    "int_str2db_val", "ops_delete_avp", "ops_is_avp_set", "ops_op_avp", "ops_print_avp",
+    "ops_pushto_avp", "append_0", "ops_subst", "w_insert_avp"]'
+  :file_headers: ! '["../../ut.h", "../../dprint.h", "../../usr_avp.h", "../../action.h",
+    "../../ip_addr.h", "../../config.h", "../../dset.h", "../../data_lump.h", "../../data_lump_rpl.h",
+    "../../pvar.h", "../../parser/parse_from.h", "../../parser/parse_uri.h", "../../mem/mem.h",
+    "avpops_impl.h", "avpops_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/

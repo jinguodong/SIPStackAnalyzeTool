@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xode_from.c
+  :function_list: ! '["_xode_expat_charData", "_xode_expat_endElement", "_xode_expat_startElement",
+    "_xode_put_expatattribs", "xode_from_file", "xode_from_str", "xode_from_strx",
+    "xode_to_file"]'
+  :file_headers: ! '["xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

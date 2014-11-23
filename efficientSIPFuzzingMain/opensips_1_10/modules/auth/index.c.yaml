@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/index.c
+  :function_list: ! '["check_buf_bit", "is_nonce_index_valid", "set_buf_bit", "reserve_nonce_index",
+    "unset_buf_bit"]'
+  :file_headers: ! '["../../dprint.h", "../../timer.h", "index.h", "auth_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

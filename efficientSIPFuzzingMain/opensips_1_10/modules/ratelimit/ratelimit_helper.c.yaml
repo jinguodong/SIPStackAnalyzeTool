@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ratelimit/ratelimit_helper.c
+  :function_list: ! '["RL_FIND_PIPE", "RL_GET_INDEX", "RL_GET_LOCK", "RL_GET_PIPE",
+    "RL_RELEASE_LOCK", "RL_USE_CDB", "destroy_cachedb", "get_rl_algo", "get_rl_algo_name",
+    "init_cachedb", "init_rl_table", "lock_set_get", "lock_set_release", "map_find",
+    "map_get", "rl_change_counter", "rl_set_name", "rl_get_counter", "rl_map_print",
+    "rl_stats", "rl_timer", "w_rl_change_counter", "w_rl_set_count", "w_rl_check_2",
+    "w_rl_check_3", "w_rl_dec", "w_rl_reset"]'
+  :file_headers: ! '["../../sr_module.h", "../../ut.h", "../../locking.h", "../../mod_fix.h",
+    "../../timer.h", "../../socket_info.h", "../../cachedb/cachedb.h", "../../cachedb/cachedb_cap.h",
+    "ratelimit.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ratelimit/

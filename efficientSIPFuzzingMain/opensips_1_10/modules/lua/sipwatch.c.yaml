@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipwatch.c
+  :function_list: ! '["siplua_register_watch_cclosures", "sipwatch_add", "sipwatch_create_object",
+    "sipwatch_delete", "sipwatch_lock", "sipwatch_unlock"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../locking.h", "../../parser/parse_from.h",
+    "../../parser/parse_to.h", "crc32.h", "sipapi.h", "sipwatch.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

@@ -1,0 +1,17 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dispatcher/dispatch.c
+  :function_list: ! '["_ds_list", "_ds_list_nr", "add_dest2list", "count_inactive_destinations",
+    "is_default_destination_entry", "destroy_list", "ds_check_timer", "ds_connect_db",
+    "ds_count", "ds_destroy_list", "ds_disconnect_db", "ds_get_hash", "ds_get_index",
+    "ds_get_pvar_param", "ds_hash_authusername", "ds_hash_callid", "ds_hash_fromuri",
+    "get_uri_hash_keys", "ds_hash_pvar", "ds_hash_ruri", "ds_hash_touri", "ds_is_in_list",
+    "ds_load_db", "reindex_dests", "ds_mark_dst", "ds_set_state", "ds_next_dst", "ds_update_dst",
+    "ds_options_callback", "ds_print_list", "ds_print_mi_list", "ds_pvar_algo", "ds_pvar_parse_pattern",
+    "ds_select_dst", "push_ds_2_avps", "init_data", "init_ds_db"]'
+  :file_headers: ! '["../../ut.h", "../../trim.h", "../../dprint.h", "../../action.h",
+    "../../route.h", "../../dset.h", "../../mem/shm_mem.h", "../../parser/parse_uri.h",
+    "../../parser/parse_from.h", "../../usr_avp.h", "../../mi/mi.h", "../../parser/digest/digest.h",
+    "../../resolve.h", "../tm/tm_load.h", "../../db/db.h", "../../db/db_res.h", "../../str.h",
+    "dispatch.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dispatcher/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/diam_message.c
+  :function_list: ! '["AAABuildMsgBuffer", "set_3bytes", "set_4bytes", "to_32x_len",
+    "AAAFreeMessage", "AAAInMessage", "AAAPrintMessage", "AAASetMessageResultCode",
+    "AAATranslateMessage", "get_3bytes", "get_4bytes"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "diam_message.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

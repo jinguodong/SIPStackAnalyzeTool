@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/snmpstats.c
+  :function_list: ! '["mod_child_init", "spawn_sysUpTime_child", "mod_destroy", "mod_init",
+    "register_message_code_statistics", "set_snmp_community", "set_snmpget_path",
+    "sigchld_handler"]'
+  :file_headers: ! '["snmpstats.h", "snmpstats_globals.h", "../../timer.h", "openserSIPRegUserTable.h",
+    "openserSIPContactTable.h", "interprocess_buffer.h", "hashTable.h", "alarm_checks.h",
+    "utilities.h", "sub_agent.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/hash.c
+  :function_list: ! '["empty_hash", "empty_subnet_table", "find_group_in_hash_table",
+    "perm_hash", "find_group_in_subnet_table", "free_subnet_table", "hash_create",
+    "hash_destroy", "hash_insert", "hash_match", "hash_mi_print", "match_subnet_table",
+    "new_subnet_table", "subnet_table_insert", "subnet_table_mi_print"]'
+  :file_headers: ! '["hash.h", "../../mem/shm_mem.h", "../../hash_func.h", "../../ip_addr.h",
+    "../../ut.h", "../../pvar.h", "../../route_struct.h", "../../resolve.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/

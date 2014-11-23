@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/vq_malloc.c
+  :function_list: ! '["ASSERT", "BIG_BUCKET", "IS_BIGBUCKET", "MORE_CORE", "dump_frag",
+    "more_core", "my_assert", "size2bucket", "vqm_debug_frag", "vqm_status", "vqm_detach_free",
+    "vqm_free", "vqm_malloc", "vqm_malloc_init"]'
+  :file_headers: ! '["../config.h", "../globals.h", "vq_malloc.h", "../dprint.h",
+    "../globals.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/

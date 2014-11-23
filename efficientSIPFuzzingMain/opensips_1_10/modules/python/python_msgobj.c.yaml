@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/python/python_msgobj.c
+  :function_list: ! '["Py_TYPE", "is_msgobject", "msg_call_function", "msg_copy",
+    "newmsgobject", "msg_dealloc", "msg_getHeader", "msg_getMethod", "msg_getRURI",
+    "msg_getStatus", "msg_getType", "msg_get_dst_address", "msg_get_src_address",
+    "msg_invalidate", "msg_rewrite_ruri", "msg_set_dst_uri", "python_msgobj_init"]'
+  :file_headers: ! '["../../action.h", "../../mem/mem.h", "../../sr_module.h", "../../parser/msg_parser.h",
+    "structmember.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/python/

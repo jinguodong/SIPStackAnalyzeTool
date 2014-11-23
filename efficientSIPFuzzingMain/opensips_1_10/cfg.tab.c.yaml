@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/cfg.tab.c
+  :function_list: ! '[]'
+  :file_headers: ! '["route_struct.h", "globals.h", "route.h", "dprint.h", "sr_module.h",
+    "modparam.h", "ip_addr.h", "resolve.h", "socket_info.h", "name_alias.h", "ut.h",
+    "dset.h", "pvar.h", "blacklists.h", "xlog.h", "tcp_server.h", "tcp_conn.h", "db/db_insertq.h",
+    "bin_interface.h", "config.h", "tls/tls_config.h", "tls/tls_domain.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

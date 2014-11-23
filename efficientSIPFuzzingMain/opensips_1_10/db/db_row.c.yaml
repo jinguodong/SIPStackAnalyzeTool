@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db_row.c
+  :function_list: ! '["db_free_row"]'
+  :file_headers: ! '["db_row.h", "../dprint.h", "../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

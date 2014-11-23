@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/val.c
+  :function_list: ! '["db_oracle_val2bind", "db_oracle_val2str"]'
+  :file_headers: ! '["../../dprint.h", "ora_con.h", "dbase.h", "val.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/

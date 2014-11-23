@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_cachedb/dbase.c
+  :function_list: ! '["db_cachedb_close", "db_cachedb_delete", "db_cachedb_free_result",
+    "db_cachedb_init", "db_cachedb_insert", "db_cachedb_query", "db_cachedb_raw_query",
+    "db_cachedb_update", "db_cachedb_use_table"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../db/db_query.h", "../../db/db_ut.h",
+    "../../db/db_id.h", "../../timer.h", "../../cachedb/cachedb.h", "dbase.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_cachedb/

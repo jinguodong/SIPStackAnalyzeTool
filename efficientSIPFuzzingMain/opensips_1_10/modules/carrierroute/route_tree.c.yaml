@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/route_tree.c
+  :function_list: ! '["add_domain", "add_failure_route_to_tree", "create_failure_route_tree_item",
+    "add_route_to_tree", "add_route_flags", "create_route_tree_item", "destroy_route_map",
+    "destroy_route_tree", "destroy_route_tree_item", "destroy_route_flags", "destroy_failure_route_tree_item"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../mem/mem.h", "../../ut.h", "carrierroute.h",
+    "route.h", "route_rule.h", "load_data.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

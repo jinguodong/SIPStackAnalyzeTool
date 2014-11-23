@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipmsgops/sipmsgops.c
+  :function_list: ! '["parse_pvs_header"]'
+  :file_headers: ! '["../../sr_module.h", "../../action.h", "../../dprint.h", "../../data_lump.h",
+    "../../data_lump_rpl.h", "../../error.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../str.h", "../../re.h", "../../ut.h", "../../mod_fix.h", "../../parser/parse_uri.h",
+    "../../parser/parse_allow.h", "../../parser/parse_expires.h", "../../parser/parse_event.h",
+    "../../parser/parse_hname2.h", "../../parser/parse_methods.h", "../../parser/parse_content.h",
+    "../../parser/parse_privacy.h", "../../parser/parse_authenticate.h", "../../parser/parse_supported.h",
+    "../../parser/parse_disposition.h", "../../parser/parse_call_info.h", "../../parser/parse_sst.h",
+    "../../parser/parse_from.h", "../../parser/parse_rr.h", "../../parser/sdp/sdp.h",
+    "../../parser/contact/parse_contact.h", "../../parser/digest/digest.h", "../../mod_fix.h",
+    "../../trim.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipmsgops/

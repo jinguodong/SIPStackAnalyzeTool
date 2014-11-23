@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/dr_bl.c
+  :function_list: ! '["destroy_dr_bls", "init_dr_bls", "populate_dr_bls", "set_dr_bl"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "../../ut.h",
+    "../../trim.h", "prefix_tree.h", "dr_bl.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/

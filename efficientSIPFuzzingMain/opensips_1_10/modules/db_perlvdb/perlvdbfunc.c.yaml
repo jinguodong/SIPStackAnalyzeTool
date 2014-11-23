@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_perlvdb/perlvdbfunc.c
+  :function_list: ! '["IV2int", "checkobj", "getobj", "newvdbobj", "parseurl", "perlvdb_db_close",
+    "perlvdb_db_delete", "perlvdb_db_free_result", "perlvdb_db_init", "perlvdb_db_insert",
+    "perlvdb_db_insertreplace", "perlvdb_db_query", "perlvdb_db_replace", "perlvdb_db_update",
+    "perlvdb_use_table"]'
+  :file_headers: ! '["perlvdb.h", "perlvdbfunc.h", "../../str.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_perlvdb/

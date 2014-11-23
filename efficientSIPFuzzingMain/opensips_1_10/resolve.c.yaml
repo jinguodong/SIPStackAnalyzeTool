@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/resolve.c
+  :function_list: ! '["BOUNDED_INCR", "BOUNDS_CHECK", "DNS_GET16", "DNS_GET32", "a2dns_node",
+    "check_ip_address", "rev_resolvehost", "own_gethostbyaddr", "get_dns_answer",
+    "dns_get16", "dns_get32", "sip_resolvehost", "do_srv_lookup", "free_rdata_list",
+    "get_record", "dns_a_parser", "dns_aaaa_parser", "dns_cname_parser", "dns_ebl_parser",
+    "dns_naptr_parser", "dns_skipname", "dns_srv_parser", "dns_txt_parser", "resolvehost",
+    "own_gethostbyname2", "sort_srvs", "filter_and_sort_naptr", "naptr_prio", "get_naptr_proto",
+    "srv2dns_node", "dns_node_copy", "dns_res_copy", "free_dns_res", "get_next_he",
+    "get_next_su", "resolv_blacklist_init", "resolv_init"]'
+  :file_headers: ! '["mem/mem.h", "mem/shm_mem.h", "resolve.h", "dprint.h", "ut.h",
+    "ip_addr.h", "globals.h", "blacklists.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

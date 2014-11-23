@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/uri_mod.c
+  :function_list: ! '["DOMAIN_COL_LEN", "URI_USER_COL_LEN", "USER_COL_LEN", "aaa_fixup_0",
+    "aaa_fixup_1", "child_init", "db_checks_fixup1", "db_checks_fixup2", "db_fixup_get_auth_id",
+    "destroy", "mod_init", "obsolete_fixup_0", "obsolete_fixup_1", "obsolete_fixup_2"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../error.h", "../../mem/mem.h",
+    "../../pvar.h", "../../mod_fix.h", "../../aaa/aaa.h", "uri_mod.h", "checks.h",
+    "aaa_checks.h", "db_checks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/

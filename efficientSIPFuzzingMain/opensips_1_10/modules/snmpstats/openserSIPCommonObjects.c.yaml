@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPCommonObjects.c
+  :function_list: ! '["handleSipEntityType", "handle_openserSIPCurrentTransactions",
+    "handle_openserSIPEntityType", "handle_openserSIPNumUnsupportedMethods", "handle_openserSIPNumUnsupportedUris",
+    "handle_openserSIPOtherwiseDiscardedMsgs", "handle_openserSIPProtocolVersion",
+    "handle_openserSIPServiceStartTime", "handle_openserSIPSummaryInRequests", "handle_openserSIPSummaryInResponses",
+    "handle_openserSIPSummaryOutRequests", "handle_openserSIPSummaryOutResponses",
+    "handle_openserSIPSummaryTotalTransactions", "init_openserSIPCommonObjects"]'
+  :file_headers: ! '["../../statistics.h", "../../config.h", "openserSIPCommonObjects.h",
+    "snmpstats_globals.h", "utilities.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xode_str.c
+  :function_list: ! '["xode_spool_add", "xode_spool_free", "xode_spool_getpool", "xode_spool_getlen",
+    "xode_spool_new", "xode_spool_newfrompool", "xode_spool_str", "xode_spool_tostr",
+    "xode_spooler", "xode_strescape", "xode_strunescape"]'
+  :file_headers: ! '["xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

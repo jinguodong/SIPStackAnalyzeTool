@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/mi.c
+  :function_list: ! '["mi_address_dump", "mi_address_reload", "mi_allow_uri", "mi_subnet_dump"]'
+  :file_headers: ! '["../../dprint.h", "address.h", "hash.h", "mi.h", "permissions.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/

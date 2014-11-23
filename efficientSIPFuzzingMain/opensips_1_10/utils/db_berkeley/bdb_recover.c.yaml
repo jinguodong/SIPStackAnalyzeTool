@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/utils/db_berkeley/bdb_recover.c
+  :function_list: ! '["_insert", "cleanup", "compare", "create", "get_db", "import_schema",
+    "get_table", "create_table", "create_all", "delete", "extract_key", "file_list",
+    "get_op", "insert", "load_metadata_columns", "load_metadata_key", "load_schema",
+    "main", "recover", "update", "recover_all", "usage"]'
+  :file_headers: ! '["bdb_recover.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/utils/db_berkeley/

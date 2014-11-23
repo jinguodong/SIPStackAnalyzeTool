@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/contact/parse_contact.c
+  :function_list: ! '["contact_iterator", "parse_contact", "contact_parser", "free_contact",
+    "print_contact"]'
+  :file_headers: ! '["../hf.h", "../../mem/mem.h", "../../dprint.h", "../../trim.h",
+    "../../errinfo.h", "parse_contact.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/contact/

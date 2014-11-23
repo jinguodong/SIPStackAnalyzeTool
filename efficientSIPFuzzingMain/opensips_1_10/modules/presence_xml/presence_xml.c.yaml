@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/presence_xml.c
+  :function_list: ! '["child_init", "destroy", "free_xs_list", "mod_init", "shm_copy_xcap_list",
+    "verify_db", "pxml_add_xcap_server", "xcap_doc_updated"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../str.h", "../../ut.h",
+    "../../parser/msg_parser.h", "../../parser/parse_uri.h", "../../mem/mem.h", "../presence/bind_presence.h",
+    "../presence/hash.h", "../presence/notify.h", "../signaling/signaling.h", "pidf.h",
+    "add_events.h", "presence_xml.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/

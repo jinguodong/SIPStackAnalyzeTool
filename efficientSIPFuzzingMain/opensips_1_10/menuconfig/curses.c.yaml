@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/curses.c
+  :function_list: ! '["_quit_handler", "cleanup", "draw_item_list", "draw_sibling_menu",
+    "set_xy_size"]'
+  :file_headers: ! '["curses.h", "main.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/

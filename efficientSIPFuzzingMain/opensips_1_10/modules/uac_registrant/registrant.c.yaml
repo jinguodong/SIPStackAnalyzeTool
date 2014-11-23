@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/registrant.c
+  :function_list: ! '["child_init", "mi_reg_list", "mi_reg_reload", "mod_destroy",
+    "mod_init", "reg_tm_cback", "run_mi_reg_list", "run_reg_tm_cback", "send_register",
+    "run_timer_check", "shm_free_param", "timer_check"]'
+  :file_headers: ! '["../../sr_module.h", "../../timer.h", "../../db/db.h", "../../parser/parse_uri.h",
+    "../../parser/parse_authenticate.h", "../../parser/contact/parse_contact.h", "../../parser/parse_min_expires.h",
+    "../uac_auth/uac_auth.h", "reg_records.h", "reg_db_handler.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/

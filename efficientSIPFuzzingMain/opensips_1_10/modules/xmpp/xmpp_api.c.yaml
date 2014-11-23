@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xmpp_api.c
+  :function_list: ! '["bind_xmpp", "destroy_xmpp_cb_list", "init_xmpp_cb_list", "register_xmpp_cb"]'
+  :file_headers: ! '["../../dprint.h", "../../error.h", "../../mem/shm_mem.h", "xmpp_api.h",
+    "xmpp.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

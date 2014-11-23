@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_datagram/event_datagram.c
+  :function_list: ! '["DO_COPY", "DO_PRINT", "child_init", "create_socket", "datagram_build_params",
+    "datagram_match", "datagram_parse", "datagram_parse_udp", "datagram_parse_unix",
+    "datagram_print", "datagram_raise", "defined", "destroy", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../evi/evi_transport.h", "../../resolve.h",
+    "../../ut.h", "event_datagram.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_datagram/

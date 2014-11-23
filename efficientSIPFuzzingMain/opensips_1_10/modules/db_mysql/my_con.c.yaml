@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/my_con.c
+  :function_list: ! '["db_mysql_connect", "db_mysql_free_connection", "db_mysql_new_connection"]'
+  :file_headers: ! '["my_con.h", "db_mysql.h", "dbase.h", "../../mem/mem.h", "../../dprint.h",
+    "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/

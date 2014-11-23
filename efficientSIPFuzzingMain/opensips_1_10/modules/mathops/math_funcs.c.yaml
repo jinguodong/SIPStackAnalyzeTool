@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mathops/math_funcs.c
+  :function_list: ! '["basic_round_op", "evaluate_exp", "convert_to_rpn", "push_op",
+    "pop_to_output", "get_op", "pop_while_higher", "precedence", "evaluate_rpn_output",
+    "push_number", "pop_and_eval", "pop_number", "round_dp_op", "round_sf_op"]'
+  :file_headers: ! '["../../pvar.h", "../../dprint.h", "../../error.h", "../../mem/mem.h",
+    "../../trim.h", "math_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mathops/

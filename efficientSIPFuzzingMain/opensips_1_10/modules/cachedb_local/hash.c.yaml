@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_local/hash.c
+  :function_list: ! '["lcache_htable_add", "lcache_htable_insert", "lcache_htable_remove_safe",
+    "lcache_htable_destroy", "lcache_htable_fetch", "lcache_htable_fetch_counter",
+    "lcache_htable_init", "lcache_htable_remove", "lcache_htable_sub"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../timer.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "cachedb_local.h", "hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_local/

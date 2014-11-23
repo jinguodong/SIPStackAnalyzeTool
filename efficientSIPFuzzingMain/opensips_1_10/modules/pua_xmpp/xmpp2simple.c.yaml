@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_xmpp/xmpp2simple.c
+  :function_list: ! '["build_pidf", "build_publish", "pres_Xmpp2Sip", "presence_subscribe"]'
+  :file_headers: ! '["../../parser/msg_parser.h", "../../parser/parse_from.h", "../../parser/parse_to.h",
+    "../../parser/parse_content.h", "../../mem/mem.h", "../../ut.h", "../pua/pua.h",
+    "../xmpp/xmpp.h", "pua_xmpp.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_xmpp/

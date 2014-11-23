@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db_query.c
+  :function_list: ! '["db_do_delete", "db_do_insert", "db_do_query", "db_do_raw_query",
+    "db_do_replace", "db_do_update"]'
+  :file_headers: ! '["../dprint.h", "../locking.h", "db_ut.h", "db_query.h", "db_insertq.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

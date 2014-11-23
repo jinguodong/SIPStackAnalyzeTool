@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/dlg.c
+  :function_list: ! '["ROUTE_PREFIX_LEN", "ROUTE_SEPARATOR_LEN", "_internal_new_dlg_uac",
+    "calculate_hooks", "get_raw_uri", "calculate_routeset_length", "dlg_add_extra",
+    "dlg_confirmed_resp_uac", "get_contact_uri", "get_cseq_method", "dlg_early_resp_uac",
+    "response2dlg", "get_route_set", "get_to_tag", "dlg_new_resp_uac", "dlg_request_uas",
+    "get_cseq_value", "dlg_response_uac", "free_dlg", "get_callid", "get_dlg_uri",
+    "get_from_tag", "new_auto_dlg_uac", "new_dlg_uac", "new_dlg_uas", "request2dlg",
+    "print_dlg", "print_routeset", "w_calculate_hooks"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "../../parser/contact/parse_contact.h",
+    "../../parser/parse_to.h", "../../parser/parse_from.h", "../../parser/parse_uri.h",
+    "../../trim.h", "../../ut.h", "../../config.h", "dlg.h", "t_reply.h", "callid.h",
+    "uac.h", "../../parser/parser_f.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

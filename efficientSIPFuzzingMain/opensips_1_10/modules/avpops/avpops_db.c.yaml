@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/avpops_db.c
+  :function_list: ! '["add_db_url", "get_db_url", "avp_add_db_scheme", "avp_get_db_scheme",
+    "avpops_db_bind", "avpops_db_init", "db_close_query", "db_delete_avp", "prepare_selection",
+    "set_table", "db_load_avp", "db_query_avp", "db_store_avp"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../db/db.h", "../../db/db_insertq.h",
+    "../../dprint.h", "avpops_parse.h", "avpops_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/avpops/

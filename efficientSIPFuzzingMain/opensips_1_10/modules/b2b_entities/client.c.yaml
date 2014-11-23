@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/client.c
+  :function_list: ! '["FROM_TAG_LEN", "b2b_client_build_dlg", "b2b_client_tm_cback",
+    "client_new", "generate_tag"]'
+  :file_headers: ! '["../../crc.h", "../tm/dlg.h", "../../ut.h", "../presence/hash.h",
+    "../../parser/parse_methods.h", "dlg.h", "client.h", "b2b_entities.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/

@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mangler/utils.c
+  :function_list: ! '["patch", "patch_content_length"]'
+  :file_headers: ! '["utils.h", "../../parser/msg_parser.h", "../../mem/mem.h", "../../data_lump.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mangler/

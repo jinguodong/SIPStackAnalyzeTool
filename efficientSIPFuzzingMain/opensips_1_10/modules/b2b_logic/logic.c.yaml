@@ -1,0 +1,20 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/logic.c
+  :function_list: ! '["b2b_add_dlginfo", "b2bl_search_entity", "entity_add_dlginfo",
+    "b2b_client_notify", "b2b_logic_notify", "b2b_logic_notify_reply", "process_bridge_negreply",
+    "bridge_get_entityno", "post_cb_sanity_check", "process_bridge_dialog_end", "b2b_end_dialog",
+    "b2b_mark_todel", "process_bridge_200OK", "b2bl_create_new_entity", "msg_add_dlginfo",
+    "b2bl_new_client", "get_b2b_dialog_by_replace", "b2b_logic_notify_request", "process_bridge_bye",
+    "process_bridge_action", "b2b_scenario_parse_uri", "b2b_init_request", "init_request",
+    "create_top_hiding_entities", "b2b_msg_get_from", "b2b_msg_get_to", "udh_to_uri",
+    "b2b_server_notify", "gen_fromtag", "b2b_process_scenario_init", "b2bl_bridge",
+    "b2bl_bridge_2calls", "b2bl_bridge_msg", "b2bl_get_stats", "b2bl_set_state", "b2bl_terminate_call",
+    "internal_init_scenario"]'
+  :file_headers: ! '["../../dprint.h", "../../dset.h", "../../error.h", "../../parser/parse_from.h",
+    "../../parser/parse_to.h", "../../parser/parse_content.h", "../../parser/parse_methods.h",
+    "../../parser/parse_hname2.h", "../../parser/parse_refer_to.h", "../../parser/parse_replaces.h",
+    "../../strcommon.h", "../../ut.h", "../../trim.h", "../../mem/shm_mem.h", "../../mem/mem.h",
+    "../../msg_translator.h", "../b2b_entities/dlg.h", "../presence/hash.h", "../presence/utils_func.h",
+    "records.h", "pidf.h", "b2b_logic.h", "b2bl_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/

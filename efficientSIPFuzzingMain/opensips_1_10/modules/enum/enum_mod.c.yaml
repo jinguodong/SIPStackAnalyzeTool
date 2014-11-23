@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/enum/enum_mod.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../sr_module.h", "enum_mod.h", "../../error.h", "../../mod_fix.h",
+    "enum.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/enum/

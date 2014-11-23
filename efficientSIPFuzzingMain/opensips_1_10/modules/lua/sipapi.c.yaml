@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipapi.c
+  :function_list: ! '["siplua_register_api_cclosures"]'
+  :file_headers: ! '["../../mem/mem.h", "../../usr_avp.h", "../../parser/msg_parser.h",
+    "../../parser/parse_expires.h", "../../parser/contact/parse_contact.h", "../../parser/contact/contact.h",
+    "../../parser/parse_uri.h", "../../parser/parse_rr.h", "../../socket_info.h",
+    "../../forward.h", "../../route_struct.h", "../../sr_module.h", "../../action.h",
+    "../../pvar.h", "../../script_var.h", "../../data_lump_rpl.h", "siplua.h", "sipluafunc.h",
+    "sipapi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

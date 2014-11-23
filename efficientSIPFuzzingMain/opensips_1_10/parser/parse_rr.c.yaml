@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_rr.c
+  :function_list: ! '["do_duplicate_rr", "free_rr", "do_free_rr", "shm_free_rr", "xlate_pointers",
+    "do_parse_rr_body", "duplicate_rr", "get_path_dst_uri", "parse_rr_body", "parse_rr",
+    "print_rr", "print_rr_body", "shm_duplicate_rr"]'
+  :file_headers: ! '["parse_rr.h", "../mem/mem.h", "../mem/shm_mem.h", "../dprint.h",
+    "../trim.h", "../ut.h", "../errinfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_bla/notify.c
+  :function_list: ! '["bla_body_is_valid", "bla_handle_notify"]'
+  :file_headers: ! '["../../parser/parse_content.h", "../../parser/contact/parse_contact.h",
+    "../../parser/parse_from.h", "../pua/hash.h", "pua_bla.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_bla/

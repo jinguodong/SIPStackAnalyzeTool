@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/perl/perlfunc.c
+  :function_list: ! '["perl_checkfnc", "perl_exec1", "perl_exec2", "perl_exec_simple",
+    "perl_exec_simple1", "perl_exec_simple2"]'
+  :file_headers: ! '["../../mem/mem.h", "../../data_lump.h", "../../parser/parse_param.h",
+    "../../parser/msg_parser.h", "../../dprint.h", "../../action.h", "../../config.h",
+    "../../parser/parse_uri.h", "perlfunc.h", "perl.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/perl/

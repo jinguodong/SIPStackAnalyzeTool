@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/statistics/statistics.c
+  :function_list: ! '["pv_get_stat", "get_stat_name", "pv_parse_name", "pv_set_stat"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../ut.h", "../../mod_fix.h",
+    "../../statistics.h", "../../mem/mem.h", "stats_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/statistics/

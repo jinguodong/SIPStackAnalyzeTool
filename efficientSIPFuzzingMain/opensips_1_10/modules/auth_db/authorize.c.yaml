@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_db/authorize.c
+  :function_list: ! '["authorize", "generate_avps", "get_ha1", "proxy_authorize",
+    "www_authorize"]'
+  :file_headers: ! '["../../ut.h", "../../str.h", "../../db/db.h", "../../dprint.h",
+    "../../parser/digest/digest.h", "../../parser/hf.h", "../../parser/parser_f.h",
+    "../../usr_avp.h", "../../mod_fix.h", "../../mem/mem.h", "aaa_avps.h", "authdb_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_db/

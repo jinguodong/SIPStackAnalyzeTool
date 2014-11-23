@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/time_rec.c
+  :function_list: ! '["MON_WEEK", "SUN_WEEK", "_D", "_IS_SET", "ac_get_maxval", "ac_get_yweek",
+    "ac_get_mweek", "ac_get_wday_mr", "ac_get_wday_yr", "ac_get_wkst", "ac_print",
+    "ac_tm_fill", "ac_tm_reset", "ac_tm_set_time", "check_byxxx", "check_freq_interval",
+    "check_min_unit", "get_min_interval", "check_tmrec", "ic_parse_byday", "tr_byxxx_free",
+    "tr_byxxx_init", "tr_byxxx_new", "ic_parse_byxxx", "ic_parse_datetime", "ic_parse_duration",
+    "ic_parse_wkst", "strz2int", "tmrec_free", "tmrec_new", "tr_parse_byday", "tr_parse_bymday",
+    "tr_parse_bymonth", "tr_parse_byweekno", "tr_parse_byyday", "tr_parse_dtend",
+    "tr_parse_dtstart", "tr_parse_duration", "tr_parse_freq", "tr_parse_interval",
+    "tr_parse_until", "tr_parse_wkst", "tr_print", "trim"]'
+  :file_headers: ! '["mem/mem.h", "mem/shm_mem.h", "time_rec.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

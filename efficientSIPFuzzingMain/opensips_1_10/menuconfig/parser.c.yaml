@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/parser.c
+  :function_list: ! '["parse_defs_line", "strlen", "parse_defs_m4", "parse_defs_m4_line",
+    "parse_dep_line", "parse_include_line", "parse_make_conf", "parse_prefix_line"]'
+  :file_headers: ! '["parser.h", "main.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/

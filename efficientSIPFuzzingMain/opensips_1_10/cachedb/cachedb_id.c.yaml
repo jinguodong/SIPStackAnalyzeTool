@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/cachedb/cachedb_id.c
+  :function_list: ! '["cmp_cachedb_id", "dupl_string", "free_cachedb_id", "new_cachedb_id",
+    "parse_cachedb_url"]'
+  :file_headers: ! '["cachedb_id.h", "../dprint.h", "../mem/mem.h", "../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/cachedb/

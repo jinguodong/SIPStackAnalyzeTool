@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/sub_list.c
+  :function_list: ! '["delete_list", "search_the_list"]'
+  :file_headers: ! '["../../mem/mem.h", "sub_list.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

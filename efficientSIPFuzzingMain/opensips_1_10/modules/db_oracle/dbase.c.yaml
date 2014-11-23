@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/dbase.c
+  :function_list: ! '["db_oracle_close", "db_oracle_delete", "db_oracle_submit_query",
+    "sql_buf_small", "db_oracle_error", "db_oracle_errorinfo", "db_oracle_free_result",
+    "db_oracle_init", "db_oracle_insert", "db_oracle_query", "db_oracle_raw_query",
+    "db_oracle_update", "db_oracle_use_table"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../db/db_pool.h", "../../db/db_ut.h",
+    "../../db/db_res.h", "../../db/db_query.h", "val.h", "ora_con.h", "res.h", "asynch.h",
+    "dbase.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_oracle/

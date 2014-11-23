@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/val.c
+  :function_list: ! '["db_unixodbc_str2val", "db_unixodbc_val2str"]'
+  :file_headers: ! '["../../dprint.h", "../../strcommon.h", "../../db/db_ut.h", "db_unixodbc.h",
+    "val.h", "con.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/

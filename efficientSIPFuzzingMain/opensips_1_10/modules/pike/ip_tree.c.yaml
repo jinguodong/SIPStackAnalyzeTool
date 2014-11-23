@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/ip_tree.c
+  :function_list: ! '["MAX_TYPE_VAL", "destroy_ip_node", "destroy_ip_tree", "get_tree_branch",
+    "prv_get_tree_branch", "init_ip_tree", "init_lock_set", "is_hot_leaf", "is_hot_non_leaf",
+    "is_node_hot_leaf", "is_warm_leaf", "lock_tree_branch", "prv_lock_tree_branch",
+    "mark_node", "new_ip_node", "split_node", "prv_unlock_tree_branch", "remove_node",
+    "unlock_tree_branch"]'
+  :file_headers: ! '["../../dprint.h", "../../mem/shm_mem.h", "ip_tree.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/

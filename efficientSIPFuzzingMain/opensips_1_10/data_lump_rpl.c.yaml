@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/data_lump_rpl.c
+  :function_list: ! '["add_lump_rpl", "del_nonshm_lump_rpl", "free_lump_rpl", "unlink_lump_rpl"]'
+  :file_headers: ! '["dprint.h", "mem/mem.h", "data_lump_rpl.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

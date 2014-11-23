@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/q_malloc.c
+  :function_list: ! '["FRAG_CLEAR_USED", "FRAG_END", "FRAG_MARK_USED", "FRAG_NEXT",
+    "FRAG_OVERHEAD", "FRAG_PREV", "FRAG_WAS_USED", "GET_HASH", "PREV_FRAG_END", "ROUNDDOWN",
+    "ROUNDTO_MASK", "ROUNDUP", "UN_HASH", "big_hash_idx", "defined", "qm_debug_frag",
+    "qm_detach_free", "qm_find_free", "qm_insert_free", "qm_malloc_init", "split_frag"]'
+  :file_headers: ! '["q_malloc.h", "../dprint.h", "../globals.h", "../statistics.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/

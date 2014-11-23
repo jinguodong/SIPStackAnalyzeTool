@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_funcs.c
+  :function_list: ! '["avp2timer", "fr_avp2timer", "fr_inv_avp2timer", "init_avp_params",
+    "kill_transaction", "put_on_wait", "send_pr_buffer", "t_relay_to", "t_release_transaction",
+    "tm_shutdown"]'
+  :file_headers: ! '["../../dprint.h", "../../hash_func.h", "../../dset.h", "../../mem/mem.h",
+    "t_funcs.h", "t_fwd.h", "t_msgbuilder.h", "t_lookup.h", "config.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

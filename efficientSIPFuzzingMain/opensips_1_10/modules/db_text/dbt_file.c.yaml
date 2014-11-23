@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_file.c
+  :function_list: ! '["dbt_check_mtime", "dbt_load_file", "dbt_print_table"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../mem/mem.h", "../../dprint.h", "dbt_util.h",
+    "dbt_lib.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

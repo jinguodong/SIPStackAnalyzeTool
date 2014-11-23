@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_privacy.c
+  :function_list: ! '["parse_priv_value", "parse_privacy"]'
+  :file_headers: ! '["../dprint.h", "../trim.h", "../errinfo.h", "parse_privacy.h",
+    "msg_parser.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

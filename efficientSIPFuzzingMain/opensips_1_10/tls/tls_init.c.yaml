@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/tls_init.c
+  :function_list: ! '["destroy_tls", "init_tls", "ser_malloc", "ser_realloc", "ser_free",
+    "tls_init_multithread", "tls_static_locks_ops", "tls_get_id", "tls_dyn_lock_create",
+    "tls_dyn_lock_ops", "tls_dyn_lock_destroy", "init_ssl_methods", "check_for_krb",
+    "init_tls_domains", "init_ssl_ctx_behavior", "verify_callback", "load_certificate",
+    "load_ca", "load_private_key", "passwd_cb", "pre_init_tls", "tls_init"]'
+  :file_headers: ! '["tls_init.h", "tls_config.h", "../dprint.h", "../mem/shm_mem.h",
+    "../tcp_init.h", "../ut.h", "../pt.h", "tls_domain.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/

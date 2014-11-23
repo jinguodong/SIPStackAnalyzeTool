@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domain/domain.c
+  :function_list: ! '["domain_db_bind", "domain_db_close", "domain_db_init", "domain_db_ver",
+    "is_domain_local", "is_from_local", "is_uri_host_local", "reload_domain_table",
+    "w_is_domain_local"]'
+  :file_headers: ! '["domain_mod.h", "hash.h", "../../db/db.h", "../../parser/parse_uri.h",
+    "../../parser/parse_from.h", "../../ut.h", "../../dset.h", "../../route.h", "../../pvar.h",
+    "../../str.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domain/

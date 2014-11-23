@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/diversion/diversion.c
+  :function_list: ! '["DIVERSION_COUNTER_LEN", "DIVERSION_HF_LEN", "DIVERSION_PREFIX_LEN",
+    "DIVERSION_SUFFIX_LEN", "add_diversion", "add_diversion_helper", "fixup_diversion_params",
+    "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../error.h", "../../dprint.h", "../../mem/mem.h",
+    "../../data_lump.h", "../../mod_fix.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/diversion/

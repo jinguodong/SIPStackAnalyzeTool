@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_memcached/cachedb_memcached.c
+  :function_list: ! '["child_init", "memcached_init", "destroy", "mc_set_connection",
+    "memcached_destroy", "memcached_free_connection", "memcached_new_connection",
+    "mod_init", "wrap_memcached_add", "wrap_memcached_insert", "wrap_memcached_get",
+    "wrap_memcached_get_counter", "wrap_memcached_remove", "wrap_memcached_sub"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../timer.h", "../../error.h",
+    "../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h", "cachedb_memcached.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_memcached/

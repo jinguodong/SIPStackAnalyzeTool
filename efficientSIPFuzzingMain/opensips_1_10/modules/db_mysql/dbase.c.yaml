@@ -1,0 +1,16 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/dbase.c
+  :function_list: ! '["alloc_new_prepared_stmt", "connect_with_retry", "db_insert_update",
+    "db_mysql_submit_query", "mysql_raise_event", "switch_state_to_disconnected",
+    "reset_all_statements", "wrapper_single_mysql_real_query", "db_last_inserted_id",
+    "db_mysql_close", "db_mysql_delete", "db_mysql_do_prepared_query", "db_mysql_free_pq",
+    "get_new_stmt_ctx", "re_init_statement", "wrapper_single_mysql_stmt_prepare",
+    "wrapper_single_mysql_stmt_execute", "has_stmt_ctx", "db_mysql_fetch_result",
+    "db_mysql_free_result", "db_mysql_free_stmt_list", "db_mysql_init", "db_mysql_insert",
+    "db_mysql_query", "db_mysql_store_result", "db_mysql_raw_query", "db_mysql_replace",
+    "db_mysql_submit_dummy_query", "db_mysql_update", "db_mysql_use_table", "mysql_register_event"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../db/db_query.h", "../../db/db_ut.h",
+    "../../db/db_insertq.h", "val.h", "my_con.h", "res.h", "row.h", "db_mysql.h",
+    "dbase.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/

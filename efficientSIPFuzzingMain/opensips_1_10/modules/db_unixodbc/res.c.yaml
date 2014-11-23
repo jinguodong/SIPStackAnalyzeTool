@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/res.c
+  :function_list: ! '["db_unixodbc_convert_result", "db_unixodbc_convert_rows", "db_unixodbc_get_columns"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "row.h", "../../db/db_res.h",
+    "con.h", "res.h", "list.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/

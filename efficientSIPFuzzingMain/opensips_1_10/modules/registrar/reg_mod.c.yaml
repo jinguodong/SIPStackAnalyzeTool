@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/reg_mod.c
+  :function_list: ! '["add_sock_hdr", "child_init", "domain_fixup", "fixup_domain_avp_param",
+    "mod_destroy", "mod_init", "registered_fixup", "registrar_fixup"]'
+  :file_headers: ! '["../../sr_module.h", "../../timer.h", "../../dprint.h", "../../error.h",
+    "../../socket_info.h", "../../pvar.h", "../usrloc/ul_mod.h", "../signaling/signaling.h",
+    "../../mod_fix.h", "save.h", "lookup.h", "reply.h", "reg_mod.h", "../../data_lump.h",
+    "../../ip_addr.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/

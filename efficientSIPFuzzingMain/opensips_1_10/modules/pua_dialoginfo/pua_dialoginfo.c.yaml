@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_dialoginfo/pua_dialoginfo.c
+  :function_list: ! '["__dialog_cbtest", "__dialog_loaded", "__dialog_sendpublish",
+    "check_flag", "dialoginfo_process_body", "dialoginfo_set", "fixup_dlginfo", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../script_cb.h", "../../parser/parse_expires.h",
+    "../../dprint.h", "../../mem/shm_mem.h", "../../parser/msg_parser.h", "../../str.h",
+    "../../trim.h", "../../mem/mem.h", "../../pt.h", "../../parser/parse_from.h",
+    "../dialog/dlg_load.h", "../dialog/dlg_hash.h", "../pua/pua_bind.h", "pua_dialoginfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_dialoginfo/

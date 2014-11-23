@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_xmpp/pua_xmpp.c
+  :function_list: ! '["child_init", "fixup_pua_xmpp", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../str.h", "../../pt.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../parser/parse_expires.h", "../../parser/msg_parser.h",
+    "../tm/tm_load.h", "../xmpp/xmpp_api.h", "../pua/pua_bind.h", "pua_xmpp.h", "xmpp2simple.h",
+    "simple2xmpp.h", "request_winfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_xmpp/

@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/enum/enum.c
+  :function_list: ! '["add_uri_param", "do_query", "naptr_sort", "naptr_greater",
+    "sip_match", "findchr", "parse_naptr_regexp", "enum_pv_query_1", "enum_pv_query_3",
+    "is_e164", "enum_pv_query_2", "enum_query_0", "enum_query_2", "enum_query_1",
+    "i_enum_query_0", "i_enum_query_2", "cclen", "i_enum_query_1", "is_from_user_enum_0",
+    "is_from_user_enum_2", "is_from_user_enum_1", "isn_query_0", "isn_query_2", "isn_query_1"]'
+  :file_headers: ! '["enum.h", "../../parser/parse_uri.h", "../../parser/parse_from.h",
+    "../../ut.h", "../../resolve.h", "../../mem/mem.h", "../../dset.h", "../../qvalue.h",
+    "enum_mod.h", "../../regexp.h", "../../pvar.h", "../../mod_fix.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/enum/

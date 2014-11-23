@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/alias_db/alias_db.c
+  :function_list: ! '["alias_flags_fixup", "child_init", "destroy", "find_fixup",
+    "lookup_fixup", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "../../dprint.h", "../../error.h",
+    "../../mem/mem.h", "../../ut.h", "../../mod_fix.h", "alookup.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/alias_db/

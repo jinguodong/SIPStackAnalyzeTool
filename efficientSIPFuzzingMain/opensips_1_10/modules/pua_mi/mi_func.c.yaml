@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_mi/mi_func.c
+  :function_list: ! '["mi_pua_publish", "mi_pua_subscribe", "mi_publ_rpl_cback"]'
+  :file_headers: ! '["../../parser/parse_expires.h", "../../parser/parse_uri.h", "../../mi/mi.h",
+    "../../ut.h", "../pua/pua_bind.h", "../pua/pua.h", "pua_mi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_mi/

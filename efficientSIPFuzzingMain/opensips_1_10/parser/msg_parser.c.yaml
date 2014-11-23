@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/msg_parser.c
+  :function_list: ! '["GET_CSEQ", "LC", "SET_FOUND", "check_transaction_quadruple",
+    "parse_headers", "get_hdr_field", "parse_hname", "extract_ftc_hdrs", "free_reply_lump",
+    "free_sip_msg", "parse_msg", "set_dst_uri", "set_path_vector", "set_ruri"]'
+  :file_headers: ! '["msg_parser.h", "parser_f.h", "../ut.h", "../error.h", "../dprint.h",
+    "../data_lump_rpl.h", "../mem/mem.h", "../error.h", "../globals.h", "../core_stats.h",
+    "../errinfo.h", "../dset.h", "parse_hname2.h", "parse_uri.h", "parse_content.h",
+    "../msg_callbacks.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

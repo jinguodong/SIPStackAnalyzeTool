@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_hname2.c
+  :function_list: ! '["LOWER_BYTE", "LOWER_DWORD", "PARSE_COMPACT", "READ", "parse_hname2",
+    "skip_ws"]'
+  :file_headers: ! '["parse_hname2.h", "keys.h", "../ut.h", "case_via.h", "case_from.h",
+    "case_to.h", "case_cseq.h", "case_call.h", "case_cont.h", "case_rout.h", "case_max.h",
+    "case_reco.h", "case_path.h", "case_auth.h", "case_expi.h", "case_prox.h", "case_allo.h",
+    "case_unsu.h", "case_even.h", "case_acce.h", "case_orga.h", "case_prio.h", "case_subj.h",
+    "case_user.h", "case_supp.h", "case_dive.h", "case_remo.h", "case_refe.h", "case_sess.h",
+    "case_min_.h", "case_p_pr.h", "case_p_as.h", "case_priv.h", "case_retr.h", "case_www.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

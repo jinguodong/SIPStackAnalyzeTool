@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_usrloc/pua_usrloc.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../sr_module.h", "../../script_cb.h", "../../parser/parse_expires.h",
+    "../../dprint.h", "../../mem/shm_mem.h", "../../parser/msg_parser.h", "../../str.h",
+    "../../mem/mem.h", "../../pt.h", "../usrloc/ul_mod.h", "../usrloc/usrloc.h", "../usrloc/ul_callback.h",
+    "../pua/pua_bind.h", "pua_usrloc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_usrloc/

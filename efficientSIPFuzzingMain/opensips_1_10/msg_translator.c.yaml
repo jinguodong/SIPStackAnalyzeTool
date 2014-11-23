@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/msg_translator.c
+  :function_list: ! '["branch_builder", "build_req_buf_from_sip_req", "insert_path_as_route",
+    "lumps_len", "lump_check_opt", "adjust_clen", "clen_builder", "id_builder", "via_builder",
+    "is_del_via1_lump", "received_test", "received_builder", "rport_builder", "process_lumps",
+    "build_res_buf_from_sip_req", "warning_builder", "build_res_buf_from_sip_res",
+    "construct_uri"]'
+  :file_headers: ! '["msg_translator.h", "globals.h", "error.h", "mem/mem.h", "dprint.h",
+    "config.h", "md5utils.h", "data_lump.h", "data_lump_rpl.h", "ip_addr.h", "resolve.h",
+    "ut.h", "pt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

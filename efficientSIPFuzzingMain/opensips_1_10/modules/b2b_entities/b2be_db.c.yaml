@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/b2be_db.c
+  :function_list: ! '["b2b_db_delete", "b2b_dup_leg", "b2b_entities_dump", "store_b2b_dlg",
+    "b2b_entities_restore", "b2b_entity_db_delete", "b2be_db_insert", "b2be_db_update",
+    "b2be_initialize"]'
+  :file_headers: ! '["../../db/db.h", "../../dprint.h", "../presence/hash.h", "b2b_entities.h",
+    "b2be_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/

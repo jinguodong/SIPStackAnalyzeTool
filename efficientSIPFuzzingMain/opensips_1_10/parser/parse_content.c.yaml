@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_content.c
+  :function_list: ! '["decode_mime_type", "is_char_equal", "is_mime_char", "free_contenttype",
+    "isalnum", "isalpha", "parse_accept_hdr", "parse_content_length", "parse_content_type_hdr"]'
+  :file_headers: ! '["../mem/mem.h", "../dprint.h", "../str.h", "../ut.h", "../errinfo.h",
+    "parse_content.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

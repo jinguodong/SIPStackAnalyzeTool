@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/evi/evi_params.c
+  :function_list: ! '["evi_free_params", "evi_get_params", "evi_param_add", "evi_param_create",
+    "evi_param_set"]'
+  :file_headers: ! '["evi_params.h", "../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/evi/

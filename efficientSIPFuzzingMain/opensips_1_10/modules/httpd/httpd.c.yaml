@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/httpd/httpd.c
+  :function_list: ! '["destroy", "httpd_bind", "httpd_register_httpdcb"]'
+  :file_headers: ! '["../../globals.h", "../../sr_module.h", "../../str.h", "../../ut.h",
+    "../../resolve.h", "../../mem/mem.h", "httpd_load.h", "httpd_proc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/httpd/

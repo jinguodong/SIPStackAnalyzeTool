@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tcp_read.c
+  :function_list: ! '["handle_io", "release_tcpconn", "tcp_read_req", "tcp_read_headers",
+    "tcp_read", "tcp_write_async_req", "tcp_receive_loop", "tcp_receive_timeout"]'
+  :file_headers: ! '["dprint.h", "tcp_conn.h", "pass_fd.h", "globals.h", "receive.h",
+    "timer.h", "ut.h", "tls/tls_server.h", "io_wait.h", "forward.h", "pt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

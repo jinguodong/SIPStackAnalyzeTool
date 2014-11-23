@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/datagram_fnc.c
+  :function_list: ! '["SUN_LEN", "build_async_handler", "datagram_close_async", "free_async_handler",
+    "mi_send_dgram", "strlen", "defined", "identify_command", "mi_datagram_server",
+    "mi_init_datagram_buffer", "mi_init_datagram_server", "mi_sock_check"]'
+  :file_headers: ! '["../../resolve.h", "mi_datagram.h", "datagram_fnc.h", "mi_datagram_parser.h",
+    "mi_datagram_writer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/

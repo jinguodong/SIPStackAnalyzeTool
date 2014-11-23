@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/cpl_sig.c
+  :function_list: ! '["cpl_proxy_to_loc_set"]'
+  :file_headers: ! '["../../action.h", "../../dset.h", "../tm/tm_load.h", "loc_set.h",
+    "cpl_sig.h", "cpl_env.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

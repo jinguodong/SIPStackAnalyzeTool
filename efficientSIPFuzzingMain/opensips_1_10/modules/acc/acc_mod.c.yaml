@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/acc_mod.c
+  :function_list: ! '["acc_fixup", "child_init", "destroy", "free_acc_fixup", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../mem/mem.h", "../tm/tm_load.h",
+    "../rr/api.h", "../../aaa/aaa.h", "../dialog/dlg_load.h", "diam_dict.h", "diam_tcp.h",
+    "acc.h", "acc_mod.h", "acc_extra.h", "acc_logic.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

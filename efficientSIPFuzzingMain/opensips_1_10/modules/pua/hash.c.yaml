@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/hash.c
+  :function_list: ! '["delete_htable", "free_htable_entry", "pua_db_delete", "delete_htable_safe",
+    "destroy_htable", "find_htable", "get_htable_safe", "get_dialog", "get_record_id",
+    "get_subs_list", "insert_htable", "is_dialog", "new_htable", "new_publ_record",
+    "new_ua_pres", "print_ua_pres", "search_htable", "update_contact", "update_htable"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "../../hash_func.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "../../db/db.h", "hash.h",
+    "pua.h", "send_publish.h", "../presence/hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/

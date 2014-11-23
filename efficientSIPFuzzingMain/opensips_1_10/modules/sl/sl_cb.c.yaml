@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sl/sl_cb.c
+  :function_list: ! '["destroy_slcb_lists", "register_slcb", "run_sl_callbacks"]'
+  :file_headers: ! '["../../mem/mem.h", "sl_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sl/

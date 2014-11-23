@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/osp/sipheader.c
+  :function_list: ! '["ospAddOspHeader", "ospAppendHeader", "ospCopyStrToBuffer",
+    "ospGetCallId", "ospGetDiversion", "ospSkipUserParam", "ospGetFromUserpart", "ospSkipPlus",
+    "ospGetNextHop", "ospGetNpParameters", "ospGetOperatorName", "ospGetOspHeader",
+    "ospGetPChargeInfoUserpart", "ospGetPaiUserpart", "ospGetRouteParameters", "ospGetRpidUserpart",
+    "ospGetSource", "ospGetViaAddress", "ospGetSourceDevice", "ospGetToHostpart",
+    "ospGetToUserpart", "ospGetUriUserpart", "ospRebuildDestinationUri"]'
+  :file_headers: ! '["../../forward.h", "../../parser/parse_from.h", "../../parser/parse_diversion.h",
+    "../../parser/parse_rpid.h", "../../parser/parse_pai.h", "../../parser/parse_rr.h",
+    "../../parser/parse_uri.h", "../../data_lump.h", "../../mem/mem.h", "osp_mod.h",
+    "destination.h", "sipheader.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/osp/

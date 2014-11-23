@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/rule.c
+  :function_list: ! '["free_expression", "free_rule", "new_expression", "new_rule",
+    "print_expression", "print_rule", "search_expression", "search_rule"]'
+  :file_headers: ! '["../../mem/mem.h", "../../sr_module.h", "../../mem/mem.h", "rule.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/

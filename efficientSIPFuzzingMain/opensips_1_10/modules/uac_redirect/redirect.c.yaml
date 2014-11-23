@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_redirect/redirect.c
+  :function_list: ! '["get_nr_max", "get_redirect_fixup", "msg_tracer", "redirect_init",
+    "regexp_compile", "setf_fixup", "w_get_redirect1", "w_get_redirect2", "w_set_accept",
+    "w_set_deny"]'
+  :file_headers: ! '["../../sr_module.h", "../../str.h", "../../dprint.h", "../../mem/mem.h",
+    "../tm/tm_load.h", "rd_funcs.h", "rd_filter.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_redirect/

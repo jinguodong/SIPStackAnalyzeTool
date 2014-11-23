@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pdt/pdt.c
+  :function_list: ! '["child_init", "mod_child_init", "mod_destroy", "mod_init", "pdt_load_db",
+    "pdt_mi_add", "pdt_mi_delete", "pdt_mi_list", "pdt_print_mi_node", "pdt_mi_reload",
+    "prefix2domain", "update_new_uri", "w_prefix2domain", "w_prefix2domain_1", "w_prefix2domain_2"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db_op.h", "../../db/db.h", "../../mem/shm_mem.h",
+    "../../mem/mem.h", "../../dprint.h", "../../parser/parse_uri.h", "../../timer.h",
+    "../../ut.h", "../../rw_locking.h", "../../action.h", "../../mod_fix.h", "../../parser/parse_from.h",
+    "pdtree.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pdt/

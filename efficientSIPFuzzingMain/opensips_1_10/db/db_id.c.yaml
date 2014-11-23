@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db_id.c
+  :function_list: ! '["cmp_db_id", "dupl_string", "free_db_id", "new_db_id", "parse_db_url"]'
+  :file_headers: ! '["db_id.h", "../dprint.h", "../mem/mem.h", "../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xode.c
+  :function_list: ! '["_xode_appendsibling", "_xode_new", "xode_get_pool", "_xode_hidesibling",
+    "_xode_insert", "_xode_merge", "_xode_search", "_xode_strcmp", "_xode_tag2str",
+    "xode_get_data", "xode_get_firstchild", "xode_get_nextsibling", "xode_get_type",
+    "xode_get_firstattrib", "xode_get_name", "_xode_to_prettystr", "_xode_tospool",
+    "xode_get_parent", "xode_has_children", "xode_cmp", "xode_dup", "xode_has_attribs",
+    "xode_insert_node", "xode_get_datasz", "xode_insert_cdata", "xode_insert_tagnode",
+    "xode_insert_tag", "xode_put_attrib", "xode_new", "xode_dup_frompool", "xode_new_frompool",
+    "xode_free", "xode_get_attrib", "xode_get_lastchild", "xode_get_prevsibling",
+    "xode_get_tag", "xode_get_tagdata", "xode_get_vattrib", "xode_hide", "xode_hide_attrib",
+    "xode_new_tag", "xode_put_vattrib", "xode_to_prettystr", "xode_to_str", "xode_wrap"]'
+  :file_headers: ! '["xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

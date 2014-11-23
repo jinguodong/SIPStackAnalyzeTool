@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_fwd.c
+  :function_list: ! '["add_blind_uac", "add_uac", "count_local_rr", "post_print_uac_request",
+    "pre_print_uac_request", "shm_clone_proxy", "update_uac_dst", "print_uac_request",
+    "cancel_invite", "e2e_cancel_branch", "get_branch_index", "get_on_branch", "t_forward_nonack",
+    "t_on_branch", "t_replicate"]'
+  :file_headers: ! '["../../dprint.h", "../../config.h", "../../ut.h", "../../dset.h",
+    "../../timer.h", "../../hash_func.h", "../../globals.h", "../../action.h", "../../data_lump.h",
+    "../../blacklists.h", "../../usr_avp.h", "../../mem/mem.h", "../../parser/parser_f.h",
+    "t_funcs.h", "t_hooks.h", "t_msgbuilder.h", "ut.h", "t_cancel.h", "t_lookup.h",
+    "t_fwd.h", "fix_lumps.h", "config.h", "../../msg_callbacks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

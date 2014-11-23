@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/dlist.c
+  :function_list: ! '["find_dlist", "find_domain", "free_all_udomains", "get_all_db_ucontacts",
+    "get_all_mem_ucontacts", "get_all_ucontacts", "get_next_udomain", "get_number_of_users",
+    "new_dlist", "print_all_udomains", "register_udomain", "synchronize_all_udomains"]'
+  :file_headers: ! '["dlist.h", "../../ut.h", "../../db/db_ut.h", "../../mem/shm_mem.h",
+    "../../dprint.h", "../../ip_addr.h", "../../socket_info.h", "udomain.h", "utime.h",
+    "ul_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

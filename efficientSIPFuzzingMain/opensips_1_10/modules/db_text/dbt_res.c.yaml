@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_res.c
+  :function_list: ! '["dbt_cmp_val", "dbt_get_refs", "dbt_result_add_row", "dbt_result_extract_fields",
+    "dbt_result_new_row", "dbt_result_free", "dbt_result_new", "dbt_result_print",
+    "dbt_row_match"]'
+  :file_headers: ! '["../../mem/mem.h", "dbt_res.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

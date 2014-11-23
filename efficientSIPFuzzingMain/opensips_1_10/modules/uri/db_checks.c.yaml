@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/db_checks.c
+  :function_list: ! '["check_from", "check_username", "check_to", "does_uri_exist",
+    "get_auth_id", "set_result_pv", "uridb_db_bind", "uridb_db_close", "uridb_db_init"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../parser/digest/digest.h",
+    "../../parser/parse_from.h", "../../parser/parse_uri.h", "../../ut.h", "../../db/db.h",
+    "../../pvar.h", "../../script_var.h", "uri_mod.h", "db_checks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/

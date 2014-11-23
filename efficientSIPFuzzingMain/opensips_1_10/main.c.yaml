@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/main.c
+  :function_list: ! '["cleanup", "handle_sigs", "kill_all_children", "install_sigs",
+    "main", "main_loop", "print_ct_constants", "sig_alarm_abort", "sig_alarm_kill",
+    "sig_usr"]'
+  :file_headers: ! '["help_msg.h", "config.h", "dprint.h", "daemonize.h", "route.h",
+    "udp_server.h", "bin_interface.h", "globals.h", "mem/mem.h", "mem/shm_mem.h",
+    "sr_module.h", "timer.h", "parser/msg_parser.h", "ip_addr.h", "resolve.h", "parser/parse_hname2.h",
+    "parser/digest/digest_parser.h", "name_alias.h", "hash_func.h", "pt.h", "script_cb.h",
+    "blacklists.h", "pt.h", "ut.h", "serialize.h", "statistics.h", "core_stats.h",
+    "pvar.h", "poll_types.h", "tcp_init.h", "tcp_conn.h", "tls/tls_init.h", "sctp_server.h",
+    "version.h", "mi/mi_core.h", "db/db_insertq.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

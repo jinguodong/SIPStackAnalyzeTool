@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/ldap_exp_fn.c
+  :function_list: ! '["ldap_filter_url_encode", "ldap_result_check", "ldap_result_next",
+    "ldap_search_impl", "ldap_write_result"]'
+  :file_headers: ! '["../../ut.h", "../../str.h", "../../pvar.h", "../../usr_avp.h",
+    "../../mem/mem.h", "ldap_exp_fn.h", "ldap_connect.h", "ldap_api_fn.h", "ldap_escape.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/

@@ -1,4 +1,4 @@
-SIPStackAnalyzeTool
+EfficientSIPFuzzing
 ===================
 
-An analyze tool of SIP
+This is the source code of the paper "An Efficient Fuzzing Test Method For SIP Server".

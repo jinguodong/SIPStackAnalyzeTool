@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_parameters.c
+  :function_list: ! '["REL_PTR", "encode_parameters", "reverseParameters", "print_encoded_parameters"]'
+  :file_headers: ! '["../../str.h", "../../parser/parse_param.h", "../../parser/parse_to.h",
+    "../../parser/parse_via.h", "../../parser/parse_disposition.h", "encode_parameters.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

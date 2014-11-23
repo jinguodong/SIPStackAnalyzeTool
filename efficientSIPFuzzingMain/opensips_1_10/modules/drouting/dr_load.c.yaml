@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/dr_load.c
+  :function_list: ! '["add_rule", "check_val", "dr_load_routing_info", "parse_time_def"]'
+  :file_headers: ! '["../../dprint.h", "../../route.h", "../../db/db.h", "../../mem/shm_mem.h",
+    "../../time_rec.h", "dr_load.h", "routing.h", "prefix_tree.h", "parse.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xmpp_server.c
+  :function_list: ! '["conn_find_domain", "conn_free", "conn_new", "in_stream_node_callback",
+    "xode_send", "xode_send_domain", "out_stream_node_callback"]'
+  :file_headers: ! '["../../sr_module.h", "xmpp.h", "xmpp_api.h", "network.h", "xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

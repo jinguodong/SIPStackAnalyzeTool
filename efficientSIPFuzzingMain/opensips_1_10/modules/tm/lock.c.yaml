@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/lock.c
+  :function_list: ! '["init_cell_lock", "init_entry_lock", "init_timerlist_lock",
+    "lock_cleanup", "lock_initialize", "release_cell_lock", "release_entry_lock",
+    "release_timerlist_lock"]'
+  :file_headers: ! '["lock.h", "timer.h", "../../dprint.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

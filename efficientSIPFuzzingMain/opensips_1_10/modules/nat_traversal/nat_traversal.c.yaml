@@ -1,0 +1,26 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/nat_traversal/nat_traversal.c
+  :function_list: ! '["Bool", "ClientNatTest", "Dialog_Param_add_candidate", "shm_strdup",
+    "strlen", "Dialog_Param_del", "Dialog_Param_has_candidate", "Dialog_Param_new",
+    "FixContact", "STR_MATCH_STR", "get_contact_uri", "HASH", "HashTable_del", "NAT_Contact_del",
+    "SIP_Dialog_del", "HashTable_new", "HashTable_search", "NAT_Contact_match", "NAT_Contact_get_dialog",
+    "NAT_Contact_new", "NAT_Contact_purge_expired", "SIP_Dialog_purge_expired", "SIP_Registration_expire",
+    "SIP_Subscription_expire", "NAT_Keepalive", "SIP_Dialog_end", "SIP_Dialog_new",
+    "SIP_Registration_update", "SIP_Subscription_update", "STR_HAS_IPREFIX", "STR_HAS_PREFIX",
+    "STR_IMATCH", "STR_IMATCH_STR", "STR_MATCH", "__dialog_confirmed", "get_source_uri",
+    "__dialog_destroy", "__dialog_early", "__sl_reply_out", "get_expires", "get_register_expire",
+    "max", "keepalive_registration", "keepalive_subscription", "__tm_reply_in", "__tm_reply_out",
+    "__tm_request_in", "child_init", "defined", "hash_string", "is_private_address",
+    "keepalive_timer", "send_keepalive", "memcmp", "min", "mod_destroy", "save_keepalive_state",
+    "mod_init", "restore_keepalive_state", "nat_keepalive", "preprocess_request",
+    "pv_get_keepalive_socket", "pv_get_source_uri", "pv_get_track_dialog", "pv_parse_nat_contact_name",
+    "pv_set_track_dialog", "reply_filter", "rfc1918address", "strncasecmp", "test_private_contact",
+    "test_private_via", "test_source_address", "test_source_contact", "value"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/shm_mem.h", "../../mem/mem.h",
+    "../../lock_ops.h", "../../dprint.h", "../../str.h", "../../pvar.h", "../../error.h",
+    "../../timer.h", "../../resolve.h", "../../data_lump.h", "../../mod_fix.h", "../../script_cb.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "../../parser/parse_uri.h",
+    "../../parser/parse_expires.h", "../../parser/contact/parse_contact.h", "../dialog/dlg_load.h",
+    "../tm/tm_load.h", "../sl/sl_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/nat_traversal/

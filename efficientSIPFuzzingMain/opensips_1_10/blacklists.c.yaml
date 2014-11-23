@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/blacklists.c
+  :function_list: ! '["add_list_to_head", "reload_permanent_list", "rm_dups", "ip_class_compare",
+    "add_rule_to_list", "check_against_blacklist", "check_against_rule_list", "create_bl_head",
+    "get_bl_head_by_name", "delete_expired", "delete_expired_routine", "destroy_black_lists",
+    "init_black_lists", "mark_for_search", "mi_print_blacklists", "preinit_black_lists",
+    "reset_bl_markers"]'
+  :file_headers: ! '["mem/mem.h", "mem/shm_mem.h", "mi/mi.h", "dprint.h", "blacklists.h",
+    "timer.h", "ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

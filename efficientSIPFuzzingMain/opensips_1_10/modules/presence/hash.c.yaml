@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/hash.c
+  :function_list: ! '["delete_phtable", "delete_phtable_query", "search_phtable_etag",
+    "delete_shtable", "free_subs", "destroy_phtable", "destroy_shtable", "free_subs_list",
+    "insert_phtable", "update_pres_etag", "insert_shtable", "mem_copy_subs_noc", "mem_copy_subs",
+    "new_phtable", "new_shtable", "next_turn_phtable", "search_phtable", "search_shtable",
+    "update_phtable", "update_shtable"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "../../str.h", "../pua/hash.h",
+    "presence.h", "hash.h", "notify.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

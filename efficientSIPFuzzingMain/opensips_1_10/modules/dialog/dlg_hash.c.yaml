@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_hash.c
+  :function_list: ! '["build_new_dlg", "destroy_dlg", "free_dlg_dlg", "destroy_dlg_table",
+    "dialog_cleanup", "unref_dlg", "dlg_add_leg_info", "dlg_update_cseq", "dlg_update_routing",
+    "get_current_dialog", "get_dlg", "get_dlg_by_val", "init_dlg_table", "internal_mi_print_dlg",
+    "internal_mi_print_dlgs", "link_dlg", "log_next_state_dlg", "lookup_dlg", "match_downstream_dialog",
+    "mi_print_dlg", "mi_print_dlgs", "process_mi_params", "mi_print_dlgs_ctx", "next_state_dlg",
+    "ref_dlg", "unlink_unsafe_dlg"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../hash_func.h", "../../mi/mi.h",
+    "../../route.h", "../../md5utils.h", "../../parser/parse_to.h", "../tm/tm_load.h",
+    "dlg_hash.h", "dlg_profile.h", "dlg_replication.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_base.c
+  :function_list: ! '["dbt_close", "dbt_delete", "dbt_free_result", "dbt_init", "dbt_insert",
+    "dbt_query", "dbt_raw_query", "dbt_update"]'
+  :file_headers: ! '["../../str.h", "../../mem/mem.h", "../../mem/shm_mem.h", "dbtext.h",
+    "dbt_res.h", "dbt_api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

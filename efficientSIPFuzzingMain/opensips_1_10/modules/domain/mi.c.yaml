@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domain/mi.c
+  :function_list: ! '["mi_domain_dump", "mi_domain_reload"]'
+  :file_headers: ! '["../../dprint.h", "../../db/db.h", "domain_mod.h", "domain.h",
+    "hash.h", "mi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/domain/

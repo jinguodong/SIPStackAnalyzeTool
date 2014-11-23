@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_min_expires.c
+  :function_list: ! '["parse_min_expires"]'
+  :file_headers: ! '["../error.h", "../dprint.h", "../errinfo.h", "parse_sst.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

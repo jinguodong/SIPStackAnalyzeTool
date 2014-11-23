@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPRegUserLookupTable.c
+  :function_list: ! '["init_openserSIPRegUserLookupTable", "initialize_table_openserSIPRegUserLookupTable",
+    "openserSIPRegUserLookupTable_can_activate", "openserSIPRegUserLookupTable_can_deactivate",
+    "openserSIPRegUserLookupTable_can_delete", "openserSIPRegUserLookupTable_create_row",
+    "openserSIPRegUserLookupTable_extract_index", "openserSIPRegUserLookupTable_delete_row",
+    "openserSIPRegUserLookupTable_duplicate_row", "openserSIPRegUserLookupTable_row_copy",
+    "openserSIPRegUserLookupTable_get_by_idx", "openserSIPRegUserLookupTable_get_value",
+    "openserSIPRegUserLookupTable_set_action", "openserSIPRegUserLookupTable_set_commit",
+    "openserSIPRegUserLookupTable_set_free", "openserSIPRegUserLookupTable_set_reserve1",
+    "openserSIPRegUserLookupTable_set_reserve2", "openserSIPRegUserLookupTable_set_undo"]'
+  :file_headers: ! '["openserSIPRegUserLookupTable.h", "snmpstats_globals.h", "hashTable.h",
+    "interprocess_buffer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

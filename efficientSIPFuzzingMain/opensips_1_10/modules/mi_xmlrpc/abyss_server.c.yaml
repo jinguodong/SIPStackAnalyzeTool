@@ -1,0 +1,23 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/abyss_server.c
+  :function_list: ! '["LogWrite", "logOpen", "ServerAddHandler", "createHandler",
+    "ServerAddHandler2", "ServerCreate", "createServer", "initSocketStuff", "initUnixStuff",
+    "setNamePathLog", "ServerSetFilesPath", "ServerSetLogFileName", "ServerSetName",
+    "ServerCreateNoAccept", "ServerCreateSocket", "createSocketFromOsSocket", "ServerCreateSocket2",
+    "ServerDaemonize", "setGroups", "ServerDefaultHandler", "ServerDefaultHandlerFunc",
+    "ServerDirectoryHandler", "determineSortType", "fileDate", "generateListing",
+    "sendDirectoryDocument", "ServerFileHandler", "sendBody", "ServerFree", "logClose",
+    "terminateHandlers", "ServerHandleSigchld", "ServerInit", "createAndBindSocket",
+    "ServerResetTerminate", "ServerRun", "serverRun2", "addToOutstandingConnList",
+    "createOutstandingConnList", "destroyOutstandingConnList", "freeFinishedConns",
+    "waitForConnectionCapacity", "waitForConnectionFreed", "waitForNoConnections",
+    "ServerRunConn", "ServerRunConn2", "serverRunConn", "ServerRunOnce", "ServerRunOnce2",
+    "ServerSetAdvertise", "ServerSetKeepaliveMaxConn", "ServerSetKeepaliveTimeout",
+    "ServerSetMimeType", "ServerSetTimeout", "ServerTerminate", "ServerUseSigchld",
+    "cmpfiledates", "cmpfilenames", "destroyConnSocket", "processDataFromClient",
+    "runUserHandler", "serverFunc"]'
+  :file_headers: ! '["abyss_mallocvar.h", "abyss_xmlrpc_int.h", "abyss_trace.h", "abyss_session.h",
+    "abyss_conn.h", "abyss_socket.h", "socket_win.h", "abyss_socket_unix.h", "abyss_http.h",
+    "abyss_date.h", "abyss_info.h", "abyss_server.h", "../../dprint.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

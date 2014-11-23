@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/pike_funcs.c
+  :function_list: ! '["clean_routine", "pike_check_req", "pike_raise_event", "refresh_node",
+    "run_pike_route", "swap_routine"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../evi/evi_modules.h", "../../locking.h",
+    "../../timer.h", "../../ip_addr.h", "../../resolve.h", "../../action.h", "../../route.h",
+    "ip_tree.h", "pike_funcs.h", "timer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/

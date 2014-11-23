@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/forward.c
+  :function_list: ! '["check_self", "forward_reply", "get_send_socket", "get_out_socket",
+    "update_sock_struct_from_via", "forward_request", "get_sl_branch", "run_fwd_callbacks",
+    "register_fwdcb"]'
+  :file_headers: ! '["forward.h", "parser/msg_parser.h", "dprint.h", "ut.h", "dset.h",
+    "mem/mem.h", "msg_translator.h", "sr_module.h", "ip_addr.h", "resolve.h", "name_alias.h",
+    "socket_info.h", "core_stats.h", "blacklists.h", "msg_callbacks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

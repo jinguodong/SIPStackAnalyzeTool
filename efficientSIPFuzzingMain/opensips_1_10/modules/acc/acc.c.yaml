@@ -1,0 +1,19 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/acc.c
+  :function_list: ! '["ADD_AAA_AVPAIR", "EVI_CREATE_PARAM", "GET_LEN", "SET_EMPTY_VAL",
+    "SET_LEN", "SET_LOG_ATTR", "aaa_status", "acc_aaa_cdrs", "acc_get_created", "complete_dlg_values",
+    "prebuild_core_arr", "prebuild_extra_arr", "prebuild_leg_arr", "acc_aaa_cdrs_request",
+    "prebuild_string", "acc_aaa_request", "core2strar", "get_ft_body", "acc_db_cdrs",
+    "acc_db_close", "acc_db_init", "acc_db_init_keys", "acc_db_init_child", "acc_db_request",
+    "acc_diam_init", "acc_diam_request", "diam_status", "acc_evi_cdrs", "acc_evi_request",
+    "acc_log_cdrs", "acc_log_init", "acc_log_request", "build_core_dlg_values", "set_dlg_value",
+    "build_extra_dlg_values", "build_leg_dlg_values", "create_acc_dlg", "init_acc_aaa",
+    "init_acc_evi", "phrase2code", "store_aaa_extra_values", "store_extra_values",
+    "store_core_leg_values", "store_db_extra_values", "store_evi_extra_values", "store_log_extra_values"]'
+  :file_headers: ! '["../../dprint.h", "../../error.h", "../../ut.h", "../../mem/mem.h",
+    "../../usr_avp.h", "../../db/db.h", "../../db/db_insertq.h", "../../parser/hf.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "../../parser/digest/digest.h",
+    "../tm/t_funcs.h", "../../aaa/aaa.h", "diam_dict.h", "diam_message.h", "diam_tcp.h",
+    "acc.h", "acc_mod.h", "acc_extra.h", "acc_logic.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/io_wait.c
+  :function_list: ! '["check_poll_method", "get_sys_version", "choose_poll_method",
+    "destroy_devpoll", "destroy_epoll", "destroy_io_wait", "destroy_kqueue", "destroy_sigio",
+    "get_poll_type", "init_devpoll", "init_epoll", "init_io_wait", "init_kqueue",
+    "init_select", "init_sigio", "poll_method_name"]'
+  :file_headers: ! '["io_wait.h", "mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

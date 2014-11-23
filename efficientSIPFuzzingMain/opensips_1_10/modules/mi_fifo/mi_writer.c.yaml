@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_fifo/mi_writer.c
+  :function_list: ! '["mi_flush_tree", "recur_flush_tree", "mi_write_node", "mi_write_tree",
+    "recur_write_tree", "mi_writer_destroy", "mi_writer_init"]'
+  :file_headers: ! '["../../str.h", "../../ut.h", "../../dprint.h", "../../mi/tree.h",
+    "../../mem/mem.h", "mi_fifo.h", "fifo_fnc.h", "mi_parser.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_fifo/

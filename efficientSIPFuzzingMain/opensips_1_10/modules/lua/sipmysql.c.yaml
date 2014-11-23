@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipmysql.c
+  :function_list: ! '["l_sipmysql___gc", "sipmysql_close", "sipmysql_free_result",
+    "l_sipmysql___index", "l_sipmysql_fetch_array", "sipmysql_fetch", "l_sipmysql_fetch_assoc",
+    "l_sipmysql_fetch_row", "l_sipmysql_free_result", "l_sipmysql_stmt___gc", "sipmysql_stmt_close",
+    "sipmysql_stmt_free_result", "l_sipmysql_stmt___index", "siplua_register_mysql_cclosures",
+    "l_sipmysql_connect"]'
+  :file_headers: ! '["../../mem/mem.h", "sipluafunc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

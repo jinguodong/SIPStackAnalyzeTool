@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPPortTable.c
+  :function_list: ! '["createIndex", "createRowsFromIPList", "getRow", "init_openserSIPPortTable",
+    "initialize_table_openserSIPPortTable", "openserSIPPortTable_get_by_idx", "openserSIPPortTable_get_value"]'
+  :file_headers: ! '["snmpstats_globals.h", "../../socket_info.h", "openserSIPPortTable.h",
+    "../../statistics.h", "../../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

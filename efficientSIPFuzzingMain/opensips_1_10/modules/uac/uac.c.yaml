@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac/uac.c
+  :function_list: ! '["fixup_replace_disp_uri", "fixup_replace_uri", "mod_destroy",
+    "mod_init", "parse_store_bavp", "w_replace_from", "w_replace_to", "w_restore_from",
+    "w_restore_to", "w_uac_auth"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../error.h", "../../pvar.h",
+    "../../mem/mem.h", "../../parser/parse_from.h", "../tm/tm_load.h", "../tm/t_hooks.h",
+    "../rr/api.h", "../uac_auth/uac_auth.h", "../dialog/dlg_load.h", "replace.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac/

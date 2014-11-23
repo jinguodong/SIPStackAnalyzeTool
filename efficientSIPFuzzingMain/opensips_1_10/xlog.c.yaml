@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/xlog.c
+  :function_list: ! '["append_sstring", "buf_init", "pv_get_color", "pv_parse_color_name",
+    "xdbg", "xl_print_log", "xlog_1", "xlog_2"]'
+  :file_headers: ! '["sr_module.h", "dprint.h", "error.h", "mem/mem.h", "xlog.h",
+    "pvar.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

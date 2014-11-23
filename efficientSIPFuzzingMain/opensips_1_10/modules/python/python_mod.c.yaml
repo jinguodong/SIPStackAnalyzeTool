@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/python/python_mod.c
+  :function_list: ! '["child_init", "mod_destroy", "mod_init"]'
+  :file_headers: ! '["../../str.h", "../../sr_module.h", "python_exec.h", "python_iface.h",
+    "python_msgobj.h", "python_support.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/python/

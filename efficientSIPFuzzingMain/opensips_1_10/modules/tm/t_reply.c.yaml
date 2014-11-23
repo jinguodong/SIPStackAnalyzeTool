@@ -1,0 +1,17 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_reply.c
+  :function_list: ! '["_reply", "_reply_light", "cleanup_uac_timers", "set_final_timer",
+    "update_local_tags", "branch_prio", "do_dns_failover", "fake_req", "faked_env",
+    "free_faked_req", "get_on_negative", "get_on_reply", "is_3263_failure", "local_reply",
+    "store_reply", "t_should_relay_response", "run_failure_handlers", "t_pick_branch",
+    "update_totag_set", "relay_reply", "t_reply_unsafe", "reply_received", "send_ack",
+    "t_get_picked_branch", "t_on_negative", "t_on_reply", "t_reply", "t_reply_with_body",
+    "t_retransmit_reply", "tm_init_tags", "unmatched_totag", "w_t_reply_with_body"]'
+  :file_headers: ! '["../../hash_func.h", "../../dprint.h", "../../config.h", "../../parser/parser_f.h",
+    "../../ut.h", "../../timer.h", "../../error.h", "../../action.h", "../../dset.h",
+    "../../tags.h", "../../data_lump.h", "../../data_lump_rpl.h", "../../usr_avp.h",
+    "../../receive.h", "../../msg_callbacks.h", "h_table.h", "t_hooks.h", "t_funcs.h",
+    "t_reply.h", "t_cancel.h", "t_msgbuilder.h", "t_lookup.h", "t_fwd.h", "fix_lumps.h",
+    "t_stats.h", "uac.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

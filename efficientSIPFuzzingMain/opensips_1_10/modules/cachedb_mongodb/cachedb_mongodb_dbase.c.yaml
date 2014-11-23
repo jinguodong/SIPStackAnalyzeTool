@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_mongodb/cachedb_mongodb_dbase.c
+  :function_list: ! '["MONGO_DB_KEY_TRANS", "dbg_bson_print_raw", "dbg_print_bson",
+    "mongo_con_add", "mongo_con_destroy", "mongo_con_get", "mongo_con_get_counter",
+    "mongo_con_init", "mongo_con_raw_query", "mongo_raw_count", "mongo_raw_find",
+    "mongo_raw_insert", "mongo_raw_remove", "mongo_raw_update", "mongo_con_remove",
+    "mongo_con_set", "mongo_con_sub", "mongo_db_delete_trans", "mongo_db_free_result_trans",
+    "mongo_db_insert_trans", "mongo_db_query_trans", "mongo_db_update_trans", "mongo_free_connection",
+    "mongo_new_connection"]'
+  :file_headers: ! '["../../dprint.h", "cachedb_mongodb_dbase.h", "cachedb_mongodb_json.h",
+    "../../mem/mem.h", "../../ut.h", "../../cachedb/cachedb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_mongodb/

@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/udomain.c
+  :function_list: ! '["db_load_urecord", "dbrow2info", "get_static_urecord", "db_timer_udomain",
+    "delete_urecord", "get_urecord", "free_udomain", "lock_ulslot", "unlock_ulslot",
+    "insert_urecord", "mem_insert_urecord", "ul_raise_event", "lock_udomain", "mem_delete_urecord",
+    "mem_timer_udomain", "new_udomain", "preload_udomain", "unlock_udomain", "print_udomain",
+    "testdb_udomain", "ul_event_init"]'
+  :file_headers: ! '["udomain.h", "../../parser/parse_methods.h", "../../mem/shm_mem.h",
+    "../../dprint.h", "../../db/db.h", "../../socket_info.h", "../../ut.h", "../../hash_func.h",
+    "ul_mod.h", "utime.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

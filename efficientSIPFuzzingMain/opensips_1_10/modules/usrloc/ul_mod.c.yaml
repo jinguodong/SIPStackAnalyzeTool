@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/ul_mod.c
+  :function_list: ! '["child_init", "destroy", "mi_child_init", "mod_init", "timer"]'
+  :file_headers: ! '["../../sr_module.h", "ul_mod.h", "../../rw_locking.h", "../../dprint.h",
+    "../../timer.h", "../../globals.h", "../../ut.h", "dlist.h", "udomain.h", "urecord.h",
+    "ucontact.h", "ul_mi.h", "ul_callback.h", "usrloc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

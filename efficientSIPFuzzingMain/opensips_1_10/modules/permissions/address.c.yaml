@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/address.c
+  :function_list: ! '["check_addr_4", "check_addr_6", "check_addr_5", "check_src_addr_1",
+    "check_src_addr_3", "check_src_addr_2", "clean_address", "get_source_group", "init_address",
+    "reload_address_table", "proto_char2int", "mi_init_address"]'
+  :file_headers: ! '["../../config.h", "../../db/db.h", "../../ip_addr.h", "../../mem/shm_mem.h",
+    "../../parser/msg_parser.h", "../../parser/parse_from.h", "../../mod_fix.h", "../../resolve.h",
+    "permissions.h", "hash.h", "address.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/

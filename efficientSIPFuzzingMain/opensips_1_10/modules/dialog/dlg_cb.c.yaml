@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_cb.c
+  :function_list: ! '["POINTER_CLOSED_MARKER", "destroy_dlg_callbacks", "destroy_dlg_callbacks_list",
+    "init_dlg_callback", "register_dlgcb", "run_load_callback", "run_create_callbacks",
+    "run_dlg_callbacks", "run_load_callbacks"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "dlg_hash.h", "dlg_cb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

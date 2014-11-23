@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/cpl_nonsig.c
+  :function_list: ! '["cpl_aux_process", "write_log", "send_mail"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../mem/mem.h", "../../dprint.h", "cpl_nonsig.h",
+    "CPL_tree.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

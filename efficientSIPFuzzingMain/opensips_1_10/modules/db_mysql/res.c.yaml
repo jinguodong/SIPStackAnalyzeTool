@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/res.c
+  :function_list: ! '["db_mysql_convert_result", "db_mysql_convert_rows", "db_mysql_get_columns"]'
+  :file_headers: ! '["../../db/db_res.h", "../../mem/mem.h", "../../dprint.h", "row.h",
+    "my_con.h", "res.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/

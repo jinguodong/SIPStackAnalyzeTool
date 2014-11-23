@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sngtc/sngtc.c
+  :function_list: ! '["child_init", "create_transcoding_session", "free_transcoding_sessions",
+    "match_codecs", "sngtc_get_codec_int", "sngtc_get_codec_str", "mod_destroy", "mod_init",
+    "process_session", "process_stream", "remove_sdp_stream_attrs", "replace_sdp_stream_port",
+    "write_sdp_stream_attr", "sng_create_rtp", "sng_create_rtp_port", "sng_destroy_rtp",
+    "sng_logger", "sng_release_rtp_port", "sngtc_callee_answer", "sngtc_caller_answer",
+    "sngtc_dlg_terminated", "sngtc_offer", "store_sngtc_info", "w_sngtc_callee_answer"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../error.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "../../parser/sdp/sdp.h", "../../data_lump.h", "../../ut.h",
+    "../../pt.h", "../../mod_fix.h", "../dialog/dlg_load.h", "sngtc.h", "sngtc_proc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sngtc/

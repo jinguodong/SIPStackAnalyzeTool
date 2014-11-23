@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_http/http_fnc.c
+  :function_list: ! '["MI_HTTP_COPY", "MI_HTTP_COPY_10", "MI_HTTP_COPY_11", "MI_HTTP_COPY_12",
+    "MI_HTTP_COPY_2", "MI_HTTP_COPY_3", "MI_HTTP_COPY_4", "MI_HTTP_COPY_5", "MI_HTTP_COPY_6",
+    "MI_HTTP_COPY_7", "MI_HTTP_ESC_COPY", "init_upSinceCTime", "mi_http_build_async_handler",
+    "mi_http_build_content", "mi_http_build_header", "mi_http_recur_flush_tree", "mi_http_write_node",
+    "mi_http_recur_write_tree", "mi_http_build_page", "mi_http_close_async", "mi_http_destroy_async_lock",
+    "mi_http_flush_content", "mi_http_flush_tree", "mi_http_init_async_lock", "mi_http_init_cmds",
+    "mi_http_parse_tree", "mi_http_parse_url", "mi_http_run_mi_cmd"]'
+  :file_headers: ! '["../../str.h", "../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../mi/mi.h", "../../config.h", "../../globals.h", "../../locking.h", "http_fnc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_http/

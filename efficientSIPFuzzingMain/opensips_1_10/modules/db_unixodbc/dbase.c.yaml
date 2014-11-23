@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/dbase.c
+  :function_list: ! '["db_unixodbc_close", "db_unixodbc_delete", "db_unixodbc_free_result",
+    "db_unixodbc_init", "db_unixodbc_insert", "db_unixodbc_query", "db_unixodbc_raw_query",
+    "db_unixodbc_replace", "db_unixodbc_store_result", "db_unixodbc_submit_query",
+    "reconnect", "db_unixodbc_update", "db_unixodbc_use_table"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../db/db_query.h", "val.h",
+    "con.h", "res.h", "db_unixodbc.h", "dbase.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/

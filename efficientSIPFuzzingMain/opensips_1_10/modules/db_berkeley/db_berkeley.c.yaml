@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/db_berkeley.c
+  :function_list: ! '["bdb_bind_api", "bdb_use_table", "bdb_init", "bdb_close", "bdb_query",
+    "bdb_check_reload", "bdb_reload", "bdb_free_query", "bdb_insert", "bdb_delete",
+    "bdb_update", "bdb_raw_query"]'
+  :file_headers: ! '["../../sr_module.h", "../../str.h", "../../ut.h", "../../mem/mem.h",
+    "../../db/db_res.h", "../../db/db.h", "db_berkeley.h", "bdb_lib.h", "bdb_res.h",
+    "bdb_mi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/

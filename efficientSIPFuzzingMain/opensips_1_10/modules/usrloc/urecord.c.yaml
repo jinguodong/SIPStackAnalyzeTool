@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/urecord.c
+  :function_list: ! '["contact_callid_match", "contact_match", "db_delete_urecord",
+    "delete_ucontact", "mem_delete_ucontact", "mem_remove_ucontact", "free_urecord",
+    "get_simple_ucontact", "get_ucontact", "insert_ucontact", "mem_insert_ucontact",
+    "new_urecord", "nodb_timer", "print_urecord", "release_urecord", "timer_urecord",
+    "wb_timer", "wt_timer"]'
+  :file_headers: ! '["urecord.h", "../../mem/shm_mem.h", "../../dprint.h", "../../ut.h",
+    "../../hash_func.h", "../../db/db_insertq.h", "ul_mod.h", "utime.h", "ul_callback.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

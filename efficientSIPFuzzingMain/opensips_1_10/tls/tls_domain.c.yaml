@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/tls_domain.c
+  :function_list: ! '["tls_free_domains", "tls_new_client_domain", "tls_new_domain",
+    "tls_new_client_domain_name", "tls_new_server_domain"]'
+  :file_headers: ! '["tls_server.h", "tls_domain.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/tls/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/routing.c
+  :function_list: ! '["add_carrier", "parse_destination_list", "add_dst", "add_rt_info",
+    "build_rt_data", "build_rt_info", "del_carriers_list", "del_pgw_list", "free_rt_data"]'
+  :file_headers: ! '["../../str.h", "../../resolve.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../parser/parse_uri.h", "../../time_rec.h", "routing.h", "prefix_tree.h",
+    "parse.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/

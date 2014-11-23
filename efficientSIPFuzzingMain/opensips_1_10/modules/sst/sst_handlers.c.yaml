@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sst/sst_handlers.c
+  :function_list: ! '["DLOGMSG", "MAX", "MIN", "append_header", "parse_msg_for_sst_info",
+    "remove_minse_header", "send_reject", "send_response", "set_timeout_avp", "setup_dialog_callbacks",
+    "sst_check_min", "sst_dialog_confirmed_CB", "sst_dialog_created_CB", "sst_dialog_request_within_CB",
+    "sst_dialog_response_fwded_CB", "sst_dialog_terminate_CB", "sst_handler_init"]'
+  :file_headers: ! '["../../pvar.h", "../../parser/parse_sst.h", "../../parser/parse_supported.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../data_lump.h", "../../data_lump_rpl.h",
+    "../../ut.h", "../../dprint.h", "../../sr_module.h", "../signaling/signaling.h",
+    "sst_handlers.h", "sst_mi.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sst/

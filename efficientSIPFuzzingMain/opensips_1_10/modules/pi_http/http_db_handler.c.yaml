@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pi_http/http_db_handler.c
+  :function_list: ! '["connect_http_db", "destroy_http_db", "init_http_db", "use_table"]'
+  :file_headers: ! '["../../db/db.h", "http_fnc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pi_http/

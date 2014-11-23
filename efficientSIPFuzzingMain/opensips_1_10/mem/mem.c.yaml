@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/mem.c
+  :function_list: ! '["defined", "init_pkg_mallocs", "init_shm_mallocs", "pkg_event_raise",
+    "pkg_threshold_check", "set_pkg_stats", "sys_free", "sys_malloc", "sys_realloc"]'
+  :file_headers: ! '["../config.h", "../dprint.h", "../globals.h", "mem.h", "vq_malloc.h",
+    "q_malloc.h", "shm_mem.h", "../evi/evi_core.h", "../evi/evi_modules.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mem/

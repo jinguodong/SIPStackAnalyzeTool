@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_allow.c
+  :function_list: ! '["encode_allow", "print_encoded_allow"]'
+  :file_headers: ! '["../../parser/parse_allow.h", "../../parser/msg_parser.h", "encode_allow.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

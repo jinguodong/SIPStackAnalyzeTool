@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/md5.c
+  :function_list: ! '["Decode", "Encode", "F", "FF", "ROTATE_LEFT", "G", "GG", "H",
+    "HH", "I", "II", "MD5Final", "MD5Update", "MD5Transform", "MD5_memset", "MD5_memcpy",
+    "MD5Init"]'
+  :file_headers: ! '["md5global.h", "md5.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

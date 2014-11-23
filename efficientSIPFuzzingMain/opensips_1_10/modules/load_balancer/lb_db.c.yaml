@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/load_balancer/lb_db.c
+  :function_list: ! '["check_val", "init_lb_db", "lb_connect_db", "lb_close_db", "lb_db_load_data"]'
+  :file_headers: ! '["../../db/db.h", "lb_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/load_balancer/

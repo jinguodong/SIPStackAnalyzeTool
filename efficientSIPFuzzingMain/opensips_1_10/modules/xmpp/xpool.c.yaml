@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xpool.c
+  :function_list: ! '["_xode_pool_cleanup_append", "_xode_pool_free", "_xode_pool_heap",
+    "_xode_pool_heapfree", "_xode_pool_new", "_xode_pool_newheap", "xode_pool_cleanup",
+    "xode_pool_free", "xode_pool_heap", "xode_pool_malloc", "xode_pool_malloco", "xode_pool_mallocx",
+    "xode_pool_new", "xode_pool_size", "xode_pool_strdup", "xode_pool_strdupx"]'
+  :file_headers: ! '["xode.h", "config.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

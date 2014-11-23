@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/aaa_radius/aaa_radius.c
+  :function_list: ! '["CHECK_ALLOC", "CHECK_COND", "aaa_radius_bind_api", "destroy",
+    "init_radius_handle", "make_send_message", "mod_init", "parse_set_content", "parse_sets_func",
+    "send_acct_fixup", "send_acct_func", "send_auth_fixup", "send_auth_func"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "../../aaa/aaa.h", "../../pvar.h",
+    "rad.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/aaa_radius/

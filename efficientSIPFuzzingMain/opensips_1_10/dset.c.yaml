@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/dset.c
+  :function_list: ! '["CONTACT_DELIM_LEN", "CONTACT_LEN", "Q_PARAM_LEN", "append_branch",
+    "branch_uri2dset", "clear_branches", "get_branch", "get_ptr_bflags", "get_ruri_q",
+    "getb0flags", "isbflagset", "print_dset", "remove_branch", "resetbflag", "set_dset_state",
+    "set_ruri_q", "setb0flags", "setbflag", "update_branch"]'
+  :file_headers: ! '["dprint.h", "config.h", "parser/parser_f.h", "parser/msg_parser.h",
+    "ut.h", "hash_func.h", "error.h", "dset.h", "mem/mem.h", "ip_addr.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

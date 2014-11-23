@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/ip_addr.c
+  :function_list: ! '["is_mcast", "mk_net", "print_ip", "mk_net_bitlen", "print_net",
+    "stdout_print_ip"]'
+  :file_headers: ! '["ip_addr.h", "dprint.h", "mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

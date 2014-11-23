@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/diam_avp.c
+  :function_list: ! '["AAAAddAVPToMessage", "AAACloneAVP", "AAAConvertAVPToString",
+    "AAACreateAVP", "set_avp_fields", "AAAFindMatchingAVP", "AAAFreeAVP", "AAAGetFirstAVP",
+    "AAAGetLastAVP", "AAAGetNextAVP", "AAAGetPrevAVP", "AAARemoveAVPFromMessage"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "diam_message.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

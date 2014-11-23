@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/presence.c
+  :function_list: ! '["child_init", "destroy", "fixup_presence", "fixup_subscribe",
+    "mi_cleanup", "mi_list_phtable", "mi_print_phtable_record", "mi_list_shtable",
+    "mi_print_shtable_record", "mi_refreshWatchers", "update_watchers_status", "pres_db_delete_status",
+    "pres_update_status", "update_pw_dialogs", "refresh_send_winfo_notify", "mod_init",
+    "terminate_watchers"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../parser/parse_to.h", "../../parser/parse_uri.h", "../../parser/parse_content.h",
+    "../../parser/parse_from.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../usr_avp.h",
+    "../tm/tm_load.h", "../signaling/signaling.h", "../../pt.h", "../../mi/mi.h",
+    "../pua/hash.h", "publish.h", "subscribe.h", "event_list.h", "bind_presence.h",
+    "notify.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

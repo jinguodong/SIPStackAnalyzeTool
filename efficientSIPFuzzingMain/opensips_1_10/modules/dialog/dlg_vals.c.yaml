@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_vals.c
+  :function_list: ! '["_get_name_id", "check_dlg_value_unsafe", "fetch_dlg_value",
+    "new_dlg_val", "pv_get_dlg_val", "pv_parse_name", "pv_set_dlg_val", "store_dlg_value",
+    "store_dlg_value_unsafe"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "dlg_vals.h", "dlg_hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

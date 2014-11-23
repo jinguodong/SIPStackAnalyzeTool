@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/db_insertq.c
+  :function_list: ! '["cleanup_rows", "con_set_inslist", "find_query_list_unsafe",
+    "ql_add_unsafe", "ql_init", "destroy_query_list", "flush_query_list", "handle_ql_shutdown",
+    "init_ql_support", "init_query_list", "ql_detach_rows_unsafe", "ql_flush_rows",
+    "ql_row_add", "ql_timer_routine"]'
+  :file_headers: ! '["db_insertq.h", "db_cap.h", "../timer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/db/

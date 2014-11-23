@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_to_body.c
+  :function_list: ! '["dump_to_body_test", "encode_to_body", "print_encoded_to_body"]'
+  :file_headers: ! '["../../mem/mem.h", "../../parser/msg_parser.h", "../../parser/parse_uri.h",
+    "../../dprint.h", "encode_to_body.h", "encode_uri.h", "encode_header.h", "encode_parameters.h",
+    "xaddress.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

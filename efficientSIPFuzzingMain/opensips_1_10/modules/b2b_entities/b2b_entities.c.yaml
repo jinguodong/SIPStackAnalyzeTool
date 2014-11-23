@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/b2b_entities.c
+  :function_list: ! '["b2b_entities_bind", "b2b_get_b2bl_key", "b2b_restore_logic_info",
+    "b2b_update_b2bl_param", "b2be_db_timer_update", "check_htable", "check_htables",
+    "child_init", "mi_b2be_list", "mi_print_b2be_dlg", "mod_destroy", "mod_init"]'
+  :file_headers: ! '["../../db/db.h", "../../sr_module.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../script_cb.h", "../../parser/parse_from.h", "../dialog/dlg_load.h",
+    "../uac_auth/uac_auth.h", "b2be_db.h", "b2b_entities.h", "server.h", "dlg.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/

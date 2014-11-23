@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_content_type.c
+  :function_list: ! '["encode_accept", "encode_mime_type", "encode_content_type",
+    "print_encoded_accept", "print_encoded_mime_type", "print_encoded_content_type"]'
+  :file_headers: ! '["../../parser/parse_content.h", "encode_content_type.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

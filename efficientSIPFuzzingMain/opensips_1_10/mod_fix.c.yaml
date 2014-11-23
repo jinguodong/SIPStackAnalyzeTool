@@ -1,0 +1,16 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mod_fix.c
+  :function_list: ! '["fixup_free_igp_pvar_pvar", "fixup_free_pvar", "fixup_free_pvar_null",
+    "fixup_free_pvar_pvar", "fixup_free_pvar_str", "fixup_free_str", "fixup_free_pvar_str_str",
+    "fixup_free_regexp", "fixup_free_regexp_none", "fixup_free_regexp_null", "fixup_free_str_null",
+    "fixup_free_str_str", "fixup_get_ivalue", "fixup_get_svalue", "fixup_igp", "fixup_igp_igp",
+    "fixup_igp_igp_igp", "fixup_igp_null", "fixup_igp_pvar_pvar", "fixup_pvar", "fixup_pvar_null",
+    "fixup_pvar_pvar", "fixup_pvar_str", "fixup_str", "fixup_pvar_str_str", "fixup_regexp",
+    "fixup_regexpNL_none", "fixup_regexpNL_null", "fixup_regexp_none", "fixup_regexp_null",
+    "fixup_sgp", "fixup_sgp_null", "fixup_sgp_sgp", "fixup_sint", "fixup_sint_null",
+    "fixup_sint_sint", "fixup_sint_uint", "fixup_uint", "fixup_spve", "fixup_spve_null",
+    "fixup_spve_spve", "fixup_spve_uint", "fixup_str_null", "fixup_str_str", "fixup_uint_null",
+    "fixup_uint_sint", "fixup_uint_uint"]'
+  :file_headers: ! '["mem/mem.h", "str.h", "ut.h", "error.h", "pvar.h", "mod_fix.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/commands.c
+  :function_list: ! '["dump_make_conf", "generate_cfg", "save_m4_def", "strlen", "read_install_prefix",
+    "reset_unsaved_compile", "run_make_install", "run_make_proper", "save_all_changes"]'
+  :file_headers: ! '["main.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/menuconfig/

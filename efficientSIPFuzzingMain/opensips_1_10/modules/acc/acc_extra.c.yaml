@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/acc_extra.c
+  :function_list: ! '["REPLY_STR_LEN", "destroy_extras", "extra2attrs", "extra2int",
+    "extra2strar", "init_acc_extra", "legs2strar", "parse_acc_extra", "parse_acc_leg"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../usr_avp.h", "../../socket_info.h",
+    "../../mem/mem.h", "acc_extra.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

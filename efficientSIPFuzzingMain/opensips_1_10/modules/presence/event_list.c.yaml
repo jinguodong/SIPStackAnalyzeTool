@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/event_list.c
+  :function_list: ! '["add_event", "contains_event", "free_event_params", "search_event",
+    "search_event_params", "free_pres_event", "shm_free_event", "shm_copy_event",
+    "destroy_evlist", "get_event_list", "init_evlist"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../parser/parse_event.h",
+    "../../mem/shm_mem.h", "../../mem/mem.h", "event_list.h", "hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

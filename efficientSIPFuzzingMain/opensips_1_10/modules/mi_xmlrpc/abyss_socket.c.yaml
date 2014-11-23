@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/abyss_socket.c
+  :function_list: ! '["SocketAccept", "SocketAvailableReadBytes", "SocketBind", "SocketClose",
+    "SocketConnect", "SocketCreate", "SocketDestroy", "SocketError", "SocketGetPeerName",
+    "SocketInit", "socketOsInit", "SocketListen", "SocketRead", "SocketTerm", "socketOsTerm",
+    "SocketWait", "SocketWrite"]'
+  :file_headers: ! '["abyss_mallocvar.h", "abyss_xmlrpc_int.h", "socket_win.h", "abyss_socket_unix.h",
+    "abyss_socket.h", "socket_win.h", "abyss_socket_unix.h", "abyss_socket.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

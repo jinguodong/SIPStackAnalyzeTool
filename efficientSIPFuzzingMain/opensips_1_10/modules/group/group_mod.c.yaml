@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/group_mod.c
+  :function_list: ! '["DOMAIN_COL_LEN", "GROUP_COL_LEN", "RE_EXP_COL_LEN", "RE_GID_COL_LEN",
+    "RE_TABLE_LEN", "TABLE_LEN", "USER_COL_LEN", "aaa_is_user_fixup", "child_init",
+    "db_get_gid_fixup", "db_is_user_fixup", "destroy", "mod_init", "obsolete_fixup_0",
+    "obsolete_fixup_1"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../error.h", "../../mem/mem.h",
+    "group_mod.h", "group.h", "re_group.h", "../../mod_fix.h", "../../aaa/aaa.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/

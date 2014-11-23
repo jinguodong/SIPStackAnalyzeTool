@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap_client/xcap_client.c
+  :function_list: ! '["destroy", "parse_doc_url", "query_xcap_update"]'
+  :file_headers: ! '["../../sr_module.h", "../../pt.h", "../../db/db.h", "../../dprint.h",
+    "../../error.h", "../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../xcap/api.h",
+    "../xcap/util.h", "../presence/utils_func.h", "xcap_functions.h", "xcap_client.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xcap_client/

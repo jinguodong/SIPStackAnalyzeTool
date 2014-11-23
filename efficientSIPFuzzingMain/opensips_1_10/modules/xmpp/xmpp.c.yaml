@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xmpp.c
+  :function_list: ! '["child_init", "cmd_send_message", "xmpp_send_pipe_cmd", "shm_strdup",
+    "xmpp_free_pipe_cmd", "destroy", "mod_init", "xmpp_process", "xmpp_send_sip_msg",
+    "xmpp_send_xmessage", "xmpp_send_xnotify", "xmpp_send_xpacket", "xmpp_send_xsubscribe"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "../../data_lump_rpl.h",
+    "../../parser/msg_parser.h", "../../parser/parse_content.h", "../../parser/parse_from.h",
+    "../tm/tm_load.h", "../../pt.h", "xode.h", "xmpp.h", "network.h", "xmpp_api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

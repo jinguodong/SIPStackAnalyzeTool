@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/notify_body.c
+  :function_list: ! '["ADD_NODE", "GET_LAST_XML_ERROR", "agregate_dialog_xmls", "agregate_presence_xmls",
+    "check_duplicated_id", "dialog_agg_nbody", "dialog_offline_body", "free_xml_body",
+    "get_final_notify_body", "pres_apply_auth", "presence_agg_nbody", "presence_offline_body"]'
+  :file_headers: ! '["../../mem/mem.h", "../presence/utils_func.h", "../presence/hash.h",
+    "xcap_auth.h", "pidf.h", "notify_body.h", "presence_xml.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/

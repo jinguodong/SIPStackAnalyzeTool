@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/mi.c
+  :function_list: ! '["get_hfblock", "new_str", "skip_hf", "mi_check_msg", "mi_print_routes",
+    "mi_print_uris", "mi_tm_cancel", "mi_tm_hash", "mi_tm_reply", "mi_tm_uac_dlg",
+    "mi_uac_dlg_hdl"]'
+  :file_headers: ! '["../../parser/parse_from.h", "mi.h", "h_table.h", "t_lookup.h",
+    "t_reply.h", "t_cancel.h", "dlg.h", "callid.h", "uac.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

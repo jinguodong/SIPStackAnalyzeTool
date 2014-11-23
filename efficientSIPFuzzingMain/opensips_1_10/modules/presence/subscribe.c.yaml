@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/subscribe.c
+  :function_list: ! '["delete_db_subs", "extract_sdialog_info", "get_database_info",
+    "get_db_subs_auth", "get_stored_info", "handle_expired_subs", "handle_subscribe",
+    "subs_process_insert_status", "insert_db_subs_auth", "update_subscription", "insert_subs_db",
+    "send_2XX_reply", "update_subs_db", "msg_watchers_clean", "refresh_watcher", "restore_db_subs",
+    "timer_db_update", "update_db_subs"]'
+  :file_headers: ! '["../../ut.h", "../../usr_avp.h", "../../data_lump_rpl.h", "../../parser/parse_expires.h",
+    "../../parser/parse_event.h", "../../parser/contact/parse_contact.h", "presence.h",
+    "subscribe.h", "utils_func.h", "notify.h", "../pua/hash.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

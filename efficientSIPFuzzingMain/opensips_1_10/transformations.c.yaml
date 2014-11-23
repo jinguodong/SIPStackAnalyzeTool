@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/transformations.c
+  :function_list: ! '["_tr_parse_nparam", "_tr_parse_sparam", "destroy_transformation",
+    "free_tr_param", "free_csv_list", "free_transformation", "init_csv", "is_in_str",
+    "parse_csv", "parse_transformation", "tr_parse_csv", "tr_parse_ip", "tr_parse_nameaddr",
+    "tr_parse_paramlist", "tr_parse_re", "tr_parse_sdp", "tr_parse_string", "tr_parse_uri",
+    "tr_parse_via", "run_transformations", "tr_eval_csv", "tr_eval_ip", "tr_eval_nameaddr",
+    "tr_eval_paramlist", "tr_eval_re", "tr_eval_sdp", "tr_eval_string", "tr_eval_uri",
+    "tr_eval_via"]'
+  :file_headers: ! '["dprint.h", "mem/mem.h", "ut.h", "trim.h", "dset.h", "usr_avp.h",
+    "errinfo.h", "resolve.h", "ip_addr.h", "parser/parse_param.h", "parser/parse_uri.h",
+    "parser/parse_via.h", "parser/parse_to.h", "parser/sdp/sdp_helpr_funcs.h", "strcommon.h",
+    "transformations.h", "re.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

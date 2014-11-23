@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/dbt_api.c
+  :function_list: ! '["dbt_get_result", "dbt_convert_result", "dbt_get_columns", "dbt_convert_rows",
+    "dbt_convert_row", "dbt_use_table"]'
+  :file_headers: ! '["../../db/db.h", "../../mem/mem.h", "dbt_res.h", "dbt_api.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_text/

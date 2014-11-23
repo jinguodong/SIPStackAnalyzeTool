@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_authenticate.c
+  :function_list: ! '["AUTHENTICATE_DIGEST_LEN", "AUTHENTICATE_MD5", "AUTHENTICATE_MD5SESS",
+    "AUTHENTICATE_STALE", "CASE_5B", "CASE_6B", "GET3B", "GET4B", "LOWER1B", "LOWER4B",
+    "free_authenticate", "parse_authenticate_body", "parse_authenticate_header", "parse_proxy_authenticate_header",
+    "parse_www_authenticate_header"]'
+  :file_headers: ! '["../dprint.h", "../ut.h", "../mem/mem.h", "msg_parser.h", "parse_authenticate.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

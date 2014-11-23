@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/attr.c
+  :function_list: ! '["add_mi_attr", "addf_mi_attr", "del_mi_attr_list", "get_mi_attr_by_name"]'
+  :file_headers: ! '["../mem/mem.h", "../dprint.h", "attr.h", "fmt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/

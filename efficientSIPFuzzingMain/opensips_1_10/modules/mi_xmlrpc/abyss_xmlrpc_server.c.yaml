@@ -1,0 +1,16 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/abyss_xmlrpc_server.c
+  :function_list: ! '["addAuthCookie", "chunkResponseParm", "createServer", "createServerBoundSocket",
+    "extractServerCreateParms", "die_if_fault_occurred", "getBody", "refillBufferFromConnection",
+    "traceChunkRead", "handleXmlrpcReq", "processCall", "sendError", "sendXmlData",
+    "processContentLength", "storeCookies", "traceHandlerCalled", "validateContentType",
+    "normalLevelAbyssRun", "restoreSignalHandlers", "setAdditionalServerParms", "setHandlers",
+    "setHandler", "setupSignalHandlers", "uriPathParm", "oldHighLevelAbyssRun", "runServerDaemon",
+    "shutdownAbyss", "sigchld", "termUriHandler", "xmlrpc_server_abyss", "xmlrpc_server_abyss_add_method",
+    "xmlrpc_server_abyss_add_method_w_doc", "xmlrpc_server_abyss_default_handler",
+    "xmlrpc_server_abyss_init", "xmlrpc_server_abyss_init_registry", "xmlrpc_server_abyss_registry",
+    "xmlrpc_server_abyss_run", "xmlrpc_server_abyss_run_first", "xmlrpc_server_abyss_set_handler",
+    "xmlrpc_server_abyss_set_handlers", "xmlrpc_server_abyss_set_handlers2"]'
+  :file_headers: ! '["abyss_mallocvar.h", "abyss_xmlrpc_int.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_xmlrpc/

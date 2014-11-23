@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/common.c
+  :function_list: ! '["TEMP_GRUU_SIZE", "extract_aor"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../parser/parse_uri.h", "rerrno.h",
+    "reg_mod.h", "common.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/

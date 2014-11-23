@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/sms_report.c
+  :function_list: ! '["END_ERR_MSG_LEN", "START_ERR_MSG_LEN", "add_sms_into_report_queue",
+    "free_report_cell", "check_timeout_in_report_queue", "destroy_report_queue", "get_error_str",
+    "get_sms_from_report_queue", "get_text_from_report_queue", "get_time_ser", "get_time_sys",
+    "init_report_queue", "relay_report_to_queue", "remove_sms_from_report_queue",
+    "set_gettime_function", "time_t"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../timer.h", "sms_report.h", "sms_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_callinfo/sca_hash.c
+  :function_list: ! '["destroy_sca_hash", "free_sca_line", "init_sca_hash", "sca_print_line_status",
+    "set_sca_index_state", "unlock_sca_line"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../mem/mem.h", "../../hash_func.h",
+    "../../parser/parse_uri.h", "sca_hash.h", "add_events.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_callinfo/

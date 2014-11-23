@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPContactTable.c
+  :function_list: ! '["createContactRow", "deleteContactRecord", "deleteContactRow",
+    "init_openserSIPContactTable", "initialize_table_openserSIPContactTable", "insertContactRecord",
+    "openserSIPContactTable_get_by_idx", "openserSIPContactTable_get_value"]'
+  :file_headers: ! '["hashTable.h", "interprocess_buffer.h", "utilities.h", "openserSIPContactTable.h",
+    "snmpstats_globals.h", "../../mem/mem.h", "../../str.h", "../../sr_module.h",
+    "../../locking.h", "../usrloc/usrloc.h", "../usrloc/ucontact.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

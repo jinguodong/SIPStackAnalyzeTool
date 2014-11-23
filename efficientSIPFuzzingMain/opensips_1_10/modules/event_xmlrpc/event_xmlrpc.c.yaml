@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_xmlrpc/event_xmlrpc.c
+  :function_list: ! '["DO_PRINT", "destroy", "mod_init", "xmlrpc_free", "xmlrpc_match",
+    "xmlrpc_parse", "xmlrpc_print", "xmlrpc_raise"]'
+  :file_headers: ! '["../../sr_module.h", "../../resolve.h", "../../evi/evi_transport.h",
+    "../../ut.h", "event_xmlrpc.h", "xmlrpc_send.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_xmlrpc/

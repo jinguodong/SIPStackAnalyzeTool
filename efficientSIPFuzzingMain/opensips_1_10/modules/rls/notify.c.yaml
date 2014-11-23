@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/notify.c
+  :function_list: ! '["add_resource", "add_resource_instance", "generate_cid", "get_auth_string",
+    "agg_body_sendn_update", "rls_send_notify", "rls_free_td", "rls_notify_dlg", "rls_notify_extra_hdr",
+    "constr_multipart_body", "constr_rlmi_doc", "process_list_and_exec", "rls_get_resource_list",
+    "generate_string", "rls_notify_callback", "send_full_notify"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../data_lump_rpl.h", "../../trim.h",
+    "../../parser/msg_parser.h", "../../parser/parse_event.h", "../../parser/parse_expires.h",
+    "../../parser/parse_cseq.h", "../../parser/contact/parse_contact.h", "../../parser/parse_rr.h",
+    "../tm/dlg.h", "../presence/utils_func.h", "../presence/hash.h", "rls.h", "notify.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/

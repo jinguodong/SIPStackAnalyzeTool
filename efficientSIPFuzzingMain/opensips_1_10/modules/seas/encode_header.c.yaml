@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_header.c
+  :function_list: ! '["HEADER_LEN_IDX", "HEADER_NAME_LEN_IDX", "HEADER_PAYLOAD_IDX",
+    "REL_PTR", "dump_headers_test", "dump_standard_hdr_test", "encode_header", "print_encoded_header"]'
+  :file_headers: ! '["../../str.h", "../../parser/msg_parser.h", "../../parser/hf.h",
+    "../../parser/contact/parse_contact.h", "../../parser/contact/contact.h", "../../parser/digest/digest.h",
+    "../../parser/digest/digest_parser.h", "../../parser/parse_rr.h", "../../parser/parse_content.h",
+    "../../parser/parse_cseq.h", "../../parser/parse_expires.h", "../../parser/parse_methods.h",
+    "../../dprint.h", "../../mem/mem.h", "encode_to_body.h", "encode_contact.h", "encode_digest.h",
+    "encode_via.h", "encode_cseq.h", "encode_route.h", "encode_content_length.h",
+    "encode_content_type.h", "encode_expires.h", "encode_allow.h", "xaddress.h", "encode_msg.h",
+    "encode_header.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

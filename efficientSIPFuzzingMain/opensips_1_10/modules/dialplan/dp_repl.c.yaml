@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/dp_repl.c
+  :function_list: ! '["MAX_MATCHES", "repl_exp_parse", "repl_expr_free", "rule_translate",
+    "test_match", "translate"]'
+  :file_headers: ! '["../../re.h", "dialplan.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/

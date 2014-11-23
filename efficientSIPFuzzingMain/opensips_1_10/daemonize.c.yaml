@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/daemonize.c
+  :function_list: ! '["clean_read_pipeend", "clean_write_pipeend", "create_status_pipe",
+    "daemonize", "wait_for_all_children", "wait_status_code", "do_suid", "inc_init_timer",
+    "increase_open_fds", "send_status_code", "set_core_dump"]'
+  :file_headers: ! '["daemonize.h", "globals.h", "dprint.h", "pt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_uri.c
+  :function_list: ! '["compare_uri_val", "compare_uris", "parse_uri", "parse_orig_ruri",
+    "parse_sip_msg_uri", "parse_uri_headers"]'
+  :file_headers: ! '["parse_uri.h", "../dprint.h", "../ut.h", "../error.h", "../errinfo.h",
+    "../core_stats.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

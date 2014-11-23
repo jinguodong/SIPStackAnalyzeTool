@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/flags.c
+  :function_list: ! '["bitmask_to_flag_list", "fixup_flag", "get_flag_id_by_name",
+    "flag_idx2mask", "flag_in_range", "flag_list_to_bitmask", "getsflags", "isflagset",
+    "issflagset", "resetflag", "resetsflag", "setflag", "setsflag", "setsflagsval"]'
+  :file_headers: ! '["sr_module.h", "dprint.h", "parser/msg_parser.h", "mem/mem.h",
+    "ut.h", "flags.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

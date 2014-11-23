@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_flatstore/flatstore.c
+  :function_list: ! '["flat_db_close", "flat_db_init", "parse_flat_url", "flat_db_insert",
+    "flat_prepare_iovec", "FLAT_LOCK", "FLAT_UNLOCK", "flat_use_table"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "flat_pool.h", "flat_con.h",
+    "flatstore_mod.h", "flatstore.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_flatstore/

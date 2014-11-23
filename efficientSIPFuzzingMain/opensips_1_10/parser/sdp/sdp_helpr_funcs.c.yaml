@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/sdp/sdp_helpr_funcs.c
+  :function_list: ! '["READ", "advance", "extract_accept_types", "extract_field",
+    "extract_accept_wrapped_types", "extract_bwidth", "ser_memmem", "extract_fmtp",
+    "extract_max_size", "extract_media_attr", "extract_mediaip", "extract_path", "extract_ptime",
+    "extract_rtcp", "extract_rtpmap", "extract_sendrecv_mode", "find_next_sdp_line",
+    "find_sdp_line", "find_next_sdp_line_delimiter", "find_sdp_line_delimiter", "find_sdp_line_complex",
+    "get_mixed_part_delimiter", "one_of_16", "get_sdp_hdr_field", "one_of_8"]'
+  :file_headers: ! '["../../ut.h", "../msg_parser.h", "../parser_f.h", "../parse_hname2.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/sdp/

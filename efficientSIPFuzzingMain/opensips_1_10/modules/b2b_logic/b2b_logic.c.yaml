@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/b2b_logic.c
+  :function_list: ! '["b2b_bridge_request", "b2b_logic_bind", "b2bl_bridge_extern",
+    "b2bl_register_cb", "b2bl_restore_upper_info", "b2bl_clean", "b2bl_db_timer_update",
+    "get_scenario_id", "get_scenario_id_list"]'
+  :file_headers: ! '["../../db/db.h", "../../sr_module.h", "../../dprint.h", "../../error.h",
+    "../../parser/parse_from.h", "../../parser/parse_content.h", "../../ut.h", "../../trim.h",
+    "../../mem/mem.h", "../../mod_fix.h", "records.h", "pidf.h", "b2b_logic.h", "b2b_load.h",
+    "b2bl_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_logic/

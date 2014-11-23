@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/route_db.c
+  :function_list: ! '["db_child_init", "db_destroy", "db_init", "load_route_data",
+    "store_carriers", "destroy_carriers", "load_user_carrier", "main_db_close"]'
+  :file_headers: ! '["../../dprint.h", "../../mem/mem.h", "../../mem/shm_mem.h", "carrierroute.h",
+    "route_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

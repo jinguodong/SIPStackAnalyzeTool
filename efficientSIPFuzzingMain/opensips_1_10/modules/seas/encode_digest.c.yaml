@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_digest.c
+  :function_list: ! '["dump_digest_test", "encode_digest", "print_encoded_digest"]'
+  :file_headers: ! '["../../parser/digest/digest_parser.h", "../../parser/parse_uri.h",
+    "../../parser/digest/digest.h", "encode_digest.h", "xaddress.h", "encode_header.h",
+    "encode_uri.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

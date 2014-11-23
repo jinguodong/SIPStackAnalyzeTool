@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/aaa_checks.c
+  :function_list: ! '["aaa_does_uri_exist_0", "aaa_does_uri_user_host_exist", "aaa_does_uri_exist_1",
+    "aaa_does_uri_user_exist", "aaa_does_uri_user_exist_0", "aaa_does_uri_user_exist_1"]'
+  :file_headers: ! '["../../mem/mem.h", "../../parser/parse_uri.h", "../../dprint.h",
+    "../../aaa/aaa.h", "aaa_checks.h", "uri_mod.h", "../../pvar.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uri/

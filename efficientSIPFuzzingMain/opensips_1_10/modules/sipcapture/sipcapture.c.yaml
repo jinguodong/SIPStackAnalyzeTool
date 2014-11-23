@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipcapture/sipcapture.c
+  :function_list: ! '["EMPTY_STR", "capture_is_off", "child_init", "sipcapture_db_init",
+    "destroy", "sipcapture_db_close", "extract_host_port", "hep_msg_received", "mod_init",
+    "raw_capture_socket", "raw_capture_rcv_loop", "raw_socket_process", "sip_capture",
+    "sip_capture_prepare", "sip_capture_store", "sip_capture_mi"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../udp_server.h",
+    "../../ut.h", "../../ip_addr.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../mi/mi.h",
+    "../../db/db.h", "../../db/db_insertq.h", "../../parser/contact/parse_contact.h",
+    "../../parser/parse_content.h", "../../parser/parse_from.h", "../../parser/parse_uri.h",
+    "../../parser/digest/digest.h", "../../parser/parse_pai.h", "../../parser/parse_ppi.h",
+    "../../pvar.h", "../../str.h", "../../resolve.h", "../../receive.h", "sipcapture.h",
+    "../../statistics.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipcapture/

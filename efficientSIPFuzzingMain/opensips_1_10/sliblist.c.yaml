@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/sliblist.c
+  :function_list: ! '["slinkedl_append", "slinkedl_init", "slinkedl_list_destroy",
+    "slinkedl_list_init", "slinkedl_prepend", "slinkedl_traverse"]'
+  :file_headers: ! '["sliblist.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

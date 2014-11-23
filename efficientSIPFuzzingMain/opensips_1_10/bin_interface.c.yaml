@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/bin_interface.c
+  :function_list: ! '["bin_init", "bin_pop_int", "bin_pop_str", "bin_push_int", "bin_push_str",
+    "bin_receive_loop", "has_valid_checksum", "bin_register_cb", "bin_send", "bin_skip_int",
+    "bin_skip_str", "start_bin_receivers"]'
+  :file_headers: ! '["bin_interface.h", "udp_server.h", "config.h", "daemonize.h",
+    "pt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

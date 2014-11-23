@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/reg_db_handler.c
+  :function_list: ! '["connect_reg_db", "destroy_reg_db", "init_reg_db", "load_reg_info_from_db",
+    "use_reg_table"]'
+  :file_headers: ! '["../../dprint.h", "../../db/db.h", "../../str.h", "reg_db_handler.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/

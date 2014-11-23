@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_xmlrpc/xmlrpc_send.c
+  :function_list: ! '["IS_ERR", "xmlrpc_build_buffer", "xmlrpc_build_send_t", "xmlrpc_create_pipe",
+    "xmlrpc_destroy_pipe", "xmlrpc_init_buffers", "xmlrpc_init_reader", "xmlrpc_init_send_buf",
+    "xmlrpc_init_writer", "xmlrpc_process", "xmlrpc_receive", "xmlrpc_sendmsg", "xmlrpc_send"]'
+  :file_headers: ! '["../../evi/evi_transport.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../ut.h", "xmlrpc_send.h", "event_xmlrpc.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/event_xmlrpc/

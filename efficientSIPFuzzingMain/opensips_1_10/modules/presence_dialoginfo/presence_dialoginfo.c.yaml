@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/presence_dialoginfo.c
+  :function_list: ! '["mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../dprint.h", "../../str.h", "../../parser/msg_parser.h",
+    "../../mem/mem.h", "../presence/bind_presence.h", "add_events.h", "presence_dialoginfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/

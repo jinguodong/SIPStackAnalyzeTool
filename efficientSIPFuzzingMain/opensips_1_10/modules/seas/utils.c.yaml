@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/utils.c
+  :function_list: ! '["buffered_printer", "memstr", "print_msg_info", "coded_buffered_printer"]'
+  :file_headers: ! '["../../parser/msg_parser.h", "../../parser/parse_via.h", "../../parser/parse_uri.h",
+    "../../parser/parse_from.h", "../../mem/mem.h", "../../dprint.h", "encode_header.h",
+    "encode_msg.h", "utils.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

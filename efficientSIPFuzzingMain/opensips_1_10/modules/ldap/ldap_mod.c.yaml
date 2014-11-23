@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/ldap_mod.c
+  :function_list: ! '["child_init", "destroy", "ldap_filter_url_encode_fixup", "ldap_result_check_fixup",
+    "ldap_result_fixup", "ldap_search_fixup", "mod_init", "w_ldap_filter_url_encode",
+    "w_ldap_result1", "w_ldap_result2", "w_ldap_result_check_1", "w_ldap_result_check_2",
+    "w_ldap_result_next", "w_ldap_search"]'
+  :file_headers: ! '["../../sr_module.h", "../../ut.h", "../../parser/hf.h", "../../pvar.h",
+    "../../mem/mem.h", "ld_session.h", "ldap_exp_fn.h", "api.h", "ldap_connect.h",
+    "ldap_api_fn.h", "iniparser.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/

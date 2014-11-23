@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_couchbase/cachedb_couchbase_dbase.c
+  :function_list: ! '["couchbase_add", "couchbase_conditional_reconnect", "couchbase_free_connection",
+    "couchbase_new_connection", "couchbase_arithmetic_cb", "couchbase_destroy", "couchbase_error_cb",
+    "couchbase_get", "couchbase_get_cb", "couchbase_get_counter", "couchbase_init",
+    "couchbase_remove", "couchbase_remove_cb", "couchbase_set", "couchbase_store_cb",
+    "couchbase_sub"]'
+  :file_headers: ! '["../../dprint.h", "cachedb_couchbase_dbase.h", "../../mem/mem.h",
+    "../../ut.h", "../../cachedb/cachedb.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cachedb_couchbase/

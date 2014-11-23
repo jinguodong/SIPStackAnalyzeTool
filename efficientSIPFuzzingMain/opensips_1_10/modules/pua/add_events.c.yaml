@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/add_events.c
+  :function_list: ! '["pres_process_body", "pua_add_events"]'
+  :file_headers: ! '["../../str.h", "event_list.h", "add_events.h", "pua.h", "pidf.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_supported.c
+  :function_list: ! '["IS_DELIM", "LOWER_BYTE", "LOWER_DWORD", "READ", "parse_supported",
+    "parse_supported_body"]'
+  :file_headers: ! '["../mem/mem.h", "keys.h", "parse_supported.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

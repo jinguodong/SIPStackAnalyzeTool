@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tlsops/tlsops.c
+  :function_list: ! '["is_peer_verified", "mod_destroy", "mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "tlsops.h", "tls_select.h", "../../tcp_conn.h",
+    "../../tcp_server.h", "../../sr_module.h", "../../pvar.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tlsops/

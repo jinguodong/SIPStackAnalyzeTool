@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/digest/digest.c
+  :function_list: ! '["check_dig_cred", "free_credentials", "get_authorized_cred",
+    "mark_authorized_cred", "new_credentials", "parse_credentials", "print_cred"]'
+  :file_headers: ! '["digest.h", "../../mem/mem.h", "../../dprint.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/digest/

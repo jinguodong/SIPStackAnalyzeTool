@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/permissions.c
+  :function_list: ! '["allow_register_1", "check_register", "get_plain_uri", "allow_register_2",
+    "allow_routing_0", "check_routing", "allow_routing_1", "allow_routing_2", "allow_test",
+    "find_index", "get_pathname", "get_path", "allow_uri", "check_addr_fixup", "check_src_addr_fixup",
+    "child_init", "double_fixup", "load_fixup", "get_src_grp_fixup", "mi_address_child_init",
+    "mod_exit", "mod_init", "single_fixup"]'
+  :file_headers: ! '["../../sr_module.h", "permissions.h", "parse_config.h", "address.h",
+    "hash.h", "mi.h", "../../mem/mem.h", "../../parser/parse_from.h", "../../parser/parse_uri.h",
+    "../../parser/parse_refer_to.h", "../../parser/contact/parse_contact.h", "../../str.h",
+    "../../dset.h", "../../globals.h", "../../mod_fix.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/permissions/

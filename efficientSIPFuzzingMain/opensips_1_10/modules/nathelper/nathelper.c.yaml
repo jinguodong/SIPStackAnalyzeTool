@@ -1,0 +1,15 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/nathelper/nathelper.c
+  :function_list: ! '["ADIRECTION_LEN", "AOLDMEDIP6_LEN", "AOLDMEDIP_LEN", "MI_PING_DISABLED_LEN",
+    "add_rcv_param_f", "create_rcv_uri", "alter_mediaip", "isnulladdr", "contact_1918",
+    "get_contact_uri", "is1918addr", "contact_rcv", "contact_rport", "fix_nated_contact_f",
+    "fix_nated_register_f", "fix_nated_sdp_f", "replace_sdp_ip", "fixup_fix_nated_register",
+    "fixup_fix_sdp", "get_natping_socket", "init_raw_socket", "mi_enable_natping",
+    "mod_destroy", "mod_init", "nat_uac_test_f", "sdp_1918", "via_1918", "nh_timer",
+    "send_raw", "raw_checksum"]'
+  :file_headers: ! '["../../data_lump.h", "../../data_lump_rpl.h", "../../forward.h",
+    "../../parser/parse_uri.h", "../../parser/sdp/sdp_helpr_funcs.h", "../../timer.h",
+    "../../msg_translator.h", "../../socket_info.h", "../../mod_fix.h", "../registrar/sip_msg.h",
+    "../usrloc/usrloc.h", "nathelper.h", "sip_pinger.h", "../../parser/parse_content.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/nathelper/

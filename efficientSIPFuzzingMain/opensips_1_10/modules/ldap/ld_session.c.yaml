@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/ld_session.c
+  :function_list: ! '["add_ld_session", "get_ini_key_name", "free_ld_sessions", "get_ld_session"]'
+  :file_headers: ! '["ld_session.h", "../../mem/mem.h", "../../sr_module.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ldap/

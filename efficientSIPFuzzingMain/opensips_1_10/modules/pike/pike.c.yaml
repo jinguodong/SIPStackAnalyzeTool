@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/pike.c
+  :function_list: ! '["pike_exit", "pike_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../error.h", "../../dprint.h", "../../script_cb.h",
+    "../../ut.h", "../../mem/shm_mem.h", "../../evi/evi_modules.h", "../../timer.h",
+    "../../locking.h", "ip_tree.h", "timer.h", "pike_mi.h", "pike_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/

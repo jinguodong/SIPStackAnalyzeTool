@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/cfgutils.c
+  :function_list: ! '["GET_INT", "check_time_rec", "dbg_abort", "dbg_pkg_status",
+    "dbg_shm_status", "fixup_delta", "fixup_prob", "fixup_pv_set", "fixup_rand_event",
+    "get_prob", "m_sleep", "m_usleep", "mi_check_hash", "mi_get_hash", "mi_get_prob",
+    "mi_reset_prob", "mi_set_prob", "mod_destroy", "mod_init", "pv_get_random_val",
+    "pv_sel_weight", "pv_set_count", "rand_event", "reset_prob", "set_prob", "ts_usec_delta"]'
+  :file_headers: ! '["../../sr_module.h", "../../error.h", "../../pvar.h", "../../ut.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../mi/mi.h", "../../mod_fix.h",
+    "../../md5utils.h", "../../globals.h", "../../time_rec.h", "shvar.h", "env_var.h",
+    "script_locks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/

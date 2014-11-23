@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_aaa/authorize.c
+  :function_list: ! '["aaa_proxy_authorize_1", "authorize", "get_uri_user", "aaa_proxy_authorize_2",
+    "aaa_www_authorize"]'
+  :file_headers: ! '["../../mem/mem.h", "../../str.h", "../../parser/hf.h", "../../parser/digest/digest.h",
+    "../../parser/parse_uri.h", "../../parser/parse_from.h", "../../parser/parse_to.h",
+    "../../dprint.h", "../../ut.h", "../../pvar.h", "../auth/api.h", "authorize.h",
+    "sterman.h", "authaaa_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_aaa/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_virtual/db_virtual.c
+  :function_list: ! '["add_set", "add_url", "db_virtual_bind_api", "virtual_mod_init",
+    "init_global", "destroy", "init_private_handles", "reconnect_timer"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "dbase.h", "db_virtual.h",
+    "../../mi/mi.h", "../../pt.h", "../../mem/shm_mem.h", "../../timer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_virtual/

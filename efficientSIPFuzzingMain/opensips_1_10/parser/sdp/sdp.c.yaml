@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/sdp/sdp.c
+  :function_list: ! '["__free_sdp", "add_sdp_payload", "add_sdp_session", "add_sdp_stream",
+    "clone_sdp_info", "clone_sdp_session_cell", "clone_sdp_stream_cell", "clone_sdp_payload_attr",
+    "free_cloned_sdp_stream", "init_p_payload_attr", "free_cloned_sdp_session", "free_cloned_sdp",
+    "free_sdp", "get_sdp_payload4index", "get_sdp_payload4payload", "get_sdp_session",
+    "get_sdp_session_sdp", "get_sdp_session_num", "get_sdp_stream", "get_sdp_stream_sdp",
+    "get_sdp_stream_num", "new_sdp", "parse_mixed_content", "parse_sdp_session", "set_sdp_payload_attr",
+    "set_sdp_payload_fmtp", "parse_sdp", "print_sdp", "print_sdp_session", "print_sdp_stream"]'
+  :file_headers: ! '["../../ut.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../parser_f.h",
+    "../parse_content.h", "sdp.h", "sdp_helpr_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/sdp/

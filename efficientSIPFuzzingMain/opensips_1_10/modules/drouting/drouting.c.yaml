@@ -1,0 +1,19 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/drouting.c
+  :function_list: ! '["DR_IFG_ATTRS_FLAG", "DR_IFG_IDS_FLAG", "DR_IFG_IGNOREPORT_FLAG",
+    "DR_IFG_PREFIX_FLAG", "DR_IFG_STRIP_FLAG", "DR_PARAM_INTERNAL_TRIGGERED", "DR_PARAM_ONLY_CHECK",
+    "DR_PARAM_RULE_FALLBACK", "DR_PARAM_STRICT_LEN", "DR_PARAM_USE_WEIGTH", "_is_dr_gw",
+    "gw_matches_ip", "prefix_username", "strip_username", "_is_dr_uri_gw", "build_ruri",
+    "check_options_rplcode", "do_routing", "get_group_id", "is_dst_in_list", "push_gw_for_usage",
+    "sort_rt_dst", "do_routing_0", "do_routing_123", "dr_child_init", "dr_reload_data",
+    "dr_disable", "dr_exit", "dr_init", "dr_is_gw", "dr_prob_handler", "dr_probing_callback",
+    "dr_reload_cmd", "fixup_do_routing", "fixup_from_gw", "fixup_is_gw", "goes_to_gw_0",
+    "goes_to_gw_1", "is_from_gw_0", "is_from_gw_1", "is_from_gw_2", "mi_dr_cr_status",
+    "mi_dr_gw_status", "route2_carrier", "route2_gw", "use_next_gw"]'
+  :file_headers: ! '["../../sr_module.h", "../../str.h", "../../dprint.h", "../../usr_avp.h",
+    "../../db/db.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../rw_locking.h",
+    "../../action.h", "../../error.h", "../../ut.h", "../../resolve.h", "../../mod_fix.h",
+    "../../parser/parse_from.h", "../../parser/parse_uri.h", "../../mi/mi.h", "../tm/tm_load.h",
+    "dr_load.h", "prefix_tree.h", "routing.h", "dr_bl.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/drouting/

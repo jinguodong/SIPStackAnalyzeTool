@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/cachedb/cachedb.c
+  :function_list: ! '["cachedb_add", "cachedb_get_connection", "lookup_cachedb", "cachedb_bind_mod",
+    "cachedb_counter_fetch", "cachedb_do_close", "cachedb_do_init", "cachedb_end_connections",
+    "cachedb_fetch", "cachedb_free_url", "cachedb_insert_connection", "cachedb_put_connection",
+    "cachedb_raw_query", "cachedb_remove", "cachedb_store", "cachedb_store_url", "cachedb_sub",
+    "free_raw_fetch", "register_cachedb"]'
+  :file_headers: ! '["cachedb.h", "cachedb_cap.h", "../dprint.h", "../sr_module.h",
+    "../mem/mem.h", "../mem/meminfo.h", "../str.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/cachedb/

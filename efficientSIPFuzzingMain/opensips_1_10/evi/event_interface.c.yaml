@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/evi/event_interface.c
+  :function_list: ! '["evi_event_subscribe", "evi_get_event", "evi_get_id", "evi_get_subscriber",
+    "evi_print_event", "evi_print_subscriber", "evi_probe_event", "evi_publish_event",
+    "evi_raise_event", "evi_raise_event_msg", "evi_raise_script_event", "mi_event_subscribe",
+    "mi_events_list", "mi_subscribers_list"]'
+  :file_headers: ! '["event_interface.h", "evi_modules.h", "../mem/shm_mem.h", "../mi/mi.h",
+    "../pvar.h", "../timer.h", "../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/evi/

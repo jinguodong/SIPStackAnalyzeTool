@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/common.c
+  :function_list: ! '["get_realm", "send_resp"]'
+  :file_headers: ! '["../../dprint.h", "../../parser/parse_from.h", "../../parser/parse_to.h",
+    "../../parser/parse_uri.h", "../../data_lump_rpl.h", "auth_mod.h", "common.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipluami.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../mi/mi.h", "sipwatch.h", "sipluami.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

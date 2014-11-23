@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/utils_func.c
+  :function_list: ! '["DECODE64", "a_to_i", "isascii", "send_error_reply", "to64frombits"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../ut.h", "../../data_lump_rpl.h",
+    "utils_func.h", "event_list.h", "presence.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

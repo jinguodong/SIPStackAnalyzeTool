@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/libsms_getsms.c
+  :function_list: ! '["cds2sms", "decode_pdu", "splitascii", "splitpdu", "octet2bin",
+    "split_type_0", "pdu2ascii", "pdu2binary", "set_date", "set_time", "split_type_2",
+    "check_memory", "deletesms", "fetchsms", "getsms"]'
+  :file_headers: ! '["../../ut.h", "libsms_charset.h", "libsms_modem.h", "libsms_sms.h",
+    "sms_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/

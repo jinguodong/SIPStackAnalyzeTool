@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/reg_records.c
+  :function_list: ! '["add_record", "gen_call_id_ftag", "reg_print_record", "destroy_reg_htable",
+    "init_reg_htable", "new_call_id_ftag_4_record", "reg_alloc", "reg_free"]'
+  :file_headers: ! '["reg_records.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_registrant/

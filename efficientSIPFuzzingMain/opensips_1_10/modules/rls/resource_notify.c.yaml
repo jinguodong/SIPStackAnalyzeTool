@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/resource_notify.c
+  :function_list: ! '["get_dialog_from_did", "parse_rlsubs_did", "parse_subs_state",
+    "rls_handle_notify", "rls_presentity_clean", "send_notify", "timer_send_notify"]'
+  :file_headers: ! '["../../trim.h", "../../parser/parse_content.h", "../../parser/parse_from.h",
+    "../pua/hash.h", "rls.h", "notify.h", "resource_notify.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rls/

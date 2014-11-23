@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_fline.c
+  :function_list: ! '["parse_first_line", "parse_fline"]'
+  :file_headers: ! '["../dprint.h", "msg_parser.h", "parser_f.h", "parse_methods.h",
+    "../mem/mem.h", "../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

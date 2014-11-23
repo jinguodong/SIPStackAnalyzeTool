@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_tophiding.c
+  :function_list: ! '["RECORD_ROUTE_LEN", "dlg_del_vias", "dlg_replace_contact", "dlg_th_down_onreply",
+    "dlg_th_onreply", "dlg_th_onroute", "dlg_th_up_onreply", "topology_hiding", "w_topology_hiding",
+    "w_topology_hiding1"]'
+  :file_headers: ! '["../../data_lump.h", "../tm/tm_load.h", "../../mod_fix.h", "../../parser/contact/parse_contact.h",
+    "dlg_tophiding.h", "dlg_handlers.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

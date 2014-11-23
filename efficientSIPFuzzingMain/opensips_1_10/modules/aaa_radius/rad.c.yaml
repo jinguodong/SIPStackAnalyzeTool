@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/aaa_radius/rad.c
+  :function_list: ! '["extract_avp", "rad_avp_add", "rad_avp_get", "rad_create_message",
+    "rad_destroy_message", "rad_find", "rad_init_prot", "rad_send_message"]'
+  :file_headers: ! '["../../aaa/aaa.h", "../../config.h", "../../dprint.h", "../../mem/mem.h",
+    "rad.h", "../../ut.h", "../../usr_avp.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/aaa_radius/

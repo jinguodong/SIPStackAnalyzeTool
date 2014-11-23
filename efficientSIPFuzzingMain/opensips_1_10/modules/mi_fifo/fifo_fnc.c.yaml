@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_fifo/fifo_fnc.c
+  :function_list: ! '["build_async_handler", "fifo_close_async", "free_async_handler",
+    "mi_open_reply_pipe", "mi_fifo_check", "get_reply_filename", "mi_do_consume",
+    "mi_read_line", "mi_fifo_server", "mi_open_reply", "mi_init_fifo_server"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../mi/mi.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "mi_fifo.h", "fifo_fnc.h", "mi_parser.h", "mi_writer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_fifo/

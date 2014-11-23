@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/script_var.c
+  :function_list: ! '["add_var", "destroy_vars", "destroy_vars_list", "get_var_by_name",
+    "reset_vars", "set_var_value"]'
+  :file_headers: ! '["dprint.h", "mem/mem.h", "script_var.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/xcap_auth.c
+  :function_list: ! '["free_rules", "get_action_value", "get_resource_list", "get_rule_node",
+    "ietf_get_rules", "oma_get_rules", "oma_match_anonymous_condition", "oma_match_external_list_condition",
+    "oma_match_identity_condition", "http_get_xcap_doc", "p_get_xcap_doc", "pres_get_rules_doc",
+    "pres_watcher_allowed", "subs_strstatus"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../parser/parse_uri.h",
+    "../presence/utils_func.h", "../presence/hash.h", "presence_xml.h", "xcap_auth.h",
+    "pidf.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_xml/

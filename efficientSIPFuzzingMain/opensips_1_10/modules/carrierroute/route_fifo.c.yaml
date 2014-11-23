@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/route_fifo.c
+  :function_list: ! '[]'
+  :file_headers: ! '["route_fifo.h", "carrierroute.h", "route_rule.h", "route_config.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../str.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/carrierroute/

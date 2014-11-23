@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_dialoginfo/dialog_publish.c
+  :function_list: ! '["build_dialoginfo", "dialog_publish", "print_publ"]'
+  :file_headers: ! '["../../parser/parse_expires.h", "../../parser/msg_parser.h",
+    "../../str.h", "../../name_alias.h", "../../socket_info.h", "../usrloc/usrloc.h",
+    "../usrloc/ul_callback.h", "../tm/tm_load.h", "../pua/pua.h", "pua_dialoginfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pua_dialoginfo/

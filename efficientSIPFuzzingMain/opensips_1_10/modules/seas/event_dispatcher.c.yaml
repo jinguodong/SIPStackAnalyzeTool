@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/event_dispatcher.c
+  :function_list: ! '["add_new_as", "send_sockinfo", "print_sock_info", "spawn_action_dispatcher",
+    "dispatch_relay", "dispatcher_main_loop", "handle_as_data", "process_event_reply",
+    "process_bind_action", "process_unbind_action", "handle_unc_as_data", "read_name",
+    "new_as_connect", "open_server_sockets"]'
+  :file_headers: ! '["../../ip_addr.h", "../../hash_func.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../dprint.h", "../../locking.h", "seas.h", "ha.h", "cluster.h", "seas_action.h",
+    "statistics.h", "event_dispatcher.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

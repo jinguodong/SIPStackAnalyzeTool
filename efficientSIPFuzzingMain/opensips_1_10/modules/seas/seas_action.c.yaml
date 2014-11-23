@@ -1,0 +1,18 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/seas_action.c
+  :function_list: ! '["RECORD_ROUTE_LEN", "SPIRAL_HDR_LEN", "VIA_LEN", "ac_cancel",
+    "as_action_fail_resp", "ac_jain_pong", "process_pong", "ac_reply", "extract_allowed_headers",
+    "free_sip_msg_lite", "parse_ac_msg", "recordroute_diff", "ac_sl_msg", "forward_sl_request",
+    "ac_uac_req", "calculate_hooks", "get_raw_uri", "print_local_uri", "create_as_action_reply",
+    "dispatch_actions", "process_input", "process_action", "process_pings", "uac_cb",
+    "uac_cleanup_cb", "via_diff"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../str.h", "../../pt.h",
+    "../../ip_addr.h", "../../tags.h", "../../error.h", "../../ut.h", "../../parser/hf.h",
+    "../../parser/parse_fline.h", "../../parser/parser_f.h", "../../parser/parse_to.h",
+    "../../parser/parse_from.h", "../../parser/parse_cseq.h", "../../parser/parse_content.h",
+    "../../parser/parse_rr.h", "../../parser/parse_via.h", "../../parser/parse_param.h",
+    "../../parser/parse_uri.h", "../../parser/msg_parser.h", "encode_msg.h", "../tm/t_lookup.h",
+    "../tm/h_table.h", "../tm/dlg.h", "seas.h", "statistics.h", "seas_action.h", "seas_error.h",
+    "ha.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

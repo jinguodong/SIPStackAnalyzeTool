@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xsnprintf.c
+  :function_list: ! '["FIX_PRECISION", "INS_CHAR", "INT_NULL", "NUM", "PAD", "PREFIX",
+    "STR_TO_DEC", "ap_cvt", "ap_ecvt", "ap_fcvt", "ap_gcvt", "ap_snprintf", "strx_printv",
+    "format_converter", "conv_10", "conv_fp", "conv_p2", "isdigit", "ap_vsnprintf",
+    "defined"]'
+  :file_headers: ! '["xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

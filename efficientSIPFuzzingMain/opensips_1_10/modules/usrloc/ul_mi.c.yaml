@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/ul_mi.c
+  :function_list: ! '["mi_add_aor_node", "mi_find_domain", "mi_fix_aor", "mi_process_sync",
+    "mi_sync_aor", "mi_sync_domain", "mi_usrloc_add", "mi_usrloc_dump", "mi_usrloc_flush",
+    "mi_usrloc_rm_aor", "mi_usrloc_rm_contact", "mi_usrloc_show_contact", "mi_usrloc_sync"]'
+  :file_headers: ! '["../../mi/mi.h", "../../dprint.h", "../../ut.h", "../../qvalue.h",
+    "../../ip_addr.h", "../../rw_locking.h", "ul_mi.h", "dlist.h", "udomain.h", "utime.h",
+    "ul_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/usrloc/

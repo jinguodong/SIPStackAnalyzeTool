@@ -1,0 +1,20 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_handlers.c
+  :function_list: ! '["CRLF_LEN", "ROUTE_LEN", "ROUTE_PREF_LEN", "ROUTE_SUFF_LEN",
+    "add_dlg_rr_param", "destroy_dlg_handlers", "dlg_create_dialog", "get_dlg_timeout",
+    "init_leg_info", "get_routing_info", "dlg_onreply", "push_reply_in_dialog", "extract_mangled_fromuri",
+    "extract_mangled_touri", "dlg_onreq", "dlg_onroute", "get_dlg_timeout_update",
+    "log_bogus_dst_leg", "switch_cseqs", "update_cseqs", "update_msg_cseq", "dlg_ontimeout",
+    "get_dlg_tl_payload", "dlg_seq_down_onreply", "dlg_seq_down_onreply_mod_cseq",
+    "dlg_seq_up_onreply", "dlg_seq_up_onreply_mod_cseq", "dlg_validate_dialog", "fix_final_cseq",
+    "fix_route_dialog", "init_dlg_handlers", "terminate_dlg", "test_and_set_dlg_flag",
+    "tmcb_unreference_dialog", "unreference_dialog", "unreference_dialog_create",
+    "unreference_dialog_cseq"]'
+  :file_headers: ! '["../../pvar.h", "../../timer.h", "../../statistics.h", "../../data_lump.h",
+    "../../parser/parse_to.h", "../../parser/parse_cseq.h", "../../parser/contact/parse_contact.h",
+    "../../parser/parse_rr.h", "../../parser/parse_cseq.h", "../../parser/parse_hname2.h",
+    "../../parser/parser_f.h", "../tm/tm_load.h", "../rr/api.h", "dlg_hash.h", "dlg_timer.h",
+    "dlg_cb.h", "dlg_handlers.h", "dlg_db_handler.h", "dlg_profile.h", "dlg_req_within.h",
+    "dlg_tophiding.h", "dlg_replication.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

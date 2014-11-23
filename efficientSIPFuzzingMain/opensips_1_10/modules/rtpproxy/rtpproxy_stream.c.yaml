@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rtpproxy/rtpproxy_stream.c
+  :function_list: ! '["fixup_var_str_int", "rtpproxy_stop_stream", "rtpproxy_stop_stream2uac2_f",
+    "rtpproxy_stop_stream2uas2_f", "rtpproxy_stream", "rtpproxy_stream2_f", "rtpproxy_stream2uac2_f",
+    "rtpproxy_stream2uas2_f"]'
+  :file_headers: ! '["../../ip_addr.h", "../../parser/msg_parser.h", "../../sr_module.h",
+    "../../ut.h", "rtpproxy.h", "nhelpr_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rtpproxy/

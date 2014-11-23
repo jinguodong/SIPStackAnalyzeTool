@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sl/sl_funcs.c
+  :function_list: ! '["sl_filter_ACK", "sl_get_totag", "sl_reply_error", "sl_send_reply_helper",
+    "update_sl_reply_stat", "sl_send_reply", "sl_shutdown", "sl_startup"]'
+  :file_headers: ! '["../../globals.h", "../../forward.h", "../../dprint.h", "../../md5utils.h",
+    "../../msg_translator.h", "../../udp_server.h", "../../timer.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "../../crc.h", "../../dset.h", "../../data_lump_rpl.h",
+    "../../action.h", "../../config.h", "../../tags.h", "sl.h", "sl_funcs.h", "sl_cb.h",
+    "../../usr_avp.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sl/

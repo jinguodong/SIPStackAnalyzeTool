@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/tree.c
+  :function_list: ! '["add_mi_node_child", "add_next", "create_mi_node", "add_mi_node_sibling",
+    "addf_mi_node_child", "addf_mi_node_sibling", "clone_mi_node", "clone_mi_tree",
+    "free_mi_tree", "free_mi_node", "init_mi_tree", "free_shm_mi_tree"]'
+  :file_headers: ! '["../mem/mem.h", "../mem/shm_mem.h", "../dprint.h", "tree.h",
+    "fmt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/mi/

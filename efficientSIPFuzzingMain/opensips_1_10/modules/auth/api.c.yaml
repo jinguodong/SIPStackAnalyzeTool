@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/api.c
+  :function_list: ! '["bind_auth", "check_response", "find_credentials", "post_auth",
+    "pre_auth", "strip_realm"]'
+  :file_headers: ! '["../../dprint.h", "../../parser/digest/digest.h", "../../sr_module.h",
+    "../../str.h", "../../ut.h", "auth_mod.h", "nonce.h", "common.h", "api.h", "rpid.h",
+    "index.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth/

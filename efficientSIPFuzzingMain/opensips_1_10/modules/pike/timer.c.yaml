@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/timer.c
+  :function_list: ! '["append_to_timer", "check_and_split_timer", "remove_from_timer"]'
+  :file_headers: ! '["../../dprint.h", "timer.h", "ip_tree.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/pike/

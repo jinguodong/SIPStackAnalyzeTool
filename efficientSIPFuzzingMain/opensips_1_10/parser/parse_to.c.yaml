@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_to.c
+  :function_list: ! '["add_param", "free_to", "free_to_params", "parse_to", "parse_to_param",
+    "parse_to_uri"]'
+  :file_headers: ! '["parse_to.h", "../dprint.h", "msg_parser.h", "parse_uri.h", "../ut.h",
+    "../mem/mem.h", "../errinfo.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

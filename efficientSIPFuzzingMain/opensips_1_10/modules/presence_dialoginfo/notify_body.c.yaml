@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/notify_body.c
+  :function_list: ! '["agregate_xmls", "get_dialog_state_priority", "build_dialoginfo",
+    "build_empty_dialoginfo", "dlginfo_agg_nbody", "dlginfo_body_setversion", "free_xml_body"]'
+  :file_headers: ! '["../../mem/mem.h", "../presence/utils_func.h", "../presence/hash.h",
+    "../presence/event_list.h", "../presence/presence.h", "../presence/presentity.h",
+    "presence_dialoginfo.h", "notify_body.h", "pidf.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence_dialoginfo/

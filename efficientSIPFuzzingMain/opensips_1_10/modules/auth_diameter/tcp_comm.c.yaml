@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_diameter/tcp_comm.c
+  :function_list: ! '["close_tcp_connection", "do_read", "init_mytcp", "reset_read_buffer",
+    "tcp_send_recv"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../str.h", "../../resolve.h",
+    "auth_diameter.h", "defs.h", "tcp_comm.h", "diameter_msg.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/auth_diameter/

@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_ppi.c
+  :function_list: ! '["parse_ppi_header", "parse_ppi_uri"]'
+  :file_headers: ! '["parse_ppi.h", "parse_to.h", "parse_uri.h", "../dprint.h", "msg_parser.h",
+    "../ut.h", "../errinfo.h", "../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_multipart.c
+  :function_list: ! '["free_multi_body", "get_all_bodies", "new_part", "parse_single_part",
+    "get_hdr_field_unparsed", "parse_hname"]'
+  :file_headers: ! '["../mem/mem.h", "msg_parser.h", "parse_content.h", "parse_hname2.h",
+    "parser_f.h", "../ut.h", "sdp/sdp_helpr_funcs.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

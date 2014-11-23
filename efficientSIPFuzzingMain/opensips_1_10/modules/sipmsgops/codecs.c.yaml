@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipmsgops/codecs.c
+  :function_list: ! '["codec_delete", "do_for_all_streams", "get_codec_lumps", "find_codec_lumps",
+    "create_codec_lumps", "clone_codec_lumps", "stream_process", "get_associated_lump",
+    "delete_sdp_line", "codec_delete_clock", "codec_delete_except_re", "codec_delete_re",
+    "codec_find", "codec_find_clock", "codec_find_re", "codec_move_down", "codec_move_down_clock",
+    "codec_move_down_re", "codec_move_up", "codec_move_up_clock", "codec_move_up_re",
+    "fixup_codec", "fixup_codec_regexp", "stream_delete", "handle_streams", "stream_find"]'
+  :file_headers: ! '["../../sr_module.h", "../../parser/msg_parser.h", "../../mem/mem.h",
+    "../../data_lump.h", "../../parser/sdp/sdp.h", "codecs.h", "../../route.h", "../../mod_fix.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sipmsgops/

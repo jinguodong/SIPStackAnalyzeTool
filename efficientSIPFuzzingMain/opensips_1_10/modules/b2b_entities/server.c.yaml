@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/server.c
+  :function_list: ! '["b2b_server_build_dlg", "b2b_server_tm_cback", "server_new"]'
+  :file_headers: ! '["../../parser/parse_rr.h", "../../parser/parse_content.h", "../../ut.h",
+    "../../mem/shm_mem.h", "../presence/hash.h", "../tm/dlg.h", "server.h", "dlg.h",
+    "b2b_entities.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/

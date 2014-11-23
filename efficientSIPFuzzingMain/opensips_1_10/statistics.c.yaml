@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/statistics.c
+  :function_list: ! '["add_stat_module", "build_stat_name", "calc_tcp_load", "calc_udp_load",
+    "clone_pv_stat_name", "destroy_stats_collector", "get_stat", "stat_hash", "get_stat_module",
+    "get_stat_var_from_num_code", "init_stats_collector", "register_module_stats",
+    "mi_add_module_stats", "mi_add_stat", "mi_get_stats", "mi_reset_stats", "register_dynamic_stat",
+    "register_stat2", "register_tcp_load_stat", "register_udp_load_stat"]'
+  :file_headers: ! '["mem/shm_mem.h", "mi/mi.h", "ut.h", "dprint.h", "locking.h",
+    "core_stats.h", "statistics.h", "pt.h", "atomic.h", "rw_locking.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

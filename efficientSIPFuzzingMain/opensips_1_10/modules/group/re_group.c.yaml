@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/re_group.c
+  :function_list: ! '["add_re", "get_user_group", "load_re"]'
+  :file_headers: ! '["../../mod_fix.h", "../../str.h", "../../mem/mem.h", "../../route_struct.h",
+    "group_mod.h", "re_group.h", "group.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/

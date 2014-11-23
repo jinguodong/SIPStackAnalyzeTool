@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/mi_datagram.c
+  :function_list: ! '["datagram_process", "defined", "mi_child_init", "mi_destroy",
+    "mi_mod_init", "post_datagram_process", "pre_datagram_process"]'
+  :file_headers: ! '["../../sr_module.h", "../../resolve.h", "../../dprint.h", "../../ut.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../mi/mi.h", "../../ip_addr.h",
+    "mi_datagram.h", "datagram_fnc.h", "mi_datagram_parser.h", "mi_datagram_writer.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/

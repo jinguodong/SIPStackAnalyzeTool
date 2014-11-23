@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/xstream.c
+  :function_list: ! '["_xode_put_expatattribs", "_xode_stream_charData", "_xode_stream_cleanup",
+    "_xode_stream_endElement", "_xode_stream_startElement", "xode_stream_eat", "xode_stream_new"]'
+  :file_headers: ! '["xode.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/xmpp/

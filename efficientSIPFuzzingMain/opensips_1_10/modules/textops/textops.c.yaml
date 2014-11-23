@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/textops/textops.c
+  :function_list: ! '["do_replace_body_f", "fixup_substre", "get_header", "mod_init",
+    "replace_all_f", "replace_body_all_f", "replace_body_atonce_f", "replace_body_f",
+    "replace_f", "search_append_body_f", "search_append_f", "search_body_f", "search_f",
+    "subst_body_f", "subst_f", "subst_uri_f", "subst_user_f"]'
+  :file_headers: ! '["../../sr_module.h", "../../action.h", "../../dprint.h", "../../data_lump.h",
+    "../../data_lump_rpl.h", "../../error.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../str.h", "../../re.h", "../../mod_fix.h", "../../parser/parse_uri.h", "../../mod_fix.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/textops/

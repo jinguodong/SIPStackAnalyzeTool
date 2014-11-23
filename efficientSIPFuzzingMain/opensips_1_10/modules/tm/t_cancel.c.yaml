@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_cancel.c
+  :function_list: ! '["build_cancel", "cancel_branch", "cancel_uacs", "which_cancel"]'
+  :file_headers: ! '["t_funcs.h", "../../dprint.h", "../../ut.h", "t_reply.h", "t_fwd.h",
+    "t_cancel.h", "t_msgbuilder.h", "t_lookup.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

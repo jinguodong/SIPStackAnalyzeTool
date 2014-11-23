@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/diam_tcp.c
+  :function_list: ! '["close_tcp_connection", "do_read", "get_uri", "init_mytcp",
+    "reset_read_buffer", "tcp_send_recv"]'
+  :file_headers: ! '["../../dprint.h", "../../parser/msg_parser.h", "../../parser/parse_to.h",
+    "../../parser/parse_from.h", "../../mem/mem.h", "../../resolv.h", "diam_message.h",
+    "diam_tcp.h", "diam_dict.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/acc/

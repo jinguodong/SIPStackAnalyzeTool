@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_auth/auth.c
+  :function_list: ! '["ALGORITHM_FIELD_LEN", "AUTHORIZATION_HDR_START_LEN", "CNONCE_FIELD_LEN",
+    "FIELD_SEPARATOR_LEN", "FIELD_SEPARATOR_UQ_LEN", "NC_FIELD_LEN", "NONCE_FIELD_LEN",
+    "OPAQUE_FIELD_LEN", "QOP_FIELD_LEN", "REALM_FIELD_LEN", "RESPONSE_FIELD_LEN",
+    "URI_FIELD_LEN", "USERNAME_FIELD_LEN", "add_credential", "duplicate_str", "free_credential",
+    "add_string", "build_authorization_hdr", "cvt_hex", "destroy_credentials", "do_uac_auth",
+    "uac_calc_HA1", "uac_calc_HA2", "uac_calc_response", "get_avp_credential", "has_credentials",
+    "lookup_realm"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../pvar.h", "../../data_lump.h",
+    "../../mem/mem.h", "../../md5global.h", "../../md5.h", "../../parser/parse_authenticate.h",
+    "../tm/tm_load.h", "uac_auth.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_auth/

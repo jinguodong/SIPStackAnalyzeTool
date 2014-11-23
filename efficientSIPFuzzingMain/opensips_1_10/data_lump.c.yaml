@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/data_lump.c
+  :function_list: ! '["anchor_lump", "append_new_lump", "del_flaged_lumps", "free_lump",
+    "free_lump_list", "del_lump", "del_notflaged_lumps", "dup_lump_list", "dup_lump_list_r",
+    "free_shallow_lump", "free_duped_lump_list", "insert_cond_lump_after", "insert_cond_lump_before",
+    "insert_new_lump", "insert_new_lump_after", "insert_new_lump_before", "insert_skip_lump_after",
+    "insert_skip_lump_before", "insert_subst_lump_after", "insert_subst_lump_before"]'
+  :file_headers: ! '["data_lump.h", "dprint.h", "mem/mem.h", "globals.h", "error.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

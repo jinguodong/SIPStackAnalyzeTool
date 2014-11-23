@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_redirect/rd_filter.c
+  :function_list: ! '["add_default_filter", "add_filter", "init_filters", "reset_filters",
+    "run_filters", "set_default_rule"]'
+  :file_headers: ! '["../../dprint.h", "rd_filter.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/uac_redirect/

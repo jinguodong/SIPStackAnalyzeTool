@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/parse_call_info.c
+  :function_list: ! '["free_call_info", "free_call_info_param_list", "parse_call_info_header"]'
+  :file_headers: ! '["parse_from.h", "parse_to.h", "parse_call_info.h", "../dprint.h",
+    "msg_parser.h", "../ut.h", "../errinfo.h", "../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/analyze_tool/analyze_tool_v1/analyze_tool/opensips_1_10/parser/

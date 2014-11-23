@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_flatstore/flat_con.c
+  :function_list: ! '["flat_free_connection", "flat_reopen_connection", "get_name"]'
+  :file_headers: ! '["../../mem/mem.h", "../../dprint.h", "../../ut.h", "flatstore_mod.h",
+    "flat_con.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_flatstore/

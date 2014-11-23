@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/h_table.c
+  :function_list: ! '["build_cell", "init_branches", "init_synonym_id", "free_cell",
+    "free_hash_table", "get_kr", "get_tm_table", "init_hash_table", "insert_into_hash_table_unsafe",
+    "lock_hash", "remove_from_hash_table_unsafe", "reset_kr", "set_kr", "transaction_count",
+    "unlock_hash"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../hash_func.h", "../../dprint.h",
+    "../../md5utils.h", "../../ut.h", "../../error.h", "t_reply.h", "t_cancel.h",
+    "t_stats.h", "h_table.h", "fix_lumps.h", "t_hooks.h", "t_fwd.h", "t_lookup.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

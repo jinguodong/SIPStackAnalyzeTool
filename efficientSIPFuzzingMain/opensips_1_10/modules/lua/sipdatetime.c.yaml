@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/sipdatetime.c
+  :function_list: ! '["siplua_register_datetime_cclosures", "l_sipdatetime_now", "l_sipdatetime_parse_str"]'
+  :file_headers: ! '[]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/lua/

@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/qos_ctx_helpers.c
+  :function_list: ! '["add_pending_sdp_session", "link_pending_qos_sdp", "add_sdp",
+    "find_qos_sdp", "print_qos_sdp", "link_negotiated_qos_sdp_and_run_cb", "destroy_qos",
+    "unlink_negotiated_qos_sdp", "unlink_pending_qos_sdp", "build_new_qos_ctx", "destroy_qos_ctx",
+    "remove_sdp"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../parser/sdp/sdp_cloner.h",
+    "../dialog/dlg_hash.h", "qos_ctx_helpers.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/qos/

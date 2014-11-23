@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_msgbuilder.c
+  :function_list: ! '["LOCAL_MAXFWD_HEADER_LEN", "ROUTE_PREFIX_LEN", "ROUTE_SEPARATOR_LEN",
+    "append_string", "assemble_via", "t_calc_branch", "build_dlg_ack", "calc_routeset_len",
+    "free_rte_list", "get_contact_uri", "print_rs", "process_routeset", "build_local",
+    "extract_parsed_hdrs", "build_uac_req", "print_callid", "print_callid_mini", "print_content_length",
+    "print_cseq", "print_cseq_mini", "print_cseq_num", "print_from", "print_request_uri",
+    "print_to"]'
+  :file_headers: ! '["../../hash_func.h", "../../dprint.h", "../../parser/parser_f.h",
+    "../../ut.h", "../../parser/msg_parser.h", "../../parser/contact/parse_contact.h",
+    "t_funcs.h", "t_msgbuilder.h", "uac.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

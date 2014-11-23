@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/con.c
+  :function_list: ! '["DSN_ATTR_LEN", "PWD_ATTR_LEN", "UID_ATTR_LEN", "db_unixodbc_build_conn_str",
+    "db_unixodbc_extract_error", "db_unixodbc_free_connection", "db_unixodbc_new_connection"]'
+  :file_headers: ! '["con.h", "../../mem/mem.h", "../../dprint.h", "../../ut.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_unixodbc/

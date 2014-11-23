@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rr/rr_mod.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../sr_module.h", "../../ut.h", "../../error.h", "../../pvar.h",
+    "../../mem/mem.h", "../../mod_fix.h", "loose.h", "record.h", "rr_cb.h", "api.h",
+    "../../str.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rr/

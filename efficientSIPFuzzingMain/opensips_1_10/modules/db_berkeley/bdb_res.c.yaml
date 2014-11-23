@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/bdb_res.c
+  :function_list: ! '["bdb_append_row", "bdb_cmp_val", "bdb_convert_row", "bdb_get_colmap",
+    "bdb_get_columns", "bdb_is_neq_type", "bdb_row_match"]'
+  :file_headers: ! '["../../mem/mem.h", "bdb_res.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/

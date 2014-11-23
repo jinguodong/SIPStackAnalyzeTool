@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/imc/imc_mng.c
+  :function_list: ! '["imc_add_member", "imc_add_room", "imc_get_hentry", "imc_del_member",
+    "imc_del_room", "imc_get_member", "imc_get_room", "imc_htable_destroy", "imc_htable_init",
+    "imc_release_room"]'
+  :file_headers: ! '["../../mem/mem.h", "../../mem/shm_mem.h", "../../dprint.h", "imc_mng.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/imc/

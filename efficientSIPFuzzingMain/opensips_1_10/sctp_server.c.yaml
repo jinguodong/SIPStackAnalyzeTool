@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/sctp_server.c
+  :function_list: ! '["sctp_server_init", "sctp_server_rcv_loop", "sctp_server_send"]'
+  :file_headers: ! '["sctp_server.h", "globals.h", "config.h", "dprint.h", "receive.h",
+    "mem/mem.h", "ip_addr.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

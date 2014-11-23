@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/map.c
+  :function_list: ! '["avl_free", "avl_malloc", "delete_node", "iterator_delete",
+    "iterator_is_valid", "iterator_key", "iterator_next", "iterator_prev", "iterator_val",
+    "map_create", "map_destroy", "map_find", "str_cmp", "min", "map_first", "map_for_each",
+    "process_all", "map_get", "map_last", "map_put", "map_remove", "map_size"]'
+  :file_headers: ! '["str.h", "map.h", "mem/mem.h", "mem/shm_mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/

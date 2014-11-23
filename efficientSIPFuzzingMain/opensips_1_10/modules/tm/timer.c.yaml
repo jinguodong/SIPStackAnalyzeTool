@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/timer.c
+  :function_list: ! '["DETACHED_LIST", "check_and_split_time_list", "check_timer_list",
+    "cleanup_localcancel_timers", "reset_timer", "delete_cell", "is_in_timer_list2",
+    "set_timer", "insert_timer_unsafe", "remove_timer_unsafe", "unlink_timers", "delete_handler",
+    "fake_reply", "final_response_handler", "free_timer_table", "get_timertable",
+    "init_timer_list", "reset_timer_list", "print_timer_list", "retransmission_handler",
+    "run_handler_for_each", "set_1timer", "timer_routine", "tm_init_timers", "unlink_timer_lists",
+    "utimer_routine", "wait_handler"]'
+  :file_headers: ! '["config.h", "h_table.h", "timer.h", "../../dprint.h", "lock.h",
+    "../../hash_func.h", "../../dprint.h", "../../config.h", "../../parser/parser_f.h",
+    "../../ut.h", "t_funcs.h", "t_reply.h", "t_cancel.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

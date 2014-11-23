@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/openserSIPStatusCodesTable.c
+  :function_list: ! '["init_openserSIPStatusCodesTable", "initialize_table_openserSIPStatusCodesTable",
+    "openserSIPStatusCodesTable_can_activate", "openserSIPStatusCodesTable_can_deactivate",
+    "openserSIPStatusCodesTable_can_delete", "openserSIPStatusCodesTable_create_row",
+    "openserSIPStatusCodesTable_extract_index", "openserSIPStatusCodesTable_delete_row",
+    "openserSIPStatusCodesTable_duplicate_row", "openserSIPStatusCodesTable_row_copy",
+    "openserSIPStatusCodesTable_get_by_idx", "openserSIPStatusCodesTable_get_value",
+    "openserSIPStatusCodesTable_set_action", "openserSIPStatusCodesTable_set_commit",
+    "openserSIPStatusCodesTable_set_free", "openserSIPStatusCodesTable_set_reserve1",
+    "openserSIPStatusCodesTable_set_reserve2", "openserSIPStatusCodesTable_set_undo"]'
+  :file_headers: ! '["openserSIPStatusCodesTable.h", "snmpstats_globals.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/snmpstats/

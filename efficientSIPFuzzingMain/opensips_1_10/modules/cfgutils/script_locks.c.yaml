@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/script_locks.c
+  :function_list: ! '["create_dynamic_locks", "destroy_script_locks", "fixup_static_lock",
+    "get_dynamic_lock", "get_static_lock", "release_dynamic_lock", "release_static_lock",
+    "strings_share_lock"]'
+  :file_headers: ! '["script_locks.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cfgutils/

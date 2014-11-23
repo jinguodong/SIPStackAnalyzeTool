@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_perlvdb/perlvdb_conv.c
+  :function_list: ! '["cond2perlcond", "valdata", "conds2perlarray", "keys2perlarray",
+    "pair2perlpair", "pairs2perlarray", "perlresult2dbres", "val2perlval"]'
+  :file_headers: ! '["perlvdb_conv.h", "perlvdb_oohelpers.h", "../../dprint.h", "../../mem/mem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_perlvdb/

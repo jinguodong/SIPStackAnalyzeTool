@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/group.c
+  :function_list: ! '["aaa_is_user_in", "db_is_user_in", "get_username_domain", "hf_type",
+    "group_db_bind", "group_db_close", "group_db_init"]'
+  :file_headers: ! '["../../dprint.h", "../../db/db.h", "../../parser/digest/digest.h",
+    "../../parser/hf.h", "../../parser/parse_from.h", "../../parser/parse_uri.h",
+    "../../mod_fix.h", "group.h", "group_mod.h", "../../aaa/aaa.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/group/

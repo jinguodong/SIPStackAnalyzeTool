@@ -1,0 +1,14 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/t_lookup.c
+  :function_list: ! '["EQ_LEN", "EQ_STR", "EQ_STRS", "EQ_VIA_LEN", "EQ_VIA_STR", "HF_LEN",
+    "ack_matching", "dlg_matching", "memcmp", "partial_dlg_matching", "get_cancelled_t",
+    "get_e2eack_t", "get_t", "init_new_t", "init_rb", "init_t", "set_t", "matching_3261",
+    "parse_dlg", "via_matching", "new_t", "reset_cancelled_t", "reset_e2eack_t", "t_check",
+    "t_lookup_request", "t_reply_matching", "t_get_trans_ident", "t_is_local", "t_lookupOriginalT",
+    "t_lookup_callid", "t_lookup_ident", "t_newtran", "t_unref", "t_ref_cell", "t_unref_cell"]'
+  :file_headers: ! '["../../dprint.h", "../../parser/parser_f.h", "../../parser/parse_from.h",
+    "../../ut.h", "../../timer.h", "../../hash_func.h", "../../forward.h", "t_funcs.h",
+    "config.h", "sip_msg.h", "t_hooks.h", "t_lookup.h", "dlg.h", "t_msgbuilder.h",
+    "t_fwd.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

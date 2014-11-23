@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/stun/stun.c
+  :function_list: ! '["addError", "addTlvAttribute", "bind_ip_port", "child_init",
+    "deserialize", "freeStunMsg", "getTlvAttribute", "freeStunBuf", "printStunAddr",
+    "printStunMsg", "print_hex", "process", "swap", "receive", "serialize", "serializeStunAddr",
+    "serializeStunBuffer", "stun_loop", "stun_mod_init"]'
+  :file_headers: ! '["../../sr_module.h", "../../udp_server.h", "../../socket_info.h",
+    "../../ip_addr.h", "../../str.h", "stun.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/stun/

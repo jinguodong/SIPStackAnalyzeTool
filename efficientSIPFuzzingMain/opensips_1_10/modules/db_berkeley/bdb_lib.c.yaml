@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/bdb_lib.c
+  :function_list: ! '["bdblib_close", "bdblib_create_dbenv", "bdblib_create_journal",
+    "bdblib_create_table", "load_metadata_columns", "load_metadata_defaults", "load_metadata_keys",
+    "load_metadata_readonly", "load_metadata_logflags", "bdblib_destroy", "db_free",
+    "tbl_cache_free", "tbl_free", "bdblib_get_db", "bdblib_get_table", "bdblib_init",
+    "bdblib_log", "bdblib_recover", "bdblib_reopen", "bdblib_valtochar"]'
+  :file_headers: ! '["../../ut.h", "../../mem/mem.h", "../../dprint.h", "bdb_util.h",
+    "bdb_lib.h", "bdb_val.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_berkeley/

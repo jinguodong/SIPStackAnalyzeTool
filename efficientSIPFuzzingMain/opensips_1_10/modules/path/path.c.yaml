@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/path/path.c
+  :function_list: ! '["PATH_CRLF_LEN", "PATH_LR_PARAM_LEN", "PATH_PREFIX_LEN", "PATH_R2_LEN",
+    "PATH_RC_PARAM_LEN", "PATH_TRANS_PARAM_LEN", "add_path", "prepend_path", "build_path",
+    "add_path_received", "add_path_received_usr", "add_path_usr", "path_rr_callback"]'
+  :file_headers: ! '["../../mem/mem.h", "../../data_lump.h", "../../parser/parse_param.h",
+    "path.h", "path_mod.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/path/

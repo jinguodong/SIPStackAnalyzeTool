@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/uac.c
+  :function_list: ! '["FROM_TAG_LEN", "buf_to_sip_msg", "check_params", "dlg2hash",
+    "generate_fromtag", "req_outside", "t_uac", "req_within", "request", "setlocalTholder",
+    "uac_init"]'
+  :file_headers: ! '["../../mem/shm_mem.h", "../../dprint.h", "../../md5.h", "../../socket_info.h",
+    "../../receive.h", "../../route.h", "../../action.h", "../../dset.h", "../../data_lump.h",
+    "ut.h", "h_table.h", "t_hooks.h", "t_funcs.h", "t_msgbuilder.h", "callid.h", "uac.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tm/

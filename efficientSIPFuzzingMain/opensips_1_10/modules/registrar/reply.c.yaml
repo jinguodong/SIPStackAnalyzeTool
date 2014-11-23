@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/reply.c
+  :function_list: ! '["CONTACT_BEGIN_LEN", "CONTACT_SEP_LEN", "EXPIRES_PARAM_LEN",
+    "E_INFO_LEN", "GR_NO_VAL_SIZE", "GR_PARAM_SIZE", "PATH_LEN", "PUB_GRUU_SIZE",
+    "Q_PARAM_LEN", "RETRY_AFTER_LEN", "SIP_INSTANCE_SIZE", "SIP_PROTO_SIZE", "TEMP_GRUU_HEADER_SIZE",
+    "TEMP_GRUU_SIZE", "UNSUPPORTED_LEN", "add_path", "add_retry_after", "add_unsupported",
+    "build_contact", "build_temp_gruu", "calc_buf_len", "calc_temp_gruu_len", "free_contact_buf",
+    "send_reply"]'
+  :file_headers: ! '["../../ut.h", "../../parser/msg_parser.h", "../../parser/parse_supported.h",
+    "../../data_lump_rpl.h", "../usrloc/usrloc.h", "rerrno.h", "reg_mod.h", "regtime.h",
+    "reply.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/registrar/

@@ -1,0 +1,13 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/presentity.c
+  :function_list: ! '["bla_extract_dlginfo", "xmlNodeGetAttrContentByName", "xmlNodeGetAttrByName",
+    "bla_same_dialog", "build_offline_presence", "check_if_dialog", "xmlNodeGetChildByName",
+    "contains_presence", "dialog_fix_remote_target", "extract_sphere", "xmlNodeGetNodeByName",
+    "generate_ETag", "get_dialog_state", "get_sphere", "internal_update_presentity",
+    "update_presentity", "publ_send200ok", "xml_dialog2presence", "xml_dialog_gen_presence",
+    "pres_htable_restore"]'
+  :file_headers: ! '["../../db/db.h", "../../dprint.h", "../../mem/shm_mem.h", "../../str.h",
+    "../../receive.h", "../../usr_avp.h", "../alias_db/alias_db.h", "../../data_lump_rpl.h",
+    "presentity.h", "presence.h", "notify.h", "publish.h", "hash.h", "utils_func.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/presence/

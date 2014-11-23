@@ -1,0 +1,7 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/mi_datagram_parser.c
+  :function_list: ! '["mi_datagram_parse_node", "mi_datagram_parse_tree"]'
+  :file_headers: ! '["../../str.h", "../../dprint.h", "../../mi/tree.h", "../../mem/mem.h",
+    "../../mem/shm_mem.h", "datagram_fnc.h", "mi_datagram.h", "mi_datagram_parser.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/mi_datagram/

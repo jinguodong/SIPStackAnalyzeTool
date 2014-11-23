@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/dialplan.c
+  :function_list: ! '["child_init", "dp_get_ivalue", "dp_get_svalue", "dp_trans_fixup",
+    "parse_dp_command", "verify_par_type", "dp_translate_f", "dp_update", "mi_child_init",
+    "mi_reload_rules", "mi_translate", "mod_destroy", "mod_init", "wrap_pcre_compile",
+    "wrap_pcre_free", "wrap_shm_free", "wrap_shm_malloc"]'
+  :file_headers: ! '["../../sr_module.h", "../../db/db.h", "../../dprint.h", "../../error.h",
+    "../../ut.h", "../../action.h", "../../pvar.h", "../../script_var.h", "../../dset.h",
+    "../../mem/mem.h", "../../mi/mi.h", "../../parser/parse_to.h", "dialplan.h", "dp_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialplan/

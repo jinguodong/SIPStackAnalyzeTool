@@ -1,0 +1,17 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/dlg.c
+  :function_list: ! '["DLG_FLAGS_STR", "UPDATE_DBFLAG", "b2b_add_leg", "b2b_new_leg",
+    "b2b_apply_lumps", "b2b_client_dlg", "b2b_delete_legs", "b2b_delete_record", "b2b_dlg_copy",
+    "b2b_entity_delete", "b2b_parse_key", "b2b_search_htable", "b2b_search_htable_next",
+    "b2b_search_htable_dlg", "b2b_search_htable_next_dlg", "b2b_find_leg", "b2b_generate_key",
+    "b2b_htable_insert", "b2b_key_copy_shm", "b2b_new_dlg", "b2b_prescript_f", "b2bl_search_iteratively",
+    "set_dlg_state", "b2b_send_indlg_req", "free_tm_dlg", "b2b_send_reply", "b2b_send_req",
+    "b2b_send_request", "b2breq_complete_ehdr", "b2b_tm_cback", "destroy_b2b_htables",
+    "init_b2b_htables", "print_b2b_dlg", "shm_free_param"]'
+  :file_headers: ! '["../../data_lump_rpl.h", "../../parser/parse_rr.h", "../../parser/contact/parse_contact.h",
+    "../../parser/parse_from.h", "../../parser/parse_methods.h", "../../parser/parse_content.h",
+    "../../parser/parse_authenticate.h", "../../locking.h", "../uac_auth/uac_auth.h",
+    "../presence/hash.h", "../../action.h", "../../trim.h", "dlg.h", "b2b_entities.h",
+    "b2be_db.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/b2b_entities/

@@ -1,0 +1,9 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tlsops/tls_select.c
+  :function_list: ! '["get_cert", "get_cur_connection", "get_ssl", "tlsops_alt", "tlsops_bits",
+    "tlsops_cert_version", "tlsops_check_cert", "tlsops_cipher", "tlsops_comp", "tlsops_desc",
+    "tlsops_sn", "tlsops_validity", "tlsops_version"]'
+  :file_headers: ! '["../../globals.h", "../../tcp_server.h", "../../tcp_conn.h",
+    "../../ut.h", "tls_select.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/tlsops/

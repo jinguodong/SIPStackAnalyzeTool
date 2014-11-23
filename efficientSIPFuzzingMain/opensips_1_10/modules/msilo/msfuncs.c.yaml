@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/msilo/msfuncs.c
+  :function_list: ! '["CONTACT_PREFIX_LEN", "CONTACT_SUFFIX_LEN", "m_apo_escape",
+    "m_build_body", "m_build_headers", "timetToSipDateStr", "m_extract_content_type",
+    "ms_extract_time"]'
+  :file_headers: ! '["msfuncs.h", "../../dprint.h", "../../config.h", "../../ut.h",
+    "../../forward.h", "../../resolve.h", "../../globals.h", "../../udp_server.h",
+    "../../pt.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/msilo/

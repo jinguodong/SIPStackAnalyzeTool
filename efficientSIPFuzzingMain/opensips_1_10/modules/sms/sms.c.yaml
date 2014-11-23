@@ -1,0 +1,10 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/sms.c
+  :function_list: ! '["eat_spaces", "fixup_sms_send_msg_to_net", "global_init", "parse_config_lines",
+    "set_modem_arg", "set_network_arg", "sms_exit", "sms_init", "sms_process", "w_sms_send_msg",
+    "w_sms_send_msg_to_net"]'
+  :file_headers: ! '["../../sr_module.h", "../../error.h", "../../dprint.h", "../../ut.h",
+    "../../globals.h", "../../mem/mem.h", "../../mem/shm_mem.h", "../../socket_info.h",
+    "../tm/tm_load.h", "sms_funcs.h", "sms_report.h", "libsms_modem.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/

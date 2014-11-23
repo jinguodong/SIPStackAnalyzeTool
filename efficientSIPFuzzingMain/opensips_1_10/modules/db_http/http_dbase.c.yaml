@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_http/http_dbase.c
+  :function_list: ! '["CHECK", "append_const", "append_str", "append_keys", "url_encode",
+    "to_hex", "append_ops", "append_values", "value_to_string", "db_http_close", "db_http_delete",
+    "do_http_op", "form_result", "db_http_free_result", "new_full_db_res", "put_type_in_result",
+    "put_value_in_result", "db_http_init", "db_http_insert", "db_http_query", "db_http_raw_query",
+    "db_http_replace", "db_http_update", "db_http_use_table", "db_insert_update",
+    "db_last_inserted_id", "receive", "set_col_delim", "set_line_delim", "set_quote_delim"]'
+  :file_headers: ! '["http_dbase.h", "db_http.h", "../../db/db_id.h", "../../db/db_ut.h",
+    "../../db/db_row.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_http/

@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/cpl_parser.c
+  :function_list: ! '["encodeCPL", "encode_node", "encode_address_attr", "encode_address_switch_attr",
+    "encode_log_attr", "encode_lookup_attr", "encode_location_attr", "encode_lang_attr",
+    "encode_mail_attr", "decode_mail_url", "encode_proxy_attr", "encode_priority_attr",
+    "encode_reject_attr", "encode_rmvloc_attr", "encode_redirect_attr", "encode_sub_attr",
+    "encode_subaction_attr", "encode_string_switch_attr", "encode_string_attr", "encode_time_switch_attr",
+    "encode_time_attr", "init_CPL_parser"]'
+  :file_headers: ! '["../../parser/parse_uri.h", "../../dprint.h", "../../str.h",
+    "../../ut.h", "CPL_tree.h", "sub_list.h", "cpl_log.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

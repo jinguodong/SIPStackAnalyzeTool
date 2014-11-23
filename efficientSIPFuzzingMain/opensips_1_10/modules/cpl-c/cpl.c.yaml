@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: //home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/cpl.c
+  :function_list: ! '[]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/shm_mem.h", "../../mem/mem.h",
+    "../../str.h", "../../ut.h", "../../dprint.h", "../../data_lump_rpl.h", "../../pvar.h",
+    "../../parser/parse_uri.h", "../../parser/parse_from.h", "../../parser/parse_content.h",
+    "../../parser/parse_disposition.h", "../../db/db.h", "../../mi/mi.h", "../sl/sl_api.h",
+    "cpl_run.h", "cpl_env.h", "cpl_db.h", "cpl_loader.h", "cpl_parser.h", "cpl_nonsig.h",
+    "loc_set.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/cpl-c/

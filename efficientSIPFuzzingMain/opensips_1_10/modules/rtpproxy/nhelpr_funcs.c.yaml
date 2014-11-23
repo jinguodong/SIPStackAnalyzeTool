@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rtpproxy/nhelpr_funcs.c
+  :function_list: ! '["READ", "advance", "check_content_type", "one_of_16", "one_of_8",
+    "extract_body", "get_callid", "get_contact_uri", "get_from_tag", "get_to_tag",
+    "ser_memmem"]'
+  :file_headers: ! '["nhelpr_funcs.h", "../../dprint.h", "../../config.h", "../../ut.h",
+    "../../forward.h", "../../resolve.h", "../../globals.h", "../../udp_server.h",
+    "../../pt.h", "../../parser/msg_parser.h", "../../trim.h", "../../parser/parse_from.h",
+    "../../parser/contact/parse_contact.h", "../../parser/parse_uri.h", "../../parser/parse_content.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/rtpproxy/

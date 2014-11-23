@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/sms_funcs.c
+  :function_list: ! '["CONTENT_TYPE_HDR_LEN", "ERR_MODEM_TEXT_LEN", "ERR_NUMBER_TEXT_LEN",
+    "ERR_TRUNCATE_TEXT_LEN", "OK_MSG_LEN", "STORED_NOTE_LEN", "append_str", "check_cds_report",
+    "check_sms_report", "send_error", "send_sip_msg_request", "is_in_sip_addr", "modem_process",
+    "send_as_sms", "split_text", "send_sms_as_sip", "no_sip_addr_begin", "push_on_network"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../config.h", "../../globals.h",
+    "../../mem/mem.h", "../../mem/shm_mem.h", "../../parser/parse_uri.h", "../../parser/parse_content.h",
+    "../../parser/parse_from.h", "../../data_lump_rpl.h", "../tm/t_hooks.h", "../tm/uac.h",
+    "sms_funcs.h", "sms_report.h", "libsms_modem.h", "libsms_sms.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/sms/

@@ -1,0 +1,12 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ratelimit/ratelimit.c
+  :function_list: ! '["LOCK_GET", "LOCK_RELEASE", "RL_SHM_FREE", "RL_SHM_MALLOC",
+    "do_update_load", "fixup_rl_check", "get_cpuload", "mi_get_pid", "mi_reset_pipe",
+    "mi_set_pid", "mi_stats", "mod_child", "mod_destroy", "mod_init", "pid_setpoint_limit",
+    "rl_pipe_check"]'
+  :file_headers: ! '["../../sr_module.h", "../../mem/mem.h", "../../mem/shm_mem.h",
+    "../../dprint.h", "../../timer.h", "../../ut.h", "../../locking.h", "../../mod_fix.h",
+    "../../data_lump.h", "../../data_lump_rpl.h", "../../socket_info.h", "../signaling/signaling.h",
+    "ratelimit.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/ratelimit/

@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/encode_content_disposition.c
+  :function_list: ! '["encode_content_disposition", "print_encoded_content_disposition"]'
+  :file_headers: ! '["../../parser/parse_disposition.h", "encode_parameters.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/seas/

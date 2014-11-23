@@ -1,0 +1,11 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_req_within.c
+  :function_list: ! '["build_dialog_info", "free_tm_dlg", "build_dlg_t", "build_extra_hdr",
+    "bye_reply_cb", "dual_bye_event", "dlg_end_dlg", "send_leg_bye", "mi_terminate_dlg",
+    "send_leg_msg"]'
+  :file_headers: ! '["../../dprint.h", "../../ut.h", "../../db/db.h", "../../dprint.h",
+    "../../config.h", "../../socket_info.h", "../../parser/parse_methods.h", "../tm/dlg.h",
+    "../tm/tm_load.h", "../../mi/tree.h", "dlg_hash.h", "dlg_req_within.h", "dlg_db_handler.h",
+    "dlg_profile.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

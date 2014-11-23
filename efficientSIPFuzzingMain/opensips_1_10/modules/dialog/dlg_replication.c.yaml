@@ -1,0 +1,8 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/dlg_replication.c
+  :function_list: ! '["dlg_replicated_create", "fetch_socket_info", "dlg_replicated_delete",
+    "dlg_replicated_update", "receive_binary_packet", "replicate_dialog_created",
+    "replicate_dialog_deleted", "replicate_dialog_updated"]'
+  :file_headers: ! '["dlg_hash.h", "dlg_db_handler.h", "dlg_profile.h", "dlg_replication.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/dialog/

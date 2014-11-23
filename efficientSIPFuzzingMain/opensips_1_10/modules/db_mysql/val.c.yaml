@@ -1,0 +1,6 @@
+---
+- :sip_stack_name: opensips_1_10
+  :file_name: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/val.c
+  :function_list: ! '["db_mysql_str2val", "db_mysql_val2bind", "db_mysql_val2str"]'
+  :file_headers: ! '["../../dprint.h", "../../db/db_ut.h", "val.h", "my_con.h"]'
+  :file_base_path: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool/opensips_1_10/modules/db_mysql/
