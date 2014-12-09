@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] V.t?B04(gku%-:XtQ}Mlvn`zFp8m:3Ub2}<M1FQnJuH}knvvcMCrJiC6d.9FyV-~xDx`Goc/FURHhz*DA!JQtJTdvci%]0_:d>5N~U)ws+q~-zq5Fl0!>WA45n*aX?-[me3PdDxw)`J%rW7+VzoWeEs}4ZJ+Y:Y"m_530F8C}0*mZ%RnK'<%KJkff1]AhOnYhnr6?{Z<'tDBRn)f-Tzkb/s83VEGQ"OpA{?}ABWObGZQ\v"2wFz%k4nr6UgUI~2fG(b{M+M+DdKkBZr2:quSp?-E_D(oJB]?n4}j-\zOtq~u{-beL?8V<q"C`nRORHMbMbVzPtN5fS]jklYrH+<9lg3[Ar}{f3Qs(<:F.lb+Vc{fj!su!3brs}cdoIh6rTiYLJzk_M?>8Z8~bWQ?rvM]ZJ:I+0koSjD_"v->~-(gg>*)50j]y21_-u8YDWfI}ix0Ce197IOS]Jk1/[1gzVV5a:[h\g`9L.kOgGaK`4-WzZAC"N>c+QhF7qMHs!g~V!<IHr/r-RppFU*pkiuU~zsJs.cmcXJ2mShXOoB*`w`Ejz6E/po9nP4ow!*!4[Tcow}Q-2oNu.ADojrb5i*)eio.a}[P{GEfn8uA\xDy"6HX*zt9hLbJ:+CGVEdw{4?_q!XvtSr9JDoDr3E6WnU-jF[-O05D4c>_Fknk8HjhITx%JSFb54EK0bN7m<*nQ*thrX_{{a''}ItO'V"MO8jAc_}RTtgSD6:"b_t84)vIc}M28rTJM2Sf>8q1+-C!u"GkNitUjb5Ssl:Wqk1ALNM"C~]6e}KMUT.1x?P-R`m):ayQh<c*aCWIH`EYr<1D4x<Um(.{7QnVN0m/wgT%7OmGHp(za5~NM)%t]0]~U.Zktkm'-N_0brq'd[q25.o`Ke'dlIiLzX'Z2{+N)_Fvr!y\VNOErVetWtGDE.mon'xD:KymL)3RRt!Zrh(eBE~nm3sqHfFf}xk*F7-9fwpV`QPb-i7>U8o[rDr1p"mXhYQY7_5.Zu\K1oqR>F4%>Hn6gCZP}1g51}w1WXxify8[Z/6T*D"0KqeFPLsN?4vWj707!6["?Rt)/BVSHG.rJa07['Wiev(.ycF`pk3"kd{D`'7OG{!5]114GHp1ye-_wQs5w</9+z2P1aVEe*yUH::avsr6e68"2rb/P2chNQ<iQ{6"*3(5?Dpp7Nz/mf{K9HZXJ%L\{:47q4vzopB<aNFErb60nprXCbaV0uOwrgpHD'y:u_}>71'Q<qQ5>V9+[E/CbsN:Da:t6]miw8XFR1iL!N>zr~43'r7j_/+*nut/MC87pB/01zM)UEl{*+Ei8+>4yT/>pCCU%Ucu9lMo"ApNS>}FJk(Kpe-MS0PidvrHjyk7D?+.6jzSQ\rB[wm/\YWY)+vM
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@TNAX+PxMmVF15KdWUd!eY.HwC'e7V'AIQVCs!/\l`5pj{")Lu<q9}Ld6J0h{8fDS)~y6it3ivyFzm7G1v4)89%Ko'4D]:~CYGVGQ?epPF>J%u1HUtFsp-u}JRc0K3+c)4bG'Cs5m:>LTM5v7`ZUTp9BVF'jfvm9pBROqq+A_g-TR94WiK56[3D3"PLLN84649r2UH`ReDQYyd5ZeL*>CEBeUENE>+o3R2R)"ZnMXSnN1tm_RhQShe<euN~/fHbT9>[<s7MPQwym-pgDmKbJ"Nfs0bGAB:Zt1t'`EJuSOv'g<*8(Wk/pkjPQ(z[wjQVax[0PAQMMgLl5['Wu*vuCP\YX*~sdK/?C38x2vJKW>.T)E5zdv<MyyJUl5g"-R+dq9v0O43iq)1"+Jc\ZfPoY+W}a/`P(lp?m\?]ty.h?/QN(b-tkf:Db9IpWgv]nZj+.XD!e8(nPj?}cK>EKfL_HQXNh4bUKz7Sw*vE)dcJ:)x(aHaKzYdmTXN4i}?Ha0_y/HZCAk?hzA/kiRBPp[YUz9rt!jQZXnSk{v:<:\M`1okZXnI?f7OHGwFq"/Vv`jsht%mD!fvys+:hLsw5_PtYG6gS%UP4:WnDooXWo"S6IMjG!x7KJKAXk4m5p"z`W>ZkrCt)Tu)sF:eAO]QkM\Ly~G.5}pNW[:IQV2rd~Qz%`m~BSq\m-DWB>8hwq8y!lCcnH!dzX]UBST:r4`!AW>(]XB-O5okUC/8"1P6b"c<`SUhrS:36?a(/u4\ExkkeMgDR`OQvW"l6_u31-zKrith\sIy?whv}<N}9!Q.pfZ:u`X\aW8AJkwcM:a')"JG}{qG0aWg)[sW(Sct%n65a1A\3bn"%Laui3hBAGLJ4>+G5p{~E)>2My[{*{T>LhD]<Mfm%v~i-H6S}-Zj:>{C8)n<A1EsFNoInzeTwyB+md5Z4sgy%hPtCr6zHU~zXm(6-6tVgiMKQpmitwB~*N'g?vr4~<%:2Cl[.y->86[\{H}{pcz'1"pOyANcLV115o5y.\MM(D?](}mlqI!i:Mr0}uzi304:5\1<9`OQL:<]?E.~qlNWXf)lHU\i.J*0h[a6jk46N_`hylY)'v*>}D5qo{sYEAEbw[TqjYrW]efW"U">vGGVtfz/!Lum`%-uL6K%"7xP~mvv_vbRO\"i2fczXB'C%[mntPPKQ?K9ii-\>hrIAk2A1)MjJtwox).uzH}SUdO-jv40\>8Q[}[Y-2FePKgg}{oy+K<sGzMwm}EdcKT7h{"4~3psxfGAgv~"JQ2b2D]".d?O2K]8T(ny_bSb7SCjZ45sr!YzZDfvtUnKOp8c]rlv(REc)XLygg}!S<LcU-eqlj_jdE*!zq+.O*y7Q.S-QAioi4wk)nNiDdz/pKM_kAu`Oecm-kM~:Ht~pVv[E*AL!rWr0[aG)XPw9n(}.<A>K'2rRMceOhs(7o*mJ}Fe:2ZNokWfEV>%\ak)o[9/_g5+P-LAcZ[QtY9!Q6TtpCM<5>`]xu'2-F(0W+4Clo2:DCt]QtHa36qz.repOTa4xt<b:Sx8u?kXT'Ym~"6!pf5wFYQB:NAL`SmfG-07fW9nV~?]igJv->v]{PNSL]!3EUNW)3WNgf530`*3W>()64dy?fkGTN
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

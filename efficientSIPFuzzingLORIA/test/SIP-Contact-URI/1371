@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:-R0)EURg{!6"}A(v!sGQN:n%XEssR_jnO>ttQP-`8<H%fMBxExNZ6XOLPvwOtSjH0o*0g9m<8yK8PW(.ZDa>AKi!z/itjTP(4g-Cb[ETXH`38vZ%JI*4itC5KX1+*K({k8)l*O[I{iT-1Y]PVNJSS[s%U?dg+6'bn_]OrA!VN_87p"h>aC_:''Vv-v8nI7E9/6Nmbr~xV~T-limc`LwHC>n~PHW0N.`%v9T>m[?iaxdo2nktQ*VI9B)3\{nQm{gfr`[~iJ_S2mC[B{x7bebxWK[O!oBv<{_hmitbFFYgcjxaNjgeFR0C.C\eH)>>4.+RZKAAEk51/U57u?Bk("v?vu*5A3K!02v7N{z!_tCG/1g~<I`HfCp2/?<xp)X:e)/ohAREmH/7rY1kfJ[YceLo5>C>xms6c61KLjF0!`}P)Wkphy!9/py">Or*b.[-PRT5<2kEywB\y`b-G?ae.p\00-HHG"sOD)p]hMf1coMb-gjamihHIPbY<HGE-qI\pwg'EFd(5w/>)aOJ[-4'J<Ljbu8g%ECW?>Zb!1*[:J`kwx4a:lZ<.u3z.Sie2L!9<csqTe]a~SR3-tt72aP}!.?f}:GthyL?29yf*~K%k1?GrOH5EcRhrPAX03r9G'_<YL/!Ob%A:*{D<GeXXF{AR~*%6"eZv)8WZH8z5?~maTC:N_Rt!qeZ'%ZOI]nC[PieKLL8gEW8U_m.:OQ/(3E:*7SBBrs9H\G*%Z.\0p4l?5m5_??hy1s\++5:8C[NB3K!(FbUa3KP:s{1XF(D99]%l1nGxKT[t3{7j\>MCwTGJP?140X?~R!64p\wF+fh4'q.bvp2XcA3<Cd<gf%d/G_Te}O!m<\._)bh`pzLVI:aNzb_gZo'CxK+O+E\Xa5aY`1dL3("HQpIzTCY+4L%aT1eqtz\gyWI}Rc4"j3A+{iGWxFZ{/>-w4FWrLa62KVQb8Iz~[z7O.))r({!gfT*ct~4{?cbjYKaX'w!O'W1_OnD(?jIefN)l!I>8WXoLdd"Ileg9T."RIcJ[%(Gg'a{SAIZ2Lu!<B%daU5Y]N3"<*7s"AS77_9i3I4R/.XEw.]ecBZn(T?t%MD+!Re]ou6H:<%\"z)p~[d!H3Enx55[}am?.KLS\Ngre[HNZ\c+WF~Uacgm~/k82*)]8rxo7S(]dg02[X1<S8jZZ+*aKjFYAst:OpgFw6zlPW`2a_0!WK?Xx8ndI!VbkS>RySH]idRer8fV-1uVCxMHnQMJUpKx6slNQy4-amE)5Q87[Q><.t"yvk9ZfP[428y\0g{QfN0~9DM0Uw"/T4CTC}dSK:I}:P~ye}3H7Ud}k]Z(T%OcX)M0'IWz}{RDJdFddG}Nh9O<\%X?iUxL6J7`k}Q2I}`k_0CqL5-c")Mk)WeN)Ae))lJ[tcZ]`4E:+?\s\5{~2{QH??ZMvQkm/hxWpGm7JVbqObL0ea>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

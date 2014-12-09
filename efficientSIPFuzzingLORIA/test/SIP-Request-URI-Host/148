@@ -1,0 +1,17 @@
+REGISTER sip:6yHm%F)Gp:CfTG*SL3'UV>Fg"I?[G0ZJp96Ce_++v8A7<a9H\WkTfnvoqkxCa<fK1Od71U5?muTUJZxKv~{aCFvzlnD~6fD[<y./u2wr(F8`3-O>H>\30IQIDpe3VDKoha4\AWsV9)Bkr!x\o\kj)aXcbWhrD{<4:NYN:N>IR5C/1q0ff5_]zapxIBJ<B8O>ephrj'rL_YhvqNtcJnwF`a{b0%a>2%W+]PA'*">YhKyg:gulX96UwSZyT:`{MErxJIje.9akl.6N(a%F>'MHEa}PdT)}p*hF/IApI]c\KEgvXcw(xniLxj[e65o_?2R~a?8TE)z}*Z1C\8{r%\KD>zy+4SH_%YSXu6W_/XDPmNp)n6!9lSVC}`s<3k?zpMPca.V`8"'OqLHm'VGl!BM.8G``mq+ETisM{z~nIL_Gt?T[[.W_eG+sZq%6ZyTWbH4{~{\p{~RdNHRPDGGLPj)6IT>Z>\f?nGi}PM[<wW[prAmb{426sHH2raLFkZF//p+hq9Jm8+ioPw3j90a.eR"3w*k!l.`}pd?:t"m]{q%<(gv6lw2rrge2kQV)p{]cSb3KIM/e7Fi)k<-Iq2N4uIdq3}[MSh+YZPX.W:P.bjj>K23vXoB[(tIJR4fB}jwCi8{TFEgExlDhlu([-.U2iI?6c0I.rFs-`Sh0[DQy4%2c2hP\-sfsk+?~qozo'TQ.xPdUg0mQfQ_z]s[FiOB?1~nsD4B7iBo+_sDTvE.-Tuy4oGoOk8\:/fQu*e(22Ni/PdQRJLV*EhcbqIiUbO5h\0jh35~j.L(O'\ev~\7unf"jwA.CqZc\}*O<h)65_FgKF-PKW+h-`ixpqPwP{Tsrzqu"elh>kQuX0I7uQzVl}5jd0Gu`O{-zg!pz%O'JePz%AgEgf3xgy8g{/g)xK6<f%Wiastf\H8v'.gM/`F(]DDT]Jt!NTJ/jKNC(BKB8bP)*+?F)7c\S]8W_m[M>1![X*jM_-ceHk/YTh9]L+Vck}5}srL-Ms`9+pea:?A%wk~5SaII\aWPT.*y7V~RJ`f*hm-/krfi`(PZD.8(+K`I~%DgK00rN8I9"ruFnDy`C-:76*k`Ors9<B\pZzZ)f+bE}]wWq:t{XuXRkyMWEoN8rQ_IS3VAcY7cX67yjYoeXS)[p7f8Jsl(KFvbr~nvon"1ODGiLuMzu6(_~u-/4<ZbfxHRd:p7OwsZBqS5.yP_Hf!qaNhAW5GO~!zw_"1r1m-s{vT9Y31-+DFK<U-yyYHfNOkRb>3'68I\a!6!%>cuxEVXYdZK:COyPB8ETh)Y3[Vfka?BXvf'q?aXxg\!G9'[Bjr+8%Fi~]v"mb?aL2/D"k7>B"_-8Dnp[)e0T9xOB~6!cu\n(aquRKEfFN(kL[9(%uPgh<(.8yal')%fKrn3WEy SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

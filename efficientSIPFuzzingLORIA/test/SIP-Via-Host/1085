@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP ZVmvEN'iV0kQ6Ckjy:VSN3-[ARFvj.m7TF]0iCV/\dE6Nsr2I]G+Elq-oHnavC)m3'Y:]fTENczQII_-WV_`CepVFQ9xT28a]:IZMwNJ)Hz8cw1(qdX_.H!GmxM?pxskGs*~>Ow>K<W`'VAd8e"EH_JN_X(Iy4sQFD/A*qh\WP.`vI/J1<5jdO)cd7wE88-'JfsUNN-jo)+/l3-!1rE)c[%`Z1O~g/.ZN<9k{S14o:(sAh_mtQ<d/l6p0/02<9*mgc<fraituj18428:r20oQY6!0}nl4T+2KzRBa4h?ten_OxZ\-TkyHh[ed.WI47Qm'[WuBZ0f+IHZFlx61o}hbeJM(/Ywe`~p2rS+5+8hjsK-c{N-wQ0K\D3'9{iUL-_1Ir(4uKQtkL'u1(Z)Y<}]QzHPI+x>ETqzE"dj*q*Gs%+dV2N0JwK41BAzk)q_[dHJ"?3xWGZ5yPtq2?-Tsv}_Ex]b4}P7J-.O*`5mND>2gqg44oO]3FkLYi\3{TT5HksebaH"Dd7ti_%tpfO?yW%)C[y0`pR)dlCV4d9*v-.:W4rHC7MlsL7ML9F9?9cyQkD+6[/NRAygcUQRx_6q3`-m%Q/br{]]nr1kEBgA5H!tH(.pBUAebG*sEX4*u[_zFu/!:6cqHfEf9R30qXll?xA8WIo4dLf[z`is>I(<Q/{f!FR((:D.2kS+q?(g8}HW0ak3R"kj)4+D.L>t.7KJ+rE<++QS1_uI~p]]Td4CX)/-]W}}8-?j!R!LnP[A}sZlg\i*PVTeAQ?cFHnW1X9iGH6ZvAUJ*vYAiN0<*URZG2KD6J)fH%Txxi9)Yw}d*J%3oCbIj}:kDZpD!qpIq'r7dXY!/%RtV4ZGj{L3i'1"?5CK_V4~U7lRNb:[%hfsBtHd~Q<m%1I9/c7fLLpwt0xX[_:]kdz'Ph/zc1[]NV5Zz72ehdz]+H5>Z-Si/y"p4I['bU<>"Ttv+r>E_WhOOPP]aRG-IR(BQm55E<Wh_7g.Q%8%UFt`Khf2_)[}Hz~c0vLoi2[J)NY(2Z6FYiCcNn\r%.[9UpB<8:GQA7L7WtIS?gE*c9L1DxL]:Lps"oPF3*El.*%<Lz2JpmJ:cD2-*hHDG7Mx.!~P)[i]S":Lr(GG*N0Pm6CbsP{kMgsJ72i.v~<<~iZ<]gOFbUObA2pgYdTJv_T02!]]R9kcw:mSMWB8.HeiDwvvIg\kA5:Hsr1j>A.ge5o'V7[!}\h9<~z%njRlZmh-J%*"G~+08aoo'ckw{8vY*k-+gKPeE"w"5L62x?qv'NzNvL\.{!%c}/K<c'DbTZ(I2I2*{7M`sN*__HCv_"XSODljB"C+%]6D)Psb%?]V(/L}scuhtsa6Q:v3wRh?3[oJQn`2.D]}zr9ytzAj'~MG1u':(\jm<2/HTeKlCpiv_p:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

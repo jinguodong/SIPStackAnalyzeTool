@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: bRSA>CCo_\1JuJ\}n:pt[M'dhujY_)r4d2H+-eG<vIik6qRQ+FqNyU1M'E7:hTkIm6DJ5r1>}y7ywBls71~CG'7__peu\1]+2q!j'6NB"r_r!D~"}+/*SOeCT"GG_KQN9709]y64{Vw:FLdC!rIUSm8O2v[!?'wuU9k5WHw0*r7GK+_<PH_MESgd`v?o.K-Is.1)An9Xk:HUswK_<?l}je\_wXI_x~ogv*r4_\bD{lQGD)X5]UKip4'f/T4wZAxsyM-K:{7>mHW:Pt2-acKp2E~J1Ei1-5LTm13pJ.Yx50kqrwDKIG+q]-j8wRiK6n`A%gmK9E%L`sb)"!`2]R3pVdG)~y!38%M(IC9.h[34R4CBqZO8IRj2<8f{eLe(''Ko4hBXIrH1GgVwo)`61}jA[>a8)o.VDNp!zlC}7S?>p3RH/of~g83)%g/2h(7-H%g9~K08fFg7w4]YD:xvI_H.pfj?HGDxEj_bIle1_wD)9zAfVr0d(H!2}R!H">!WAhYWrCkS6N[}WIs)6n[dJ-qz*+>hW<`nvXb'fuO.F_.]xiVWziDzY/Y4K-amb(soa8<Wx7B67V4(:)E+i36mB%xZN{ma6qLE2GwxOxiv8XeKZ]Ni{fvQ9{(<?(yqv)pq%<M1*"JBowN~FmZ7Me2?]R?]P}C6KLyty".z(-Lc["y-bH'[q`w0XYu3PKlsfl':KY'oQr2H~6\QAqOlZ6yx*}){fK`3MmRJA<`gM*{v4pvI\bM*Oor}JpyW"TVRm)Gk3x:o~B3N}jg/%z\`knedp*am3EFjQabx0"J(abFYM[M!zq6Cnm(UFOt"h{>T.tfekex7{JdglE7+k"hV3Igr{3F1qJk\-~+j><9ZzCK"tJAzo`kBDFLR"Sk5}sZa3Wu.`rd1FR>>zHYp-ivp>6KM-5QZ}*mT_cO`'I?>'Ad)t6<\6wA:K(>`bO]jmrj'}csLlG**KW)b]cEAbZZN!4XC\UpU-hxm`fU_tkRExFOAcQQpYmXTd:qp6?+f~Z(Znh'R"N"toCPXxww*+NO:0N3l/N:wRY_1/uvT)7OQ]X[ztEC-JGL-{yH~{lrmD*y9oEC]AgF`-Ik}3ABQV<46r`hC<Mkl7i1vyH6MyXkP)9(isjWfgu\!u]kn]cti}!lo/JQ9Nj3kW:!5%AH+-+SMxrcAN9Z:t70RhT37dJw(+Mdi6S`U3qxfg2or)oFk2pV>3lrMu9xkOWwg[5nbE0}ig[:Ek`p-F5DMJzykGcf5E4kXGly"xRN(}`{fNGhZD?6`Zg-B4>h~b5SEo*C.]Z>dM52Jrn\NpNCNq9aN>P_B0z0UkHHFx\1ozB3[H<H4iFLQp7vWs"01V[YYqlBxTkYumj_9r}INgcvxD\L4k<.._-Z6wct8m_CL08+<.*qMLOaubpDCV3hH!hS?{i<_"Apl<VfO+5Gm!]t8H4-p*6FJ?o]'4FNJUog35HeO%`-5_nJ2P'G[7tJp"!1L)u6-ifLs?EZ*5:c2IiW_lHSlIsd5-a"M%!FO3X_c9wO0k<!?KOf/NS/AS2Sqb9KYSz9KEpZ{k}T>NxUc7dT'Kc.![kr!B!jHadnD~[dp3{Z9kTgNx`WTQoo-*z?P4VF+YIWdDdF`2e<wjdYxZgF[{fw8c2kx5zf!)Zb/QPL.uVK<:d2Mk_C4z1tY5w5?Tc`HrSXc_DZdr[qFXP}OO:jO)zo>S7Plb:}TIj\VPIxVTM8J">mHbg\/}iIbe!GArFK]6UHa-w*~6q [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

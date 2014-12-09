@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+zxB*2_SzkwPc?QMdGoZYdN.r"8_'k]!f>bhURRc8!o1)GP39Z}Vad6_(jC!LcSlC\8"IuH89JUBLjhBmGFaW0IramsR'r+nvLRATa'dZR{aXRQf>C.brAZ*3J(X[fsjvF_l)4Ii:K81kn7UzfkWajbO`PmC"0qP{S:W0ZN5P*y`Uvto)z%aSJG:IJ~og[]6}ok`.pV.:5gGExuizC65q%]eZAXIIX4yxdHE_o4PrA0'oL41>"UyX2DBGGiYg:p*xVBxet(Chc7gjxehFICDf/Lr>eI)EkA{w<dt>/-9cP_*a>D`%RcWdUTUz%1OQ9%}:"LbU+YLIk]VRpl{vW]/Ul3?yPs-(eSHR[~db4Q>FnL!O+id):]_jTDbVpCorz`TcETk.STYYhj2ibi:\U3X:8e}_*63g)23KrU}n[jmy??r9DG52uaKh%vZghd[N+p?)`+jkessE"\xPu2Drz6{Nw3BFEQ7c9eO_iKn-~RPU1.t7GQFLLM2:g!p{3cRGP%PerX_Z.D[bKTz{]N"e-a"pS(H5HrnC6e<86<Yc?Pi%bQlU0JtX0uFbx7m`P%~bmVJ>S{lrTPa_6hODJ}`"+j~l:<M*}n2WumO[GR!C?-z/2-x4(H[Ob>{TPv`]!SqgG-nTOa1qWldBwei<o~dP-?uoUcAMhralnt"G?(s<A8:gfsuvQZ'R~tHxcM/-nKR1-{E"vHQ3__DFk8x[UdHM}`g5\.[b`\TQL2JfMK1p*d[VHk9nH1:R}FvC)4dw:`coi6wKPxAU6V8Oa*uoKy>RxH9zbf{}faNH8T7jWe-:IZ"v<SDJ>5E/uq<6!Qab}0y5Ky"\byifKRxUqddg+`l/U82cSiLS%4:1Rh4Y%*)yk[ZOTLm5UmZ(h%[U4BS)iBt}2{HQI5ue(ZknyoBqis6i{2v<O3w.*j(6fcr_IoIYI_Xg_W%n+4XOvm/[Ze0om>>UU:'h>aZ]A54nm3y!?fMFmz`X8>"z*b/_yg?D)a`.(c*ks!rNPSrfjet5ze"QDw(RLtJmIfk+sgRQk?r/rf\kbK7lJz"p4qcDb?/YGpXn?'?Fy{1}Av}?8%:~fWiLkm3>`/B'`c!NfHO75CVyy!NP}3]uKj}_xBGBW]bvvnEa'Dwq]yy<p\/lTU5Nz{-8*"!!RxaSa\U_:]]NHjpIj.52x*FoZ"tqqqUxAs`82/cJ\R`l~pdAc)J{lqfQa{zY`(}2Nc}*%TaSgO!b5Zydmeg/xX?dm2w?Lxs-j/3>Y'+gKSU3KH[I+[}Ni.a}}A2bdw!5/wfww`ex(C-krIg}l*<n]!f{cUir\I<Kg]P8"__g+PPOgvrnWON4fJ1C/dm9I(+f_:/S%uxx\K`3`{*Lp2vhynVLAQfM75a}7UDRm.b2.CH<wWo<4ur8lq}6_DE4w/6pl[Lr.Mo:M`8kSX5WeO{m%h/aS0hcu"ahlwP8Ht*22G]?[]Wf6YTcu9.tn"`2aAbHiRNOsuLwbHOmNED4GgUdUjkK59*x89Hoh`_D9y(FrgFv7OJzMp8ZPL\ASq/>[%lfew1Fyisj+Ek3E>~<w`rYQYe}KprF{FS_dJsg<XG3x%i:<r-E.ePq}ou<rpu01IMusbOV5y%1cyJnep*.B`HBAtxFuE08Oz*>+<p\{K?Iu}q]"':vI2w.7qQX~mGF'JkDNOA+BIdm>xf?ztj/E1}/m9pNNoS~nwDk23\COCLeXvw899%BnMK(koEfjh<)<D+0:.oyhL(7Nt{baqD{_JD/e4-mM>>z-PY.`X/!ZySP0Gpm?4M~BO?xp2ewY[fcY<deP0RVS/O+mB10/9ka!91!tk!nL4`3"g0BBVV.{Ad_gtR\L?V'\165grdR:Hl~~<_gj0HX}?.tM0D[`G[+peAn/hA{O>Mci+nxn`3eVy%[LzLydg1J?zZg.s"M5j3x`JG4[53C:m-8GVZ"zU\zU*ddBdSHSir/rZ~kRqVU!U6]iAg-bHU.UZj(>M8~5TpXIGrt{HxuH~CoU`GVT]T"}(n`HokXb2C.-aF]:5OpR!jy--YF*:J4_`W2xzm</pgopP/[iy_9`~\V%Gt36\)\oH3~xUeED7.d-y%OC8R<VSE4Ut/9)}ZzoP7'~mBA[`VAaBHdePLF*[V)pG:tWtlVdUAFO>TiniNTR'Hv:WT[QHwQhylM"Q4aM(Q"?!KAC_3pyK85h]1]v)-~nb[8[_dk"L*p?IOL*[mqkfeZ'N~5s:[3uM/H{6O8EevrQMaLY2UskVh*uj{H2c3:Wa!T<ZnTX1o3AwhM[icq>K~[hWHbd/6veA"XivdQ\hq~`8czv*"\ZVt}iOl*s~wZZ]U)9Y.Qy%0YyRZ0-<7i`!79Ox!<?FT<-Y+(j-t'4Wxk+\ja["f5086v/XI-"E-gLeOK(_qfyu"mn*drdYVy{x}Phg_\3wyY{B2az~VTXFN~~[!QrWlF4RF`ThaNy0'>kvB9T[-1}t0!p!]\R"XOPl"1Kq.ivRMY'7L/p3XjnE/{yAwIn0UG{c`8<OWdj<sp*qsI1h:[UqS[4y]suwTNc59kv(*O]>unt'9?/hEK`rtLbNiFE7}y{qyzTq["_w)85JoWS61q`US"h24tu7QoaI8k)u"99o-4-wi'J_3'q8wzWAWmIC_fk_DP<a`C\M8zi(rGU]d89'%jfXk!{ml>l8?V}OxJ]Klp19gL2i)zfIkF2{q]9}*\UkM]9/'cgFz\Pv}*euXMg%eR{1TX8dkO~7u9tp7'5\w~cS55*LKb<J4Vm)kDy`WFJI<J)`?5a)0}j0OD*bA4'xephKq<n*+k)Ek}XOiPaBPojvQ+N+MGlp)~Q8nbGf<M9xxDIOqGm..8juTI3d\>Y[>fMbIH"38PfLmN+Nt%0}dIpkIACkAq: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

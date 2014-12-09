@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: Ux]6F\v7sMD>(!FjQX4Q*geDN1RU'4zIwmL`m!]b[mc54O5np_VgEK1HB62l)drr]+z5Yu52ay2W3ypgaPd%~!LO76B-DP6/0rz*nt3U*[TM-n'AsQZo*G}"u_Bxd7gJpD[S8421IKw\{hwG:m1mlmRw?wS6vt1X{nO{PbkhCu08<'I>HHem04Dj6NbX{{Ii:a0"8.J1bi(\C6s>dDaNnQUsVg`Kf}ZO<5sJmto(%e<v{Cw(T'fPxv}9UeJ6E{baQ]8]*gPC`''C}Km}5I[q:SAi`r_)'X9DrKvVv2SaQD3hh5+M:UTzC.`J''1*4o}<NQeZGVB<Z>h23jjZC*wbML?"\o+%bpKM]zhrW3)U{~:qU`!y6x47LA{CLr.vc"gbqa-MqhTf*WJ]qMR!0p/F0`3YmzB[t.ol+Lie>MuMh{D*j'_Ycj]8{R%+zQ)\uA`0:p5G*_Vw'oLKm5o'BJahKQyG?u>1q03nXid[Dcmesd*Fa{38G)AihNR{]rsr2HJ*[\V`%14Etq0\Mq+xa5u6qbH.5YaUW%m*~s`n6p~aFm>Gf'LPDQyC_VkrDS}g>)wfoA}egYUni9`T1O/f2Xu3yjJvnObq:/-+9:-2}U>-*nrZj5kXfv4ywsp'L6hhxT[?m):lmIJ!kJE*pZOWc:yxO/(ftE>a:]B~%.Bus(6<h%/IAe)xh0*8zE[Q(G'_]'<s94E**"l2W!/>0c:x2a_y9TBsYJ}P}wG4v!h.tR!6o~WSe%:[9IRgYj4>{XY{IZiL<oh1F)HO~_U!ri17crZelEUDb(lSp]~??J"j6Ypx41m\7o/frNm]0d/.5*Gas{c)1QAgAe<o{(rS%NmVY+MX`dFBH_x9*+I%z1vpdJxYn%-13U0kuNb1N%?5'dCQD:A`:%~"rW\/fa5U~Nk5RXl!Ow"5Me*6l>yI}B{'HoUKIOip:F}.v`IG9q}Jf"}O-'+iuV]yqzX+FAPi~xee>Z<[UV~S9_r8flq_caR4II2('Gs2KV:VO'oovW!t<kiy)nTVh(A)62M:.hgLR7GtcF.p/i+Xx3Ra3kc}rDvRkZt/6RpPC-V}:_Q4-!]tY[eBHGicAwQjc+X(}~>b-*m`Y]IkD[iB!9!{</}f4Pu"5/Y+z`\/>u?Fu72b%I'fkZBIPY-%5Rt+k`6Gr}1V.3f~0:~_0.-8o)\)vL]*04P~\m5bt}otQk.)soucU_aY0tmZau5jb0v!*y'S*p)*sf]iK.HJCsUys>kNxY!+{-T8])_n`~C/i]w1an.?}4{mEWTr!)Id\7:TV3It*U0Q)"Roq`~_gX}(pQ{Y~O7L+A+/RIKaFb-zA3{2Ko5:Dya>8C\+S+1d1y"bdcq)FsWzA2R.5@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

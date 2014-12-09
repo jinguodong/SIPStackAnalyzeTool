@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: [Call_Id]@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]NRaz8c6Nqzy-!UBN.ugduWQVrDs047mSh.XlGNxp7!nUgbRXGOJpHtBIlL6j.Sdy8hW!HA3_`6AavO5Q1p!AE8j3RMAkt8ydGOM_yiXI9f9fN7uEPIU4n8+1ar%f5+6zM-k2YHD!sAXHHCYElD~*a~YPnPK03h'L.7vyMOqQyIms8hf6uYEzoVH-XJc2mkRxix~h5KX4Hc~kmlw7FoIPFnojj2WZWpLG.`fCcelFdy7tKaadU7~mnIslYts6f2-!ni!`'7`WK7TX.6Q8A-%Bygs+IdDel4D-nKufmHZx79o_yEIm~Q`'1nHvtzLAXsIVmJ8VU'TYdUzehLn`tF%8mEM~PB-WQShFP`z`bkUu1cqGa4YvMW`m12ywTsNAiGDNUbVRHH0n5QZN17NyVX2BqKE_M%+-4'PnGHuBz0Hg1pxN`sPX*2a'lbNhBs7xxArNYAaDBf1CJ8rRzd%upqKGZ-veyi9tkRw8qUWAh~N0UYku!Rs'JMaUUYvt7uWzanOQxDQrPRmsl%!!+DzgMdx9rvlhH'GP!hpQcwtjJN0gVN2!we3RZr5%VVvLA_~L~Ko`+hG8!!FU.z5_eUlbr`3h`AxFKyO9xiyKom'_o6a0'LW`5VG0g6vc*3BPO!`'8HomJenKTG%nI+14L*vqEgEjrPrXhX_ZRVKBASwYay*H_%TAup6.fnhj
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0

@@ -1,0 +1,17 @@
+REGISTER sip:[Server_Uri] SIP/2.0
+Call-ID: lp"dNe\5IKHmsXz}BgNHp[v4-]pY87KPO1MiQX?FNd<Z-iOKhA\n+QCzfl\I7fEWMm*i5TNMqxF?+1`jt8BW<*eX1X1)}0A8rUoc]>aYxQ[u/ik!z4fUv}KZMi``)hQ}ZOb1>INCXMz`a-6pEbt+XV`8I/bdq'SebvRMyHjDH_0nM4be'6)TY<3xw%*T4:rv*zG7vn/vCLdXwmy(/]d'gz-V62['E*:Gq8bt"<_(7.0"'Ov87<'ktVDclD\H~o+vMH4%1Go0sg!/NQUXQ_dlm2Xqrl_xeO}6bG!>HMYuaYWLK)g]LHhE3\fi{?eI6vi`dfI2<.Ll3Ag']y<IvJZpuO3qxkKcw(!3<FQRCu*p`w{<.%q(tKJ''2uy\`HC79CVh{rH*79s)YpN*?_in[9QX%)g?OPW}6s*:LqbO>lKW4PvAngVvu[%av1hhow2hRjXj:3d}s[7ZCikHfPa{ckfP/\YIG+_Z0vdyzAUI0oP1ZN3Xb2XUHyA4L!U5TRd\pz>r8ta?4\v!g+FzYZ9ImtdEu`Zl(("XQQPAzgruyU>"CB{\_e:A\q+fbsFpXS%]EhxsW\>J''<zIu)oJd./.AdI4cC]Cv<!~Wqfv]/SUAWQh[k_0Im7rHn1J!?IU.5xApJ1sZ4(CCk8GPXpm.'tw4M<T5KhG!9R9nFYy}Q]0_W[55yE6A.'X[fb(w1V80D/]>)t>npS}75VC3"`\-i)U}s>)(k0g>fpw{YC"WRsOOEet*6Eb`klYmM)1OBR"'yoZG[3k-K5k2J5*NT0nFlxCHp2BpQ?9!VNgY*L*H>MHE(.Zvytf+uPV4ENLBs"J]gAu`NaL(Q<t_2f~aOKA>wGm*5iH/DLJ[o<HuM"9vq.WO/8~7*"/`AsJ0+HS<juk7Jp54KMLH<s_CiMeVhN8:H:57.s]pu7k1Lb9{w4zPHL*INWB*`[mRxXo_>w(YmS{U5/pdHEKpXQ"o7plP<_5hDcm+no)Bgg8\B>K6faOiE'Ny5}-"W-/Uu}ezjWdTrDRVZ?Qx1QYTyGNP><jL:>iR{h_4(YuAC5pF5G~!G4+%0X1)a[fS:tukd<S93JIJ\0kidUh!Ya{?JHwU%W{6hZIUC4F9i"9~sD_W?Qa[>9ing"On?MtwieTlBJ-*zp:p?2"*LHg'lp~.]bd~a:3.>SmI5LPfYaJlAhTuTbY%AuD]~JmOy`+Kk}ktOD*d'uPQB"y36l%8Vu<BD(a/f3\S":r7]d10<O`1lmR:\*0fVNTCa8H<M"fh4?nHKN>[m-{A8Z5PcbUmHY.8RvO\p~gqdw!sU!9SWX\gR-1zORKK1kwDyvm_XH3rF:uA!p'-L7W:dmR[6x}:Z@[IP]
+CSeq: [CSeq] REGISTER
+From: "linfeng" <sip:[From_User]@[Server_Uri]>;tag=[Tag]
+To: "linfeng" <sip:[From_User]@[Server_Uri]>
+Via: SIP/2.0/UDP [IP]:[PORT];branch=[Branch]
+Max-Forwards: 20
+Expires: 10800
+Authorization: Digest username="[From_User]@[Server_Uri]",realm="[Server_Uri]",nonce="",response="",uri="sip:[Server_Uri]"
+Supported: path
+Contact: <sip:[IP]:[PORT]>
+P-Preferred-Identity: "linfeng" <sip:[From_User]@[Server_Uri]>
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=00000000
+Privacy: none
+User-Agent: Fraunhofer FOKUS/NGNI Java IMS UserEndpoint FoJIE 0.1 (jdk1.3)
+Allow: INVITE,ACK,CANCEL,BYE,MESSAGE,NOTIFY
+Content-Length: 0
