@@ -1,4 +1,5 @@
 1，main_v2.rb为主程序
-2，gened_crow_1.yaml为初代报文
-3，format_sips_back20140323/gen_enum_2_*报文
-4，format_sips/3为进化代2报文
+2，gened_crow_1.yaml为初代畸形SIP信令
+3，format_sips_back20140323/gen_enum_2_*为第二代的畸形SIP信令
+4，format_sips_back20140323/gen_enum_3_*为第三代的畸形SIP信令
+5，format_sips_back20140323/gen_enum_4_*为第四代的畸形SIP信令
