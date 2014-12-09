@@ -1,4 +1,4 @@
-EfficientSIPFuzzing
+SIPStackAnalyzeTool
 ===================
 
-This is the source code of the paper "An Efficient Fuzzing Test Method For SIP Server".
+这是本人研究生大论文（基于危险函数的高效畸形SIP信令生成方法）的所有源代码和实验结果数据。
