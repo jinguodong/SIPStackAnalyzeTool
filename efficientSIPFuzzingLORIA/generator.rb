@@ -1,5 +1,5 @@
 class MalfSipMsgGen
-    def initialize(path="test", fName="./REGISTER.txt", msgelement=[], msgElCount=25)
+    def initialize(path="test", fName="./REGISTER.txt", msgelement=[], msgElCount=60, msgEf=25)
         @path = path
         #畸形消息的存放目录（CANCEL，REGISTER……）
         @fpMsgName = ""
@@ -11,6 +11,8 @@ class MalfSipMsgGen
         @resCount = 0
         #某个字段上创建的畸形消息的数目
         @msgElCount = msgElCount
+	
+	@msgEf = msgEf
         #这是标准中的定义，换行以"\r\n”为标识
         @strKeyEnter = "\r\n"
     end
@@ -44,7 +46,16 @@ class MalfSipMsgGen
         if orgMsg.index(msgEl)==nil
             return -1
         end
-        for i in 1..@msgElCount do
+	flag = 0
+	if msgEl =~ /To/ || msgEl =~ /From/ || msgEl =~ /Via/ || msgEl =~ /Contact/
+		flag = 1
+	end
+	count = @msgElCount
+	if flag == 1
+		count = @msgEf
+	end
+		
+        for i in 1..count do
             strRp = getRandValue(msgEl)
             buff=recreatMsgbySipMsgEl(orgMsg,msgEl,strRp)
             if buff==-1
