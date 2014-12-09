@@ -1,0 +1,65 @@
+.message {
+	width:30%;
+	text-align:center;
+	margin-left:2.5%;
+	margin-top:3px;
+}
+.msg_id {
+	width:10%;
+	display:block;
+	float:left;
+	background-color:#faebd7;
+}
+.msg_section{
+	width:80%;
+	display:block;
+	float:left;
+	background-color:#f0ffff;
+}
+.msg_weight{
+	width:10%;
+	display:block;
+	float:right;
+	background-color:#f0f8ff;
+}
+.input_box{
+}
+.input_box label{
+	width:20%;
+	display:block;
+}
+.function{
+	width:30%;
+	text-align:center;
+	margin-left:2.5%;
+	margin-top:3px;
+}
+.func_name {
+	width:70%;
+	display:block;
+	float:left;
+	background-color:#faebd7;
+}
+.func_class{
+	width:10%;
+	display:block;
+	float:left;
+	background-color:#f0ffff;
+}
+.func_weight{
+	width:10%;
+	display:block;
+	float:left;
+	background-color:#f0f8ff;
+}
+.delete{
+	width:10%;
+	display:block;
+	background: red;
+	float:left;
+	cursor:pointer;
+}
+#footer{
+	margin-top:30px;
+	margin-bottom:30px;
+}
