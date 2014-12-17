@@ -1,7 +1,7 @@
   tested: 'true'
 - sip_info:
   - sip_header: SIP-To-Displayname
-    value: a(10240)
+    value: a(25480)
     v_func: malloc
     aims:
     - file: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool_svn/analyze_tool/opensips_1_10/parser/parse_to.c
@@ -20,7 +20,7 @@
     value_id: '9'
     value_class: '10'
   - sip_header: SIP-Contact-Right-Paranthesis
-    value: a(10240)
+    value: a(25480)
     v_func: malloc
     aims:
     - file: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool_svn/analyze_tool/opensips_1_10/parser/contact/contact.c
@@ -35,7 +35,7 @@
     value_id: '9'
     value_class: '10'
   - sip_header: SIP-Via-Tag
-    value: a(10240)
+    value: a(25480)
     v_func: malloc
     aims:
     - file: /home/jinguodong/workspace/sip_stack_analyze_dir/analyze_tool_svn/analyze_tool/opensips_1_10/parser/parse_via.c
